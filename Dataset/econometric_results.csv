@@ -1,0 +1,5 @@
+Model,RMSE,MAE,R2
+Fixed Effects (two-way),7.267,4.675,-0.048
+Pooled OLS,7.282,4.736,-0.052
+Random Effects,7.282,4.703,-0.052
+Fixed Effects (entity),7.298,4.701,-0.057
