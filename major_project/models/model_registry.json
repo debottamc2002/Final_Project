@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-07-03T00:31:09.736806",
+  "layer": "2b_ml_models",
+  "project": "IMF WEO Hybrid Panel Econometric + ML + LSTM",
+  "countries": 175,
+  "data_period": "1999-2026",
+  "training_period": "1999-2019",
+  "test_period": "2020-2026",
+  "forecast_period": "2024-2026",
+  "n_features": 15,
+  "n_training_samples": 3602,
+  "n_test_samples": 1205,
+  "feature_list": [
+    "GDP_Growth_lag1",
+    "GDP_Growth_rollmean3",
+    "Inflation_lag1_log",
+    "Exports_lag1",
+    "Imports_lag1",
+    "Fiscal_Balance_lag1",
+    "Current_Account_lag1",
+    "Debt_diff_lag1",
+    "Expenditure_diff_lag1",
+    "Revenue_diff_lag1",
+    "Savings_diff_lag1",
+    "Investment_diff_lag1",
+    "Instability_Index_lag1",
+    "GDP_accel",
+    "fiscal_stress"
+  ],
+  "scaler_path": "models/scaler.pkl",
+  "models": {
+    "Linear Regression": {
+      "type": "LinearRegression",
+      "path": "models/linear_regression.pkl",
+      "requires_scaling": true,
+      "test_rmse": 6.227,
+      "test_mae": 3.9915,
+      "test_r2": -0.0271,
+      "cv_rmse_mean": 4.4715,
+      "cv_rmse_std": 1.1786,
+      "hyperparameters": {}
+    },
+    "Elastic Net": {
+      "type": "ElasticNetCV",
+      "path": "models/elastic_net.pkl",
+      "requires_scaling": true,
+      "test_rmse": 6.2065,
+      "test_mae": 3.9422,
+      "test_r2": -0.0204,
+      "cv_rmse_mean": 4.4026,
+      "cv_rmse_std": 1.2024,
+      "hyperparameters": {
+        "l1_ratio": [
+          0.1,
+          0.5,
+          0.7,
+          0.9,
+          1.0
+        ],
+        "cv": 5,
+        "max_iter": 10000
+      }
+    },
+    "SVR": {
+      "type": "SVR",
+      "path": "models/svr.pkl",
+      "requires_scaling": true,
+      "test_rmse": 6.1656,
+      "test_mae": 3.8698,
+      "test_r2": -0.007,
+      "cv_rmse_mean": 4.07,
+      "cv_rmse_std": 0.8526,
+      "hyperparameters": {
+        "kernel": "rbf",
+        "C": 1.0,
+        "epsilon": 0.1,
+        "gamma": "scale"
+      }
+    },
+    "Random Forest": {
+      "type": "RandomForestRegressor",
+      "path": "models/random_forest.pkl",
+      "requires_scaling": false,
+      "test_rmse": 5.7932,
+      "test_mae": 3.2982,
+      "test_r2": 0.111,
+      "cv_rmse_mean": 4.1688,
+      "cv_rmse_std": 0.9029,
+      "hyperparameters": {
+        "n_estimators": 300,
+        "max_depth": 8,
+        "min_samples_split": 5,
+        "random_state": 42
+      }
+    },
+    "XGBoost": {
+      "type": "XGBRegressor",
+      "path": "models/xgboost.pkl",
+      "requires_scaling": false,
+      "test_rmse": 5.8276,
+      "test_mae": 3.3171,
+      "test_r2": 0.1004,
+      "cv_rmse_mean": 4.2508,
+      "cv_rmse_std": 0.9178,
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "learning_rate": 0.1,
+        "random_state": 42
+      }
+    }
+  }
+}
