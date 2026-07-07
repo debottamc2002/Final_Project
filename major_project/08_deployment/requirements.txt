@@ -1,5 +1,8 @@
 pandas
 numpy
+matplotlib
+seaborn
+linearmodels
 scikit-learn
 statsmodels
 xgboost
