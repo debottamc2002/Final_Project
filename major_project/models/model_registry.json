@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-07-03T00:31:09.736806",
+  "timestamp": "2026-07-06T02:03:57.308356",
   "layer": "2b_ml_models",
   "project": "IMF WEO Hybrid Panel Econometric + ML + LSTM",
+  "data_note": "2024-2026 rows are IMF projection scenario years, not observed accuracy-test years.",
   "countries": 175,
-  "data_period": "1999-2026",
-  "training_period": "1999-2019",
-  "test_period": "2020-2026",
-  "forecast_period": "2024-2026",
-  "n_features": 15,
-  "n_training_samples": 3602,
-  "n_test_samples": 1205,
+  "observed_period": "1998-2023",
+  "training_period": "1998-2019",
+  "covid_stress_period": "2020-2021",
+  "observed_test_period": "2022-2023",
+  "scenario_forecast_period": "2024-2026",
+  "n_features": 24,
   "feature_list": [
     "GDP_Growth_lag1",
     "GDP_Growth_rollmean3",
@@ -24,90 +24,141 @@
     "Savings_diff_lag1",
     "Investment_diff_lag1",
     "Instability_Index_lag1",
-    "GDP_accel",
-    "fiscal_stress"
+    "GDP_Growth_rollstd3",
+    "Inflation_rollstd3",
+    "Exports_rollstd3",
+    "Imports_rollstd3",
+    "Fiscal_Balance_rollstd3",
+    "Current_Account_rollstd3",
+    "Debt_rollstd3",
+    "Revenue_rollstd3",
+    "Expenditure_rollstd3",
+    "Savings_rollstd3",
+    "Investment_rollstd3"
   ],
-  "scaler_path": "models/scaler.pkl",
-  "models": {
-    "Linear Regression": {
-      "type": "LinearRegression",
-      "path": "models/linear_regression.pkl",
-      "requires_scaling": true,
-      "test_rmse": 6.227,
-      "test_mae": 3.9915,
-      "test_r2": -0.0271,
-      "cv_rmse_mean": 4.4715,
-      "cv_rmse_std": 1.1786,
-      "hyperparameters": {}
+  "n_training_samples": 3777,
+  "n_test_samples": 346,
+  "n_scenario_samples": 513,
+  "model_files": {
+    "Linear Regression": "models\\linear_regression.pkl",
+    "Elastic Net": "models\\elastic_net.pkl",
+    "SVR": "models\\svr.pkl",
+    "Random Forest": "models\\random_forest.pkl",
+    "XGBoost": "models\\xgboost.pkl"
+  },
+  "observed_test_results": [
+    {
+      "Model": "Naive lag1 baseline",
+      "Period": "Observed test (2022-23)",
+      "N": 346,
+      "RMSE": 6.469,
+      "MAE": 3.898,
+      "R2": -0.433,
+      "Mean_Actual": 3.813,
+      "Mean_Predicted": 5.257,
+      "Mean_Error": -1.444
     },
-    "Elastic Net": {
-      "type": "ElasticNetCV",
-      "path": "models/elastic_net.pkl",
-      "requires_scaling": true,
-      "test_rmse": 6.2065,
-      "test_mae": 3.9422,
-      "test_r2": -0.0204,
-      "cv_rmse_mean": 4.4026,
-      "cv_rmse_std": 1.2024,
-      "hyperparameters": {
-        "l1_ratio": [
-          0.1,
-          0.5,
-          0.7,
-          0.9,
-          1.0
-        ],
-        "cv": 5,
-        "max_iter": 10000
-      }
+    {
+      "Model": "Linear Regression",
+      "Period": "Observed test (2022-23)",
+      "N": 346,
+      "RMSE": 4.895,
+      "MAE": 2.785,
+      "R2": 0.179,
+      "Mean_Actual": 3.813,
+      "Mean_Predicted": 3.117,
+      "Mean_Error": 0.696
     },
-    "SVR": {
-      "type": "SVR",
-      "path": "models/svr.pkl",
-      "requires_scaling": true,
-      "test_rmse": 6.1656,
-      "test_mae": 3.8698,
-      "test_r2": -0.007,
-      "cv_rmse_mean": 4.07,
-      "cv_rmse_std": 0.8526,
-      "hyperparameters": {
-        "kernel": "rbf",
-        "C": 1.0,
-        "epsilon": 0.1,
-        "gamma": "scale"
-      }
+    {
+      "Model": "Elastic Net",
+      "Period": "Observed test (2022-23)",
+      "N": 346,
+      "RMSE": 4.895,
+      "MAE": 2.785,
+      "R2": 0.18,
+      "Mean_Actual": 3.813,
+      "Mean_Predicted": 3.123,
+      "Mean_Error": 0.69
     },
-    "Random Forest": {
-      "type": "RandomForestRegressor",
-      "path": "models/random_forest.pkl",
-      "requires_scaling": false,
-      "test_rmse": 5.7932,
-      "test_mae": 3.2982,
-      "test_r2": 0.111,
-      "cv_rmse_mean": 4.1688,
-      "cv_rmse_std": 0.9029,
-      "hyperparameters": {
-        "n_estimators": 300,
-        "max_depth": 8,
-        "min_samples_split": 5,
-        "random_state": 42
-      }
+    {
+      "Model": "SVR",
+      "Period": "Observed test (2022-23)",
+      "N": 346,
+      "RMSE": 5.307,
+      "MAE": 2.777,
+      "R2": 0.036,
+      "Mean_Actual": 3.813,
+      "Mean_Predicted": 4.181,
+      "Mean_Error": -0.368
     },
-    "XGBoost": {
-      "type": "XGBRegressor",
-      "path": "models/xgboost.pkl",
-      "requires_scaling": false,
-      "test_rmse": 5.8276,
-      "test_mae": 3.3171,
-      "test_r2": 0.1004,
-      "cv_rmse_mean": 4.2508,
-      "cv_rmse_std": 0.9178,
-      "hyperparameters": {
-        "n_estimators": 200,
-        "max_depth": 4,
-        "learning_rate": 0.1,
-        "random_state": 42
-      }
+    {
+      "Model": "Random Forest",
+      "Period": "Observed test (2022-23)",
+      "N": 346,
+      "RMSE": 4.736,
+      "MAE": 2.701,
+      "R2": 0.232,
+      "Mean_Actual": 3.813,
+      "Mean_Predicted": 4.15,
+      "Mean_Error": -0.337
+    },
+    {
+      "Model": "XGBoost",
+      "Period": "Observed test (2022-23)",
+      "N": 346,
+      "RMSE": 4.936,
+      "MAE": 2.818,
+      "R2": 0.166,
+      "Mean_Actual": 3.813,
+      "Mean_Predicted": 4.178,
+      "Mean_Error": -0.365
     }
-  }
+  ],
+  "cv_results": [
+    {
+      "Model": "Random Forest",
+      "CV_RMSE": 3.321,
+      "CV_RMSE_std": 0.576,
+      "CV_MAE": 1.844,
+      "CV_MAE_std": 0.256,
+      "CV_R2": 0.201,
+      "CV_R2_std": 0.145
+    },
+    {
+      "Model": "XGBoost",
+      "CV_RMSE": 3.35,
+      "CV_RMSE_std": 0.432,
+      "CV_MAE": 1.959,
+      "CV_MAE_std": 0.26,
+      "CV_R2": 0.183,
+      "CV_R2_std": 0.097
+    },
+    {
+      "Model": "Elastic Net",
+      "CV_RMSE": 3.431,
+      "CV_RMSE_std": 0.584,
+      "CV_MAE": 2.044,
+      "CV_MAE_std": 0.273,
+      "CV_R2": 0.143,
+      "CV_R2_std": 0.173
+    },
+    {
+      "Model": "SVR",
+      "CV_RMSE": 3.442,
+      "CV_RMSE_std": 0.414,
+      "CV_MAE": 1.881,
+      "CV_MAE_std": 0.255,
+      "CV_R2": 0.14,
+      "CV_R2_std": 0.063
+    },
+    {
+      "Model": "Linear Regression",
+      "CV_RMSE": 3.474,
+      "CV_RMSE_std": 0.613,
+      "CV_MAE": 2.081,
+      "CV_MAE_std": 0.28,
+      "CV_R2": 0.119,
+      "CV_R2_std": 0.195
+    }
+  ]
 }
