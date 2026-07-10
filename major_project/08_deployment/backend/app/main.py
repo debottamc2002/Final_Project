@@ -143,3 +143,38 @@ def lstm_forecasts(
 def model_summary():
     df = load_csv("final_project_model_summary.csv")
     return df.to_dict(orient="records")
+@app.get("/comparison/imf-vs-forecast")
+def imf_vs_forecast():
+    ml_rows = read_csv("layer2b_forecasts_2024_2026.csv")
+    imf_rows = read_csv("ews_vs_imf_projection_comparison_2024_2026.csv")
+
+    imf_lookup = {
+        (row.get("COUNTRY"), row.get("YEAR")): row
+        for row in imf_rows
+    }
+
+    output = []
+
+    for row in ml_rows:
+        key = (row.get("COUNTRY"), row.get("YEAR"))
+        imf = imf_lookup.get(key, {})
+
+        actual = imf.get("GDP_Growth")
+        predicted = row.get("Random Forest_Forecast")
+
+        error = None
+        if actual is not None and predicted is not None:
+            error = actual - predicted
+
+        output.append({
+            "COUNTRY": row.get("COUNTRY"),
+            "YEAR": row.get("YEAR"),
+            "IMF_GDP_Growth": actual,
+            "Predicted_GDP_Growth": predicted,
+            "Prediction_Error": error,
+            "Crisis_Probability": imf.get("Crisis_Probability"),
+            "Risk_Level": imf.get("Risk_Level"),
+            "Early_Warning_Flag": imf.get("Early_Warning_Flag"),
+        })
+
+    return {"data": output}
