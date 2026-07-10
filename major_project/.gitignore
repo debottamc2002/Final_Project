@@ -34,3 +34,6 @@ desktop.ini
 # Outputs (plots saved locally)
 *.png
 *.jpg
+
+venv/
+Dataset/
