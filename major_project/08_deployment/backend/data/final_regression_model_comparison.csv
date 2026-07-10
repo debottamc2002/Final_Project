@@ -1,0 +1,4 @@
+Layer,Model,Task,RMSE,MAE,R2
+Layer 2a,Pooled OLS,GDP growth regression,4.816,2.755,0.206
+Layer 2b,Random Forest,GDP growth regression,4.709,2.631,0.241
+Layer 3,LSTM,GDP growth sequence regression,5.022,2.829,0.136

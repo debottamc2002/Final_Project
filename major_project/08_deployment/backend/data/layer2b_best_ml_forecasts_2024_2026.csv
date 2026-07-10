@@ -1,0 +1,514 @@
+COUNTRY,YEAR,Best_ML_Model,Feature_Set,GDP_Growth_Forecast
+"Afghanistan, Islamic Republic of",2024,Random Forest,Base + all volatility + country history,2.9561286521630827
+"Afghanistan, Islamic Republic of",2025,Random Forest,Base + all volatility + country history,2.6407073391939027
+Albania,2024,Random Forest,Base + all volatility + country history,4.738184487604087
+Albania,2025,Random Forest,Base + all volatility + country history,3.930396015977865
+Albania,2026,Random Forest,Base + all volatility + country history,3.5343218922632893
+Algeria,2024,Random Forest,Base + all volatility + country history,4.2892721299259255
+Algeria,2025,Random Forest,Base + all volatility + country history,3.701284095410827
+Algeria,2026,Random Forest,Base + all volatility + country history,4.303329428547724
+Angola,2024,Random Forest,Base + all volatility + country history,2.4902972634611404
+Angola,2025,Random Forest,Base + all volatility + country history,4.63787685699805
+Angola,2026,Random Forest,Base + all volatility + country history,3.1746206838315683
+Argentina,2024,Random Forest,Base + all volatility + country history,1.009249055258353
+Argentina,2025,Random Forest,Base + all volatility + country history,-1.7429634029957322
+Argentina,2026,Random Forest,Base + all volatility + country history,3.474983634203761
+"Armenia, Republic of",2024,Random Forest,Base + all volatility + country history,7.313664050332368
+"Armenia, Republic of",2025,Random Forest,Base + all volatility + country history,6.0385071743513405
+"Armenia, Republic of",2026,Random Forest,Base + all volatility + country history,6.716170324936181
+Australia,2024,Random Forest,Base + all volatility + country history,2.5968948920797734
+Australia,2025,Random Forest,Base + all volatility + country history,1.987197070743764
+Australia,2026,Random Forest,Base + all volatility + country history,1.8357666367527485
+Austria,2024,Random Forest,Base + all volatility + country history,2.594864433557977
+Austria,2025,Random Forest,Base + all volatility + country history,1.6974681883818659
+Austria,2026,Random Forest,Base + all volatility + country history,1.6426327740850317
+"Azerbaijan, Republic of",2024,Random Forest,Base + all volatility + country history,3.786263867137259
+"Azerbaijan, Republic of",2025,Random Forest,Base + all volatility + country history,3.685201485606192
+"Azerbaijan, Republic of",2026,Random Forest,Base + all volatility + country history,2.394671316996883
+"Bahamas, The",2024,Random Forest,Base + all volatility + country history,3.8716561476202824
+"Bahamas, The",2025,Random Forest,Base + all volatility + country history,3.6689469970439275
+"Bahamas, The",2026,Random Forest,Base + all volatility + country history,2.7756111179438596
+"Bahrain, Kingdom of",2024,Random Forest,Base + all volatility + country history,2.629320126111628
+"Bahrain, Kingdom of",2025,Random Forest,Base + all volatility + country history,2.867809582468593
+"Bahrain, Kingdom of",2026,Random Forest,Base + all volatility + country history,2.271665008742203
+Bangladesh,2024,Random Forest,Base + all volatility + country history,5.6618765556745085
+Bangladesh,2025,Random Forest,Base + all volatility + country history,4.286548475618389
+Bangladesh,2026,Random Forest,Base + all volatility + country history,3.6105253315063335
+Barbados,2024,Random Forest,Base + all volatility + country history,2.2752739873952974
+Barbados,2025,Random Forest,Base + all volatility + country history,3.8553435837035672
+Barbados,2026,Random Forest,Base + all volatility + country history,2.675557715015916
+"Belarus, Republic of",2024,Random Forest,Base + all volatility + country history,3.4793320982439075
+"Belarus, Republic of",2025,Random Forest,Base + all volatility + country history,3.1426609601779876
+"Belarus, Republic of",2026,Random Forest,Base + all volatility + country history,2.3578836375986527
+Belgium,2024,Random Forest,Base + all volatility + country history,2.9086347019468923
+Belgium,2025,Random Forest,Base + all volatility + country history,1.9281870097531604
+Belgium,2026,Random Forest,Base + all volatility + country history,1.2278427642121108
+Belize,2024,Random Forest,Base + all volatility + country history,3.737313303441609
+Belize,2025,Random Forest,Base + all volatility + country history,3.632754124587763
+Belize,2026,Random Forest,Base + all volatility + country history,2.2795171420134888
+Benin,2024,Random Forest,Base + all volatility + country history,5.592722392251829
+Benin,2025,Random Forest,Base + all volatility + country history,5.777610388633551
+Benin,2026,Random Forest,Base + all volatility + country history,5.857832598486029
+Bhutan,2024,Random Forest,Base + all volatility + country history,3.588153973768542
+Bhutan,2025,Random Forest,Base + all volatility + country history,6.079580553801942
+Bhutan,2026,Random Forest,Base + all volatility + country history,6.788866316363686
+Bolivia,2024,Random Forest,Base + all volatility + country history,2.7984487239702065
+Bolivia,2025,Random Forest,Base + all volatility + country history,1.139721091246055
+Bolivia,2026,Random Forest,Base + all volatility + country history,1.300382037488118
+Bosnia and Herzegovina,2024,Random Forest,Base + all volatility + country history,3.038496940973829
+Bosnia and Herzegovina,2025,Random Forest,Base + all volatility + country history,3.130998456248268
+Bosnia and Herzegovina,2026,Random Forest,Base + all volatility + country history,2.2073170864975826
+Botswana,2024,Random Forest,Base + all volatility + country history,2.8578730241975094
+Botswana,2025,Random Forest,Base + all volatility + country history,2.180532511611151
+Botswana,2026,Random Forest,Base + all volatility + country history,1.7410345414717456
+Brazil,2024,Random Forest,Base + all volatility + country history,3.400008364956077
+Brazil,2025,Random Forest,Base + all volatility + country history,3.4776752455242192
+Brazil,2026,Random Forest,Base + all volatility + country history,2.4869989913779746
+Brunei Darussalam,2024,Random Forest,Base + all volatility + country history,1.6872252888246435
+Brunei Darussalam,2025,Random Forest,Base + all volatility + country history,2.6454096777106404
+Brunei Darussalam,2026,Random Forest,Base + all volatility + country history,1.6758547848817362
+Bulgaria,2024,Random Forest,Base + all volatility + country history,3.0120646465900887
+Bulgaria,2025,Random Forest,Base + all volatility + country history,3.354390450865261
+Bulgaria,2026,Random Forest,Base + all volatility + country history,2.928828912139009
+Burkina Faso,2024,Random Forest,Base + all volatility + country history,3.4897733819993135
+Burkina Faso,2025,Random Forest,Base + all volatility + country history,4.01690589650375
+Burkina Faso,2026,Random Forest,Base + all volatility + country history,4.253141193014622
+Burundi,2024,Random Forest,Base + all volatility + country history,2.9237551088199676
+Burundi,2025,Random Forest,Base + all volatility + country history,3.744531706762022
+Burundi,2026,Random Forest,Base + all volatility + country history,4.141629305124726
+Cabo Verde,2024,Random Forest,Base + all volatility + country history,4.201731593826052
+Cabo Verde,2025,Random Forest,Base + all volatility + country history,5.169348672458116
+Cabo Verde,2026,Random Forest,Base + all volatility + country history,4.899606328323753
+Cambodia,2024,Random Forest,Base + all volatility + country history,5.036157395025799
+Cambodia,2025,Random Forest,Base + all volatility + country history,5.538031836264651
+Cambodia,2026,Random Forest,Base + all volatility + country history,4.460733394548351
+Cameroon,2024,Random Forest,Base + all volatility + country history,3.4315550220036446
+Cameroon,2025,Random Forest,Base + all volatility + country history,3.373816265506772
+Cameroon,2026,Random Forest,Base + all volatility + country history,3.001846852373814
+Canada,2024,Random Forest,Base + all volatility + country history,2.4320196830201994
+Canada,2025,Random Forest,Base + all volatility + country history,2.147945490615253
+Canada,2026,Random Forest,Base + all volatility + country history,1.6026596601749354
+Central African Republic,2024,Random Forest,Base + all volatility + country history,1.1012947781226174
+Central African Republic,2025,Random Forest,Base + all volatility + country history,2.214750219096548
+Central African Republic,2026,Random Forest,Base + all volatility + country history,2.535906627002672
+Chad,2024,Random Forest,Base + all volatility + country history,4.4742950886569615
+Chad,2025,Random Forest,Base + all volatility + country history,4.194635311248241
+Chad,2026,Random Forest,Base + all volatility + country history,4.732183446577599
+Chile,2024,Random Forest,Base + all volatility + country history,3.5583226891369257
+Chile,2025,Random Forest,Base + all volatility + country history,1.9212676977235352
+Chile,2026,Random Forest,Base + all volatility + country history,2.413802506524869
+"China, People's Republic of",2024,Random Forest,Base + all volatility + country history,4.763801005780327
+"China, People's Republic of",2025,Random Forest,Base + all volatility + country history,4.390143654188051
+"China, People's Republic of",2026,Random Forest,Base + all volatility + country history,4.17019242723914
+Colombia,2024,Random Forest,Base + all volatility + country history,3.7599948041459266
+Colombia,2025,Random Forest,Base + all volatility + country history,2.776255078861702
+Colombia,2026,Random Forest,Base + all volatility + country history,2.3050005598882874
+"Comoros, Union of the",2024,Random Forest,Base + all volatility + country history,2.5417110245737855
+"Comoros, Union of the",2025,Random Forest,Base + all volatility + country history,2.6314262607022427
+"Comoros, Union of the",2026,Random Forest,Base + all volatility + country history,3.828258110032591
+"Congo, Democratic Republic of the",2024,Random Forest,Base + all volatility + country history,5.531693282845873
+"Congo, Democratic Republic of the",2025,Random Forest,Base + all volatility + country history,5.058512467702677
+"Congo, Democratic Republic of the",2026,Random Forest,Base + all volatility + country history,4.617180720406171
+"Congo, Republic of",2024,Random Forest,Base + all volatility + country history,1.9158051318863292
+"Congo, Republic of",2025,Random Forest,Base + all volatility + country history,1.961597648328919
+"Congo, Republic of",2026,Random Forest,Base + all volatility + country history,2.577154033920797
+Costa Rica,2024,Random Forest,Base + all volatility + country history,4.470333878068901
+Costa Rica,2025,Random Forest,Base + all volatility + country history,3.839104979019537
+Costa Rica,2026,Random Forest,Base + all volatility + country history,3.8661057917279815
+"Croatia, Republic of",2024,Random Forest,Base + all volatility + country history,4.770547493880821
+"Croatia, Republic of",2025,Random Forest,Base + all volatility + country history,4.191547062556698
+"Croatia, Republic of",2026,Random Forest,Base + all volatility + country history,2.98779320415597
+Cyprus,2024,Random Forest,Base + all volatility + country history,4.6070739727930645
+Cyprus,2025,Random Forest,Base + all volatility + country history,4.327417048446824
+Cyprus,2026,Random Forest,Base + all volatility + country history,3.464244072604735
+Czech Republic,2024,Random Forest,Base + all volatility + country history,2.000283023979526
+Czech Republic,2025,Random Forest,Base + all volatility + country history,1.9007525473233526
+Czech Republic,2026,Random Forest,Base + all volatility + country history,2.1656965714865177
+Côte d'Ivoire,2024,Random Forest,Base + all volatility + country history,5.5310150867958665
+Côte d'Ivoire,2025,Random Forest,Base + all volatility + country history,5.675733962491264
+Côte d'Ivoire,2026,Random Forest,Base + all volatility + country history,5.422524878858889
+Denmark,2024,Random Forest,Base + all volatility + country history,2.3118517978671287
+Denmark,2025,Random Forest,Base + all volatility + country history,2.561792158210245
+Denmark,2026,Random Forest,Base + all volatility + country history,2.369236725369247
+Djibouti,2024,Random Forest,Base + all volatility + country history,4.933822097716725
+Djibouti,2025,Random Forest,Base + all volatility + country history,5.354010449957254
+Djibouti,2026,Random Forest,Base + all volatility + country history,5.279550189694304
+Dominica,2024,Random Forest,Base + all volatility + country history,4.781232879376138
+Dominica,2025,Random Forest,Base + all volatility + country history,3.528433872583906
+Dominica,2026,Random Forest,Base + all volatility + country history,4.134896179402605
+Dominican Republic,2024,Random Forest,Base + all volatility + country history,3.376660884227869
+Dominican Republic,2025,Random Forest,Base + all volatility + country history,4.166662855705779
+Dominican Republic,2026,Random Forest,Base + all volatility + country history,2.3173316590161233
+Ecuador,2024,Random Forest,Base + all volatility + country history,3.0794578480309216
+Ecuador,2025,Random Forest,Base + all volatility + country history,1.9141084619924769
+Ecuador,2026,Random Forest,Base + all volatility + country history,2.800047374629606
+"Egypt, Arab Republic of",2024,Random Forest,Base + all volatility + country history,3.625313060952073
+"Egypt, Arab Republic of",2025,Random Forest,Base + all volatility + country history,2.891108094921905
+"Egypt, Arab Republic of",2026,Random Forest,Base + all volatility + country history,4.209101569422713
+El Salvador,2024,Random Forest,Base + all volatility + country history,4.326511925677264
+El Salvador,2025,Random Forest,Base + all volatility + country history,2.7429089996867706
+El Salvador,2026,Random Forest,Base + all volatility + country history,3.601130601648992
+"Equatorial Guinea, Republic of",2024,Random Forest,Base + all volatility + country history,1.3252593547603486
+"Equatorial Guinea, Republic of",2025,Random Forest,Base + all volatility + country history,0.7714087742201556
+"Equatorial Guinea, Republic of",2026,Random Forest,Base + all volatility + country history,-2.957666577183567
+"Estonia, Republic of",2024,Random Forest,Base + all volatility + country history,2.266997184542332
+"Estonia, Republic of",2025,Random Forest,Base + all volatility + country history,1.1608924644038738
+"Estonia, Republic of",2026,Random Forest,Base + all volatility + country history,1.6798319881347112
+"Eswatini, Kingdom of",2024,Random Forest,Base + all volatility + country history,3.4896765686231817
+"Eswatini, Kingdom of",2025,Random Forest,Base + all volatility + country history,2.6402073388182754
+"Eswatini, Kingdom of",2026,Random Forest,Base + all volatility + country history,3.602283917718884
+"Ethiopia, The Federal Democratic Republic of",2024,Random Forest,Base + all volatility + country history,6.533649174349429
+"Ethiopia, The Federal Democratic Republic of",2025,Random Forest,Base + all volatility + country history,6.87308413227733
+"Ethiopia, The Federal Democratic Republic of",2026,Random Forest,Base + all volatility + country history,8.261578546415365
+Finland,2024,Random Forest,Base + all volatility + country history,1.220255045636557
+Finland,2025,Random Forest,Base + all volatility + country history,1.3439680875427733
+Finland,2026,Random Forest,Base + all volatility + country history,1.188416911013001
+France,2024,Random Forest,Base + all volatility + country history,2.2954378380653098
+France,2025,Random Forest,Base + all volatility + country history,1.5775140468969862
+France,2026,Random Forest,Base + all volatility + country history,1.4089270944895942
+Gabon,2024,Random Forest,Base + all volatility + country history,2.495870913695267
+Gabon,2025,Random Forest,Base + all volatility + country history,3.413867224695395
+Gabon,2026,Random Forest,Base + all volatility + country history,2.6933973182803044
+"Gambia, The",2024,Random Forest,Base + all volatility + country history,2.8501737821286044
+"Gambia, The",2025,Random Forest,Base + all volatility + country history,3.5133823665867228
+"Gambia, The",2026,Random Forest,Base + all volatility + country history,2.919293833994927
+Georgia,2024,Random Forest,Base + all volatility + country history,6.329729600899107
+Georgia,2025,Random Forest,Base + all volatility + country history,7.1038416579027235
+Georgia,2026,Random Forest,Base + all volatility + country history,6.406843258120372
+Germany,2024,Random Forest,Base + all volatility + country history,1.6397987442822255
+Germany,2025,Random Forest,Base + all volatility + country history,1.596374929256547
+Germany,2026,Random Forest,Base + all volatility + country history,1.5798064450663687
+Ghana,2024,Random Forest,Base + all volatility + country history,3.258875925018573
+Ghana,2025,Random Forest,Base + all volatility + country history,5.025601304734403
+Ghana,2026,Random Forest,Base + all volatility + country history,5.724878352196242
+Greece,2024,Random Forest,Base + all volatility + country history,3.128359576044717
+Greece,2025,Random Forest,Base + all volatility + country history,2.7603882704742198
+Greece,2026,Random Forest,Base + all volatility + country history,2.2610508496131234
+Guatemala,2024,Random Forest,Base + all volatility + country history,3.44159663959246
+Guatemala,2025,Random Forest,Base + all volatility + country history,3.334875343178235
+Guatemala,2026,Random Forest,Base + all volatility + country history,3.7668896104721634
+Guinea,2024,Random Forest,Base + all volatility + country history,5.083372970000521
+Guinea,2025,Random Forest,Base + all volatility + country history,4.7335724192865225
+Guinea,2026,Random Forest,Base + all volatility + country history,5.29894854228633
+Guinea-Bissau,2024,Random Forest,Base + all volatility + country history,3.6379465524326733
+Guinea-Bissau,2025,Random Forest,Base + all volatility + country history,4.029145070086451
+Guinea-Bissau,2026,Random Forest,Base + all volatility + country history,4.6375943905201495
+Guyana,2024,Random Forest,Base + all volatility + country history,19.879851658770907
+Guyana,2025,Random Forest,Base + all volatility + country history,21.580866647486236
+Guyana,2026,Random Forest,Base + all volatility + country history,19.906332348149924
+Haiti,2024,Random Forest,Base + all volatility + country history,1.882898071203689
+Haiti,2025,Random Forest,Base + all volatility + country history,1.1718453426145952
+Haiti,2026,Random Forest,Base + all volatility + country history,2.310929625976149
+Honduras,2024,Random Forest,Base + all volatility + country history,4.134095542206048
+Honduras,2025,Random Forest,Base + all volatility + country history,3.3955345435383184
+Honduras,2026,Random Forest,Base + all volatility + country history,3.6431493341557157
+"Hong Kong Special Administrative Region, People's Republic of China",2024,Random Forest,Base + all volatility + country history,2.37825359256663
+"Hong Kong Special Administrative Region, People's Republic of China",2025,Random Forest,Base + all volatility + country history,2.2775241611296004
+"Hong Kong Special Administrative Region, People's Republic of China",2026,Random Forest,Base + all volatility + country history,3.4080053692635097
+Hungary,2024,Random Forest,Base + all volatility + country history,2.6278873510525163
+Hungary,2025,Random Forest,Base + all volatility + country history,1.78487731103002
+Hungary,2026,Random Forest,Base + all volatility + country history,1.6775289537293419
+Iceland,2024,Random Forest,Base + all volatility + country history,4.588738945748023
+Iceland,2025,Random Forest,Base + all volatility + country history,2.937044575960969
+Iceland,2026,Random Forest,Base + all volatility + country history,1.8422458592877633
+India,2024,Random Forest,Base + all volatility + country history,6.7582221348139715
+India,2025,Random Forest,Base + all volatility + country history,6.78269149520388
+India,2026,Random Forest,Base + all volatility + country history,6.729320349471291
+Indonesia,2024,Random Forest,Base + all volatility + country history,3.9223673452366152
+Indonesia,2025,Random Forest,Base + all volatility + country history,3.8482664757751013
+Indonesia,2026,Random Forest,Base + all volatility + country history,4.079549156314037
+"Iran, Islamic Republic of",2024,Random Forest,Base + all volatility + country history,3.9964110154615438
+"Iran, Islamic Republic of",2025,Random Forest,Base + all volatility + country history,3.4657315267325375
+"Iran, Islamic Republic of",2026,Random Forest,Base + all volatility + country history,2.0703352449990446
+Ireland,2024,Random Forest,Base + all volatility + country history,3.5618554890820664
+Ireland,2025,Random Forest,Base + all volatility + country history,3.274299775248027
+Ireland,2026,Random Forest,Base + all volatility + country history,6.889166147193793
+Israel,2024,Random Forest,Base + all volatility + country history,3.285343779696572
+Israel,2025,Random Forest,Base + all volatility + country history,2.5575656334310635
+Israel,2026,Random Forest,Base + all volatility + country history,2.6293912125698324
+Italy,2024,Random Forest,Base + all volatility + country history,2.8700190544393935
+Italy,2025,Random Forest,Base + all volatility + country history,2.0592789377816665
+Italy,2026,Random Forest,Base + all volatility + country history,1.513551045404078
+Jamaica,2024,Random Forest,Base + all volatility + country history,3.3318689697625907
+Jamaica,2025,Random Forest,Base + all volatility + country history,2.7445869495417785
+Jamaica,2026,Random Forest,Base + all volatility + country history,1.6700917026297701
+Japan,2024,Random Forest,Base + all volatility + country history,1.7663046368599873
+Japan,2025,Random Forest,Base + all volatility + country history,1.731049612254675
+Japan,2026,Random Forest,Base + all volatility + country history,1.8048369450554018
+Jordan,2024,Random Forest,Base + all volatility + country history,3.0793489047925977
+Jordan,2025,Random Forest,Base + all volatility + country history,2.7643258858346713
+Jordan,2026,Random Forest,Base + all volatility + country history,2.6873736675081545
+"Kazakhstan, Republic of",2024,Random Forest,Base + all volatility + country history,4.3145140225530625
+"Kazakhstan, Republic of",2025,Random Forest,Base + all volatility + country history,4.266134078332199
+"Kazakhstan, Republic of",2026,Random Forest,Base + all volatility + country history,5.131205609802929
+Kenya,2024,Random Forest,Base + all volatility + country history,4.857166184161598
+Kenya,2025,Random Forest,Base + all volatility + country history,4.28400842445678
+Kenya,2026,Random Forest,Base + all volatility + country history,4.197587003971704
+Kiribati,2024,Random Forest,Base + all volatility + country history,3.5648211165177295
+Kiribati,2025,Random Forest,Base + all volatility + country history,3.307485386373327
+Kiribati,2026,Random Forest,Base + all volatility + country history,3.0707002068836817
+"Korea, Republic of",2024,Random Forest,Base + all volatility + country history,2.34317066576737
+"Korea, Republic of",2025,Random Forest,Base + all volatility + country history,2.191883415306378
+"Korea, Republic of",2026,Random Forest,Base + all volatility + country history,1.5850269098907694
+"Kosovo, Republic of",2024,Random Forest,Base + all volatility + country history,4.331078532265107
+"Kosovo, Republic of",2025,Random Forest,Base + all volatility + country history,4.007934242812724
+"Kosovo, Republic of",2026,Random Forest,Base + all volatility + country history,3.3222237402737305
+Kuwait,2024,Random Forest,Base + all volatility + country history,2.3871295491129376
+Kuwait,2025,Random Forest,Base + all volatility + country history,1.8673278059984326
+Kuwait,2026,Random Forest,Base + all volatility + country history,1.0771132968997363
+Kyrgyz Republic,2024,Random Forest,Base + all volatility + country history,6.741208659569188
+Kyrgyz Republic,2025,Random Forest,Base + all volatility + country history,7.5343016033735575
+Kyrgyz Republic,2026,Random Forest,Base + all volatility + country history,6.707873499965409
+Lao People's Democratic Republic,2024,Random Forest,Base + all volatility + country history,4.1900791182161425
+Lao People's Democratic Republic,2025,Random Forest,Base + all volatility + country history,4.446386082820128
+Lao People's Democratic Republic,2026,Random Forest,Base + all volatility + country history,4.411307626864848
+"Latvia, Republic of",2024,Random Forest,Base + all volatility + country history,2.5884452630420602
+"Latvia, Republic of",2025,Random Forest,Base + all volatility + country history,1.6373829116647949
+"Latvia, Republic of",2026,Random Forest,Base + all volatility + country history,2.0780857847752157
+Lebanon,2024,Random Forest,Base + all volatility + country history,-1.407607958757212
+Lebanon,2025,Random Forest,Base + all volatility + country history,1.5937025902367277
+"Lesotho, Kingdom of",2024,Random Forest,Base + all volatility + country history,3.1987684317962004
+"Lesotho, Kingdom of",2025,Random Forest,Base + all volatility + country history,3.747121626097215
+"Lesotho, Kingdom of",2026,Random Forest,Base + all volatility + country history,2.6220539322903385
+Liberia,2024,Random Forest,Base + all volatility + country history,4.282078818736597
+Liberia,2025,Random Forest,Base + all volatility + country history,3.920492887143276
+Liberia,2026,Random Forest,Base + all volatility + country history,3.1434680044911807
+Libya,2024,Random Forest,Base + all volatility + country history,0.74618968063575
+Libya,2025,Random Forest,Base + all volatility + country history,0.40583847248593136
+Libya,2026,Random Forest,Base + all volatility + country history,7.790260747450762
+"Lithuania, Republic of",2024,Random Forest,Base + all volatility + country history,3.2678360104576694
+"Lithuania, Republic of",2025,Random Forest,Base + all volatility + country history,2.908254289772753
+"Lithuania, Republic of",2026,Random Forest,Base + all volatility + country history,2.5116902383066257
+Luxembourg,2024,Random Forest,Base + all volatility + country history,2.1824818995317736
+Luxembourg,2025,Random Forest,Base + all volatility + country history,1.8918332663010196
+Luxembourg,2026,Random Forest,Base + all volatility + country history,1.654025244108491
+"Madagascar, Republic of",2024,Random Forest,Base + all volatility + country history,4.006371463299597
+"Madagascar, Republic of",2025,Random Forest,Base + all volatility + country history,3.80461309222433
+"Madagascar, Republic of",2026,Random Forest,Base + all volatility + country history,3.061688923766645
+Malawi,2024,Random Forest,Base + all volatility + country history,2.243926051503139
+Malawi,2025,Random Forest,Base + all volatility + country history,1.8572502929158186
+Malawi,2026,Random Forest,Base + all volatility + country history,2.06896373338981
+Malaysia,2024,Random Forest,Base + all volatility + country history,3.6946039360599805
+Malaysia,2025,Random Forest,Base + all volatility + country history,4.427306848473481
+Malaysia,2026,Random Forest,Base + all volatility + country history,4.0414282150084775
+Maldives,2024,Random Forest,Base + all volatility + country history,3.064628915434312
+Maldives,2025,Random Forest,Base + all volatility + country history,2.4958081642161205
+Maldives,2026,Random Forest,Base + all volatility + country history,4.261194797391319
+Mali,2024,Random Forest,Base + all volatility + country history,4.176012931297562
+Mali,2025,Random Forest,Base + all volatility + country history,4.184672890682306
+Mali,2026,Random Forest,Base + all volatility + country history,4.02441902431624
+Malta,2024,Random Forest,Base + all volatility + country history,6.066972051283029
+Malta,2025,Random Forest,Base + all volatility + country history,5.369934910467231
+Malta,2026,Random Forest,Base + all volatility + country history,3.825322035018744
+"Mauritania, Islamic Republic of",2024,Random Forest,Base + all volatility + country history,4.788489968163057
+"Mauritania, Islamic Republic of",2025,Random Forest,Base + all volatility + country history,5.252530729768666
+"Mauritania, Islamic Republic of",2026,Random Forest,Base + all volatility + country history,4.302820485621992
+Mauritius,2024,Random Forest,Base + all volatility + country history,4.324870098490513
+Mauritius,2025,Random Forest,Base + all volatility + country history,4.42071354481848
+Mauritius,2026,Random Forest,Base + all volatility + country history,3.2097515185989227
+Mexico,2024,Random Forest,Base + all volatility + country history,3.0443379749031743
+Mexico,2025,Random Forest,Base + all volatility + country history,2.0588280321683134
+Mexico,2026,Random Forest,Base + all volatility + country history,1.3161010213213484
+"Moldova, Republic of",2024,Random Forest,Base + all volatility + country history,2.901137685773449
+"Moldova, Republic of",2025,Random Forest,Base + all volatility + country history,1.012882240156144
+"Moldova, Republic of",2026,Random Forest,Base + all volatility + country history,2.5379904465577483
+Mongolia,2024,Random Forest,Base + all volatility + country history,6.069202062252249
+Mongolia,2025,Random Forest,Base + all volatility + country history,4.2102518092924015
+Mongolia,2026,Random Forest,Base + all volatility + country history,5.884771361461767
+Montenegro,2024,Random Forest,Base + all volatility + country history,4.877465740062135
+Montenegro,2025,Random Forest,Base + all volatility + country history,3.5863552816513575
+Montenegro,2026,Random Forest,Base + all volatility + country history,2.6910716965726555
+Morocco,2024,Random Forest,Base + all volatility + country history,3.564118057806784
+Morocco,2025,Random Forest,Base + all volatility + country history,3.6269960333215674
+Morocco,2026,Random Forest,Base + all volatility + country history,4.0159415826175655
+"Mozambique, Republic of",2024,Random Forest,Base + all volatility + country history,5.804894522558405
+"Mozambique, Republic of",2025,Random Forest,Base + all volatility + country history,3.109288636212663
+"Mozambique, Republic of",2026,Random Forest,Base + all volatility + country history,2.003159469051274
+Myanmar,2024,Random Forest,Base + all volatility + country history,1.7801849591764942
+Myanmar,2025,Random Forest,Base + all volatility + country history,1.7056311234610366
+Myanmar,2026,Random Forest,Base + all volatility + country history,1.8412773863786362
+Namibia,2024,Random Forest,Base + all volatility + country history,3.852064016393105
+Namibia,2025,Random Forest,Base + all volatility + country history,3.7046991554558137
+Namibia,2026,Random Forest,Base + all volatility + country history,2.7494025596371987
+Nepal,2024,Random Forest,Base + all volatility + country history,2.577634043405098
+Nepal,2025,Random Forest,Base + all volatility + country history,3.453991084906602
+Nepal,2026,Random Forest,Base + all volatility + country history,3.836407859507264
+"Netherlands, The",2024,Random Forest,Base + all volatility + country history,2.441387942219895
+"Netherlands, The",2025,Random Forest,Base + all volatility + country history,1.9712432346026245
+"Netherlands, The",2026,Random Forest,Base + all volatility + country history,1.7681684161111586
+New Zealand,2024,Random Forest,Base + all volatility + country history,2.4508568970231397
+New Zealand,2025,Random Forest,Base + all volatility + country history,1.0420220820340855
+New Zealand,2026,Random Forest,Base + all volatility + country history,0.9995435478966596
+Nicaragua,2024,Random Forest,Base + all volatility + country history,4.199315178191149
+Nicaragua,2025,Random Forest,Base + all volatility + country history,3.4886199045959074
+Nicaragua,2026,Random Forest,Base + all volatility + country history,3.9975540550681004
+Niger,2024,Random Forest,Base + all volatility + country history,3.0980621609129657
+Niger,2025,Random Forest,Base + all volatility + country history,6.261078707977873
+Niger,2026,Random Forest,Base + all volatility + country history,5.308099782940258
+Nigeria,2024,Random Forest,Base + all volatility + country history,3.2799150638230445
+Nigeria,2025,Random Forest,Base + all volatility + country history,3.810081782078893
+Nigeria,2026,Random Forest,Base + all volatility + country history,4.024558202421167
+"North Macedonia, Republic of",2024,Random Forest,Base + all volatility + country history,3.0519897183049127
+"North Macedonia, Republic of",2025,Random Forest,Base + all volatility + country history,2.959822030465676
+"North Macedonia, Republic of",2026,Random Forest,Base + all volatility + country history,3.3013043781605815
+Norway,2024,Random Forest,Base + all volatility + country history,2.8622223628100705
+Norway,2025,Random Forest,Base + all volatility + country history,1.9220491527044237
+Norway,2026,Random Forest,Base + all volatility + country history,2.0337676143855163
+Oman,2024,Random Forest,Base + all volatility + country history,3.609955647512464
+Oman,2025,Random Forest,Base + all volatility + country history,2.6643812529419044
+Oman,2026,Random Forest,Base + all volatility + country history,2.3055571010718503
+Pakistan,2024,Random Forest,Base + all volatility + country history,2.6039502093168103
+Pakistan,2025,Random Forest,Base + all volatility + country history,3.0964619096813015
+Pakistan,2026,Random Forest,Base + all volatility + country history,2.7266322520978656
+"Palau, Republic of",2024,Random Forest,Base + all volatility + country history,2.074491967733566
+"Palau, Republic of",2025,Random Forest,Base + all volatility + country history,8.141571773518871
+"Palau, Republic of",2026,Random Forest,Base + all volatility + country history,5.20014155758762
+Panama,2024,Random Forest,Base + all volatility + country history,3.889320730700933
+Panama,2025,Random Forest,Base + all volatility + country history,3.4371061884755165
+Panama,2026,Random Forest,Base + all volatility + country history,4.224989123489698
+Papua New Guinea,2024,Random Forest,Base + all volatility + country history,3.8089106717671153
+Papua New Guinea,2025,Random Forest,Base + all volatility + country history,3.8505945382806437
+Papua New Guinea,2026,Random Forest,Base + all volatility + country history,4.3564318113870675
+Paraguay,2024,Random Forest,Base + all volatility + country history,4.1250394159434105
+Paraguay,2025,Random Forest,Base + all volatility + country history,3.9479420802121377
+Paraguay,2026,Random Forest,Base + all volatility + country history,4.4697539725724695
+Peru,2024,Random Forest,Base + all volatility + country history,2.8673309163009084
+Peru,2025,Random Forest,Base + all volatility + country history,2.9400797006154815
+Peru,2026,Random Forest,Base + all volatility + country history,2.969891719629417
+Philippines,2024,Random Forest,Base + all volatility + country history,5.010175226192759
+Philippines,2025,Random Forest,Base + all volatility + country history,4.877622227860681
+Philippines,2026,Random Forest,Base + all volatility + country history,3.99507618751938
+"Poland, Republic of",2024,Random Forest,Base + all volatility + country history,3.2235695024908195
+"Poland, Republic of",2025,Random Forest,Base + all volatility + country history,2.9697450567404733
+"Poland, Republic of",2026,Random Forest,Base + all volatility + country history,2.7702732565472945
+Portugal,2024,Random Forest,Base + all volatility + country history,3.6911476621778525
+Portugal,2025,Random Forest,Base + all volatility + country history,2.774722118201108
+Portugal,2026,Random Forest,Base + all volatility + country history,2.089280530563135
+Qatar,2024,Random Forest,Base + all volatility + country history,2.4841853316523084
+Qatar,2025,Random Forest,Base + all volatility + country history,2.560550099990845
+Qatar,2026,Random Forest,Base + all volatility + country history,2.453612202891524
+Romania,2024,Random Forest,Base + all volatility + country history,2.8734595394930826
+Romania,2025,Random Forest,Base + all volatility + country history,1.6983421298958288
+Romania,2026,Random Forest,Base + all volatility + country history,1.0845913695301743
+Russian Federation,2024,Random Forest,Base + all volatility + country history,3.79236955947368
+Russian Federation,2025,Random Forest,Base + all volatility + country history,3.7506257769231683
+Russian Federation,2026,Random Forest,Base + all volatility + country history,2.1707249750460273
+Rwanda,2024,Random Forest,Base + all volatility + country history,6.99322072357225
+Rwanda,2025,Random Forest,Base + all volatility + country history,6.840779017073114
+Rwanda,2026,Random Forest,Base + all volatility + country history,6.59116809513838
+Saudi Arabia,2024,Random Forest,Base + all volatility + country history,3.3567798494629035
+Saudi Arabia,2025,Random Forest,Base + all volatility + country history,2.950358604050415
+Saudi Arabia,2026,Random Forest,Base + all volatility + country history,3.5208659148363655
+Senegal,2024,Random Forest,Base + all volatility + country history,2.3366916355219325
+Senegal,2025,Random Forest,Base + all volatility + country history,4.257210764148365
+Senegal,2026,Random Forest,Base + all volatility + country history,6.0182974992455875
+"Serbia, Republic of",2024,Random Forest,Base + all volatility + country history,3.910202080851019
+"Serbia, Republic of",2025,Random Forest,Base + all volatility + country history,3.774136600317902
+"Serbia, Republic of",2026,Random Forest,Base + all volatility + country history,2.3852601939902773
+Seychelles,2024,Random Forest,Base + all volatility + country history,4.357169139259755
+Seychelles,2025,Random Forest,Base + all volatility + country history,3.8308861026977428
+Seychelles,2026,Random Forest,Base + all volatility + country history,4.150919215066725
+Sierra Leone,2024,Random Forest,Base + all volatility + country history,3.930193965784546
+Sierra Leone,2025,Random Forest,Base + all volatility + country history,4.157712304577746
+Sierra Leone,2026,Random Forest,Base + all volatility + country history,4.045848341670574
+Singapore,2024,Random Forest,Base + all volatility + country history,2.2436335168421326
+Singapore,2025,Random Forest,Base + all volatility + country history,3.8292394100520193
+Singapore,2026,Random Forest,Base + all volatility + country history,3.9068705817976093
+Slovak Republic,2024,Random Forest,Base + all volatility + country history,3.040693480585699
+Slovak Republic,2025,Random Forest,Base + all volatility + country history,1.4780743499813505
+Slovak Republic,2026,Random Forest,Base + all volatility + country history,1.2589005959331123
+"Slovenia, Republic of",2024,Random Forest,Base + all volatility + country history,3.612914941974418
+"Slovenia, Republic of",2025,Random Forest,Base + all volatility + country history,2.26429027061246
+"Slovenia, Republic of",2026,Random Forest,Base + all volatility + country history,1.8977325277898074
+Solomon Islands,2024,Random Forest,Base + all volatility + country history,1.5927867423293318
+Solomon Islands,2025,Random Forest,Base + all volatility + country history,1.8720040003726695
+Solomon Islands,2026,Random Forest,Base + all volatility + country history,2.59006186076663
+South Africa,2024,Random Forest,Base + all volatility + country history,1.8860385607283225
+South Africa,2025,Random Forest,Base + all volatility + country history,1.1965269919890966
+South Africa,2026,Random Forest,Base + all volatility + country history,1.3759144427038799
+"South Sudan, Republic of",2024,Random Forest,Base + all volatility + country history,-1.0993419306892167
+"South Sudan, Republic of",2025,Random Forest,Base + all volatility + country history,-1.0907592402050152
+"South Sudan, Republic of",2026,Random Forest,Base + all volatility + country history,7.15592583637059
+Spain,2024,Random Forest,Base + all volatility + country history,3.4118485088444817
+Spain,2025,Random Forest,Base + all volatility + country history,3.354517351409209
+Spain,2026,Random Forest,Base + all volatility + country history,2.606335120476688
+Sri Lanka,2024,Random Forest,Base + all volatility + country history,2.4340827852584006
+St. Lucia,2024,Random Forest,Base + all volatility + country history,3.923603348293909
+St. Lucia,2025,Random Forest,Base + all volatility + country history,4.151319410191707
+St. Lucia,2026,Random Forest,Base + all volatility + country history,2.5051709118623275
+St. Vincent and the Grenadines,2024,Random Forest,Base + all volatility + country history,3.462170938262568
+St. Vincent and the Grenadines,2025,Random Forest,Base + all volatility + country history,0.08273499792854651
+St. Vincent and the Grenadines,2026,Random Forest,Base + all volatility + country history,3.423719696900844
+Sudan,2024,Random Forest,Base + all volatility + country history,10.085084332386982
+Sudan,2025,Random Forest,Base + all volatility + country history,-3.1345715603287725
+Sudan,2026,Random Forest,Base + all volatility + country history,4.171430102787249
+Suriname,2024,Random Forest,Base + all volatility + country history,2.809986380651938
+Suriname,2025,Random Forest,Base + all volatility + country history,3.1773774109673623
+Suriname,2026,Random Forest,Base + all volatility + country history,1.3935345553748437
+Sweden,2024,Random Forest,Base + all volatility + country history,1.830385540529816
+Sweden,2025,Random Forest,Base + all volatility + country history,1.4907091538877673
+Sweden,2026,Random Forest,Base + all volatility + country history,1.7534640530244319
+Switzerland,2024,Random Forest,Base + all volatility + country history,2.278591125998066
+Switzerland,2025,Random Forest,Base + all volatility + country history,1.7397298239205505
+Switzerland,2026,Random Forest,Base + all volatility + country history,1.974206287082928
+"São Tomé and Príncipe, Democratic Republic of",2024,Random Forest,Base + all volatility + country history,1.4266044386942967
+"São Tomé and Príncipe, Democratic Republic of",2025,Random Forest,Base + all volatility + country history,2.2740417253210823
+"São Tomé and Príncipe, Democratic Republic of",2026,Random Forest,Base + all volatility + country history,2.106463867616692
+Taiwan Province of China,2024,Random Forest,Base + all volatility + country history,2.919998400484982
+Taiwan Province of China,2025,Random Forest,Base + all volatility + country history,4.025668143160382
+Taiwan Province of China,2026,Random Forest,Base + all volatility + country history,5.246438322170617
+"Tajikistan, Republic of",2024,Random Forest,Base + all volatility + country history,6.821603521703862
+"Tajikistan, Republic of",2025,Random Forest,Base + all volatility + country history,7.0131998359980345
+"Tajikistan, Republic of",2026,Random Forest,Base + all volatility + country history,7.095647826479376
+"Tanzania, United Republic of",2024,Random Forest,Base + all volatility + country history,4.344092266603105
+"Tanzania, United Republic of",2025,Random Forest,Base + all volatility + country history,4.761358063117208
+"Tanzania, United Republic of",2026,Random Forest,Base + all volatility + country history,5.2243991211226515
+Thailand,2024,Random Forest,Base + all volatility + country history,2.504773126666837
+Thailand,2025,Random Forest,Base + all volatility + country history,2.81126235540881
+Thailand,2026,Random Forest,Base + all volatility + country history,2.5292525072269316
+Togo,2024,Random Forest,Base + all volatility + country history,5.258556881290232
+Togo,2025,Random Forest,Base + all volatility + country history,5.079414161172577
+Togo,2026,Random Forest,Base + all volatility + country history,4.421252578198249
+Trinidad and Tobago,2024,Random Forest,Base + all volatility + country history,2.236071600312282
+Trinidad and Tobago,2025,Random Forest,Base + all volatility + country history,2.010037501457108
+Trinidad and Tobago,2026,Random Forest,Base + all volatility + country history,1.6268659055641175
+Tunisia,2024,Random Forest,Base + all volatility + country history,2.112887457254577
+Tunisia,2025,Random Forest,Base + all volatility + country history,1.824116007494741
+Tunisia,2026,Random Forest,Base + all volatility + country history,2.2401539362458784
+Turkmenistan,2024,Random Forest,Base + all volatility + country history,4.57180273942886
+Turkmenistan,2025,Random Forest,Base + all volatility + country history,3.572971464166171
+Turkmenistan,2026,Random Forest,Base + all volatility + country history,3.4623748835623314
+"Türkiye, Republic of",2024,Random Forest,Base + all volatility + country history,4.395044383972492
+"Türkiye, Republic of",2025,Random Forest,Base + all volatility + country history,3.622850030874992
+"Türkiye, Republic of",2026,Random Forest,Base + all volatility + country history,3.452814958486866
+Uganda,2024,Random Forest,Base + all volatility + country history,3.8828087494745835
+Uganda,2025,Random Forest,Base + all volatility + country history,5.601936932370741
+Uganda,2026,Random Forest,Base + all volatility + country history,6.661302443198707
+Ukraine,2024,Random Forest,Base + all volatility + country history,1.8817673042503906
+Ukraine,2025,Random Forest,Base + all volatility + country history,2.5003249244703065
+Ukraine,2026,Random Forest,Base + all volatility + country history,2.2328232154664365
+United Arab Emirates,2024,Random Forest,Base + all volatility + country history,4.005622593647314
+United Arab Emirates,2025,Random Forest,Base + all volatility + country history,3.883975351548964
+United Arab Emirates,2026,Random Forest,Base + all volatility + country history,4.190483341195095
+United Kingdom,2024,Random Forest,Base + all volatility + country history,2.779146070161576
+United Kingdom,2025,Random Forest,Base + all volatility + country history,2.181524805675636
+United Kingdom,2026,Random Forest,Base + all volatility + country history,1.2828568461950662
+United States,2024,Random Forest,Base + all volatility + country history,3.298226341503398
+United States,2025,Random Forest,Base + all volatility + country history,2.616201566915491
+United States,2026,Random Forest,Base + all volatility + country history,2.1892324617767818
+Uruguay,2024,Random Forest,Base + all volatility + country history,2.463262305768043
+Uruguay,2025,Random Forest,Base + all volatility + country history,3.0593623838070023
+Uruguay,2026,Random Forest,Base + all volatility + country history,1.8853322190471196
+"Uzbekistan, Republic of",2024,Random Forest,Base + all volatility + country history,6.6065067348443165
+"Uzbekistan, Republic of",2025,Random Forest,Base + all volatility + country history,6.52868118896919
+"Uzbekistan, Republic of",2026,Random Forest,Base + all volatility + country history,6.675116974048668
+"Venezuela, República Bolivariana de",2024,Random Forest,Base + all volatility + country history,3.3959944069091406
+"Venezuela, República Bolivariana de",2025,Random Forest,Base + all volatility + country history,2.5297950546429964
+"Venezuela, República Bolivariana de",2026,Random Forest,Base + all volatility + country history,-0.8054668829579802
+Vietnam,2024,Random Forest,Base + all volatility + country history,4.245307844254921
+Vietnam,2025,Random Forest,Base + all volatility + country history,6.647909204297922
+Vietnam,2026,Random Forest,Base + all volatility + country history,7.031231409045217
+West Bank and Gaza,2024,Random Forest,Base + all volatility + country history,2.807375259635976
+Zambia,2024,Random Forest,Base + all volatility + country history,2.8390139500493126
+Zambia,2025,Random Forest,Base + all volatility + country history,4.1439540149626
+Zambia,2026,Random Forest,Base + all volatility + country history,4.377970991137639

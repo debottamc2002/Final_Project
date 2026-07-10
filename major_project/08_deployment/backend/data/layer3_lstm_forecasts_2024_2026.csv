@@ -1,0 +1,514 @@
+COUNTRY,YEAR,LSTM_Forecast
+"Afghanistan, Islamic Republic of",2024,0.64140105
+"Afghanistan, Islamic Republic of",2025,-1.1294508
+Albania,2024,4.365195
+Albania,2025,4.6341105
+Albania,2026,4.542422
+Algeria,2024,3.6996512
+Algeria,2025,2.9746706
+Algeria,2026,3.4209633
+Angola,2024,3.4484954
+Angola,2025,4.3014355
+Angola,2026,3.5992565
+Argentina,2024,0.2685883
+Argentina,2025,3.9383497
+Argentina,2026,4.4796476
+"Armenia, Republic of",2024,4.6951523
+"Armenia, Republic of",2025,4.2879972
+"Armenia, Republic of",2026,4.7147665
+Australia,2024,4.782267
+Australia,2025,3.6416905
+Australia,2026,2.9546678
+Austria,2024,3.386266
+Austria,2025,3.045995
+Austria,2026,2.6186733
+"Azerbaijan, Republic of",2024,1.8635049
+"Azerbaijan, Republic of",2025,1.9258947
+"Azerbaijan, Republic of",2026,2.3385744
+"Bahamas, The",2024,2.0182095
+"Bahamas, The",2025,3.962811
+"Bahamas, The",2026,4.6490135
+"Bahrain, Kingdom of",2024,3.143786
+"Bahrain, Kingdom of",2025,2.9464211
+"Bahrain, Kingdom of",2026,3.580111
+Bangladesh,2024,5.051082
+Bangladesh,2025,4.415396
+Bangladesh,2026,4.240861
+Barbados,2024,3.550404
+Barbados,2025,3.8106368
+Barbados,2026,4.237994
+"Belarus, Republic of",2024,2.6365607
+"Belarus, Republic of",2025,3.169394
+"Belarus, Republic of",2026,3.4438014
+Belgium,2024,3.906103
+Belgium,2025,3.588648
+Belgium,2026,3.0716963
+Belize,2024,4.3418093
+Belize,2025,3.785608
+Belize,2026,3.6796274
+Benin,2024,5.0099792
+Benin,2025,5.474774
+Benin,2026,6.3519993
+Bhutan,2024,2.6200671
+Bhutan,2025,4.097043
+Bhutan,2026,5.57369
+Bolivia,2024,2.8962774
+Bolivia,2025,2.3571682
+Bolivia,2026,1.455261
+Bosnia and Herzegovina,2024,3.4302151
+Bosnia and Herzegovina,2025,3.9438112
+Bosnia and Herzegovina,2026,3.8170915
+Botswana,2024,3.2081184
+Botswana,2025,2.9692638
+Botswana,2026,0.42409682
+Brazil,2024,4.3436766
+Brazil,2025,3.9167762
+Brazil,2026,3.4285495
+Brunei Darussalam,2024,2.0207474
+Brunei Darussalam,2025,2.5964537
+Brunei Darussalam,2026,2.9010158
+Bulgaria,2024,3.3318248
+Bulgaria,2025,3.6335518
+Bulgaria,2026,3.7247994
+Burkina Faso,2024,3.5063066
+Burkina Faso,2025,4.798732
+Burkina Faso,2026,5.0999236
+Burundi,2024,3.3363435
+Burundi,2025,4.0559325
+Burundi,2026,3.8214002
+Cabo Verde,2024,3.1956604
+Cabo Verde,2025,3.7333968
+Cabo Verde,2026,4.901222
+Cambodia,2024,4.4571214
+Cambodia,2025,4.804236
+Cambodia,2026,5.786352
+Cameroon,2024,3.370696
+Cameroon,2025,3.8414094
+Cameroon,2026,3.7989235
+Canada,2024,5.1846285
+Canada,2025,4.071475
+Canada,2026,3.3182225
+Central African Republic,2024,2.0683784
+Central African Republic,2025,3.4777522
+Central African Republic,2026,3.8127654
+Chad,2024,3.4679646
+Chad,2025,3.802999
+Chad,2026,4.722423
+Chile,2024,3.054363
+Chile,2025,3.269631
+Chile,2026,3.604918
+"China, People's Republic of",2024,4.617767
+"China, People's Republic of",2025,4.8998914
+"China, People's Republic of",2026,5.815865
+Colombia,2024,3.9334855
+Colombia,2025,3.429878
+Colombia,2026,3.6921084
+"Comoros, Union of the",2024,2.2429194
+"Comoros, Union of the",2025,3.3934705
+"Comoros, Union of the",2026,4.064931
+"Congo, Democratic Republic of the",2024,4.586789
+"Congo, Democratic Republic of the",2025,5.06759
+"Congo, Democratic Republic of the",2026,5.6383467
+"Congo, Republic of",2024,3.0386178
+"Congo, Republic of",2025,2.7873058
+"Congo, Republic of",2026,2.86321
+Costa Rica,2024,4.7900567
+Costa Rica,2025,4.94699
+Costa Rica,2026,5.0772815
+"Croatia, Republic of",2024,4.1712966
+"Croatia, Republic of",2025,4.4192863
+"Croatia, Republic of",2026,4.0740676
+Cyprus,2024,5.252954
+Cyprus,2025,5.061654
+Cyprus,2026,4.586114
+Czech Republic,2024,2.1239529
+Czech Republic,2025,3.1217222
+Czech Republic,2026,3.7678971
+Côte d'Ivoire,2024,4.846324
+Côte d'Ivoire,2025,5.911338
+Côte d'Ivoire,2026,6.469745
+Denmark,2024,2.8639083
+Denmark,2025,3.3316817
+Denmark,2026,3.4536135
+Djibouti,2024,4.2661443
+Djibouti,2025,5.1975408
+Djibouti,2026,6.260213
+Dominica,2024,4.0411077
+Dominica,2025,2.4567523
+Dominica,2026,5.0098457
+Dominican Republic,2024,3.87153
+Dominican Republic,2025,4.160259
+Dominican Republic,2026,3.8193464
+Ecuador,2024,3.6432834
+Ecuador,2025,3.1581774
+Ecuador,2026,3.3795712
+"Egypt, Arab Republic of",2024,3.7937164
+"Egypt, Arab Republic of",2025,3.284696
+"Egypt, Arab Republic of",2026,4.3833613
+El Salvador,2024,3.4329119
+El Salvador,2025,3.9270747
+El Salvador,2026,4.3900356
+"Equatorial Guinea, Republic of",2024,-3.8222198
+"Equatorial Guinea, Republic of",2025,-2.3834844
+"Equatorial Guinea, Republic of",2026,-3.809988
+"Estonia, Republic of",2024,1.711787
+"Estonia, Republic of",2025,1.7103477
+"Estonia, Republic of",2026,2.2536974
+"Eswatini, Kingdom of",2024,3.2648726
+"Eswatini, Kingdom of",2025,3.1402855
+"Eswatini, Kingdom of",2026,3.5698218
+"Ethiopia, The Federal Democratic Republic of",2024,5.5459304
+"Ethiopia, The Federal Democratic Republic of",2025,5.9070287
+"Ethiopia, The Federal Democratic Republic of",2026,6.2650623
+Finland,2024,1.6443751
+Finland,2025,1.9948034
+Finland,2026,2.1057086
+France,2024,3.5675986
+France,2025,3.1288974
+France,2026,3.3259172
+Gabon,2024,3.315356
+Gabon,2025,3.7132087
+Gabon,2026,2.6496344
+"Gambia, The",2024,1.5059383
+"Gambia, The",2025,2.3756344
+"Gambia, The",2026,4.4253693
+Georgia,2024,5.417674
+Georgia,2025,6.173004
+Georgia,2026,6.3677177
+Germany,2024,2.8751357
+Germany,2025,2.7120943
+Germany,2026,2.58476
+Ghana,2024,4.8827906
+Ghana,2025,5.3105636
+Ghana,2026,5.6526146
+Greece,2024,4.63055
+Greece,2025,4.8506656
+Greece,2026,4.757432
+Guatemala,2024,3.788691
+Guatemala,2025,3.9277155
+Guatemala,2026,4.333018
+Guinea,2024,3.8581624
+Guinea,2025,3.1431077
+Guinea,2026,4.6596594
+Guinea-Bissau,2024,3.2283757
+Guinea-Bissau,2025,3.5799224
+Guinea-Bissau,2026,5.108281
+Guyana,2024,10.151512
+Guyana,2025,9.702089
+Guyana,2026,9.2229595
+Haiti,2024,0.37543702
+Haiti,2025,1.7763
+Haiti,2026,1.8085394
+Honduras,2024,4.161028
+Honduras,2025,4.369592
+Honduras,2026,4.1752915
+"Hong Kong Special Administrative Region, People's Republic of China",2024,2.565301
+"Hong Kong Special Administrative Region, People's Republic of China",2025,2.5929484
+"Hong Kong Special Administrative Region, People's Republic of China",2026,3.424981
+Hungary,2024,1.9009476
+Hungary,2025,2.9986892
+Hungary,2026,3.276558
+Iceland,2024,4.8710723
+Iceland,2025,3.5648823
+Iceland,2026,3.5308561
+India,2024,5.478345
+India,2025,5.672025
+India,2026,6.389258
+Indonesia,2024,3.7654412
+Indonesia,2025,4.070566
+Indonesia,2026,4.6828256
+"Iran, Islamic Republic of",2024,3.650631
+"Iran, Islamic Republic of",2025,2.6330562
+"Iran, Islamic Republic of",2026,1.2642088
+Ireland,2024,3.111085
+Ireland,2025,3.2303915
+Ireland,2026,3.766357
+Israel,2024,4.071339
+Israel,2025,3.6294727
+Israel,2026,3.5055146
+Italy,2024,3.7330263
+Italy,2025,4.0125375
+Italy,2026,3.7025573
+Jamaica,2024,3.7660642
+Jamaica,2025,3.3209739
+Jamaica,2026,2.941283
+Japan,2024,3.6557999
+Japan,2025,3.5157156
+Japan,2026,3.5797238
+Jordan,2024,3.2313566
+Jordan,2025,3.5053933
+Jordan,2026,3.7004032
+"Kazakhstan, Republic of",2024,3.9656134
+"Kazakhstan, Republic of",2025,3.6066973
+"Kazakhstan, Republic of",2026,4.2418623
+Kenya,2024,4.5147457
+Kenya,2025,4.7946734
+Kenya,2026,4.995138
+Kiribati,2024,1.5998447
+Kiribati,2025,1.8326442
+Kiribati,2026,1.9702232
+"Korea, Republic of",2024,2.9692435
+"Korea, Republic of",2025,3.3103728
+"Korea, Republic of",2026,2.9499373
+"Kosovo, Republic of",2024,3.5337262
+"Kosovo, Republic of",2025,4.296076
+"Kosovo, Republic of",2026,4.379525
+Kuwait,2024,2.656983
+Kuwait,2025,1.6276176
+Kuwait,2026,-0.508523
+Kyrgyz Republic,2024,4.1733603
+Kyrgyz Republic,2025,5.5962033
+Kyrgyz Republic,2026,5.855416
+Lao People's Democratic Republic,2024,2.3115907
+Lao People's Democratic Republic,2025,3.0241504
+Lao People's Democratic Republic,2026,3.3486474
+"Latvia, Republic of",2024,2.10749
+"Latvia, Republic of",2025,2.9671519
+"Latvia, Republic of",2026,3.0521772
+Lebanon,2024,3.222392
+Lebanon,2025,2.167954
+"Lesotho, Kingdom of",2024,3.220016
+"Lesotho, Kingdom of",2025,4.5910854
+"Lesotho, Kingdom of",2026,4.411827
+Liberia,2024,3.1117573
+Liberia,2025,3.0401127
+Liberia,2026,3.7688353
+Libya,2024,1.7166915
+Libya,2025,1.5453203
+Libya,2026,2.4193459
+"Lithuania, Republic of",2024,1.7523115
+"Lithuania, Republic of",2025,3.6860359
+"Lithuania, Republic of",2026,4.0300117
+Luxembourg,2024,3.152755
+Luxembourg,2025,2.817753
+Luxembourg,2026,2.3694158
+"Madagascar, Republic of",2024,2.7139611
+"Madagascar, Republic of",2025,3.6590312
+"Madagascar, Republic of",2026,3.7993877
+Malawi,2024,1.7512708
+Malawi,2025,2.4105928
+Malawi,2026,3.370005
+Malaysia,2024,3.6458764
+Malaysia,2025,4.0723615
+Malaysia,2026,4.3612404
+Maldives,2024,3.238299
+Maldives,2025,3.2862792
+Maldives,2026,5.1483965
+Mali,2024,4.0798273
+Mali,2025,4.7779913
+Mali,2026,4.5720663
+Malta,2024,4.4577594
+Malta,2025,4.5274916
+Malta,2026,4.640375
+"Mauritania, Islamic Republic of",2024,3.4089994
+"Mauritania, Islamic Republic of",2025,4.029737
+"Mauritania, Islamic Republic of",2026,4.9332643
+Mauritius,2024,3.8708096
+Mauritius,2025,4.0559363
+Mauritius,2026,4.0671124
+Mexico,2024,3.6395206
+Mexico,2025,3.2390118
+Mexico,2026,3.054456
+"Moldova, Republic of",2024,1.7353954
+"Moldova, Republic of",2025,0.93636036
+"Moldova, Republic of",2026,2.8939652
+Mongolia,2024,5.110428
+Mongolia,2025,3.8140602
+Mongolia,2026,3.894863
+Montenegro,2024,3.582368
+Montenegro,2025,4.146007
+Montenegro,2026,3.3570418
+Morocco,2024,3.5899348
+Morocco,2025,4.0664635
+Morocco,2026,4.7024226
+"Mozambique, Republic of",2024,2.2165675
+"Mozambique, Republic of",2025,2.5170078
+"Mozambique, Republic of",2026,3.189757
+Myanmar,2024,2.0567567
+Myanmar,2025,1.534739
+Myanmar,2026,0.99059844
+Namibia,2024,4.2827115
+Namibia,2025,4.3288856
+Namibia,2026,3.3786497
+Nepal,2024,2.574639
+Nepal,2025,3.878982
+Nepal,2026,4.3199096
+"Netherlands, The",2024,3.3947465
+"Netherlands, The",2025,3.4290133
+"Netherlands, The",2026,3.2867105
+New Zealand,2024,3.3035686
+New Zealand,2025,2.1357098
+New Zealand,2026,1.752912
+Nicaragua,2024,3.726473
+Nicaragua,2025,3.9227293
+Nicaragua,2026,4.4288354
+Niger,2024,3.364388
+Niger,2025,3.9815838
+Niger,2026,4.8923435
+Nigeria,2024,2.999396
+Nigeria,2025,3.1493142
+Nigeria,2026,3.8778458
+"North Macedonia, Republic of",2024,3.0488434
+"North Macedonia, Republic of",2025,3.6766288
+"North Macedonia, Republic of",2026,4.1670556
+Norway,2024,2.3051825
+Norway,2025,1.808718
+Norway,2026,1.654247
+Oman,2024,4.6843414
+Oman,2025,3.9492397
+Oman,2026,3.2389557
+Pakistan,2024,3.2544386
+Pakistan,2025,3.8948367
+Pakistan,2026,4.481072
+"Palau, Republic of",2024,-3.338264
+"Palau, Republic of",2025,-0.55342054
+"Palau, Republic of",2026,2.1057024
+Panama,2024,5.0469418
+Panama,2025,3.7668707
+Panama,2026,4.080176
+Papua New Guinea,2024,3.2775426
+Papua New Guinea,2025,3.6899402
+Papua New Guinea,2026,4.112524
+Paraguay,2024,3.2475178
+Paraguay,2025,3.2560117
+Paraguay,2026,4.142611
+Peru,2024,3.133587
+Peru,2025,3.4110086
+Peru,2026,3.862306
+Philippines,2024,4.3107843
+Philippines,2025,4.9995227
+Philippines,2026,5.3412533
+"Poland, Republic of",2024,3.1283715
+"Poland, Republic of",2025,3.850472
+"Poland, Republic of",2026,4.130293
+Portugal,2024,4.6206937
+Portugal,2025,4.6204023
+Portugal,2026,4.185679
+Qatar,2024,3.2055671
+Qatar,2025,2.7960367
+Qatar,2026,3.062426
+Romania,2024,3.3343892
+Romania,2025,3.1750567
+Romania,2026,3.0564895
+Russian Federation,2024,3.3215537
+Russian Federation,2025,3.5110486
+Russian Federation,2026,3.4464397
+Rwanda,2024,5.84411
+Rwanda,2025,6.280032
+Rwanda,2026,6.5372105
+Saudi Arabia,2024,4.7510934
+Saudi Arabia,2025,3.6015177
+Saudi Arabia,2026,3.2778702
+Senegal,2024,0.69720936
+Senegal,2025,3.6045196
+Senegal,2026,5.758624
+"Serbia, Republic of",2024,3.9547544
+"Serbia, Republic of",2025,4.2222557
+"Serbia, Republic of",2026,4.1678624
+Seychelles,2024,5.704633
+Seychelles,2025,4.864504
+Seychelles,2026,4.606646
+Sierra Leone,2024,2.7685556
+Sierra Leone,2025,3.756686
+Sierra Leone,2026,4.3660727
+Singapore,2024,3.740203
+Singapore,2025,3.7294154
+Singapore,2026,4.0710597
+Slovak Republic,2024,2.7753406
+Slovak Republic,2025,3.1164825
+Slovak Republic,2026,3.2106137
+"Slovenia, Republic of",2024,3.3376436
+"Slovenia, Republic of",2025,3.6329813
+"Slovenia, Republic of",2026,3.6201892
+Solomon Islands,2024,0.23342776
+Solomon Islands,2025,1.5093846
+Solomon Islands,2026,3.021895
+South Africa,2024,2.4498315
+South Africa,2025,1.8870575
+South Africa,2026,2.4470205
+"South Sudan, Republic of",2024,1.7556562
+"South Sudan, Republic of",2025,2.7053645
+"South Sudan, Republic of",2026,5.178264
+Spain,2024,4.4788074
+Spain,2025,4.4645567
+Spain,2026,4.2312126
+Sri Lanka,2024,1.7953348
+St. Lucia,2024,4.017305
+St. Lucia,2025,4.069021
+St. Lucia,2026,3.970283
+St. Vincent and the Grenadines,2024,2.356678
+St. Vincent and the Grenadines,2025,3.666483
+St. Vincent and the Grenadines,2026,3.1394105
+Sudan,2024,-0.9303479
+Sudan,2025,-0.39637423
+Sudan,2026,3.1992884
+Suriname,2024,2.5936816
+Suriname,2025,2.744761
+Suriname,2026,1.6777864
+Sweden,2024,2.8915453
+Sweden,2025,2.9521232
+Sweden,2026,2.9463966
+Switzerland,2024,3.2240715
+Switzerland,2025,3.2550364
+Switzerland,2026,3.102856
+"São Tomé and Príncipe, Democratic Republic of",2024,1.5110848
+"São Tomé and Príncipe, Democratic Republic of",2025,3.5897698
+"São Tomé and Príncipe, Democratic Republic of",2026,3.8989463
+Taiwan Province of China,2024,3.4328065
+Taiwan Province of China,2025,3.4354749
+Taiwan Province of China,2026,3.7933855
+"Tajikistan, Republic of",2024,6.1845284
+"Tajikistan, Republic of",2025,6.0526605
+"Tajikistan, Republic of",2026,6.766917
+"Tanzania, United Republic of",2024,5.358005
+"Tanzania, United Republic of",2025,5.527529
+"Tanzania, United Republic of",2026,5.768138
+Thailand,2024,3.0480127
+Thailand,2025,3.8924289
+Thailand,2026,3.858014
+Togo,2024,4.5219054
+Togo,2025,4.538771
+Togo,2026,5.2167907
+Trinidad and Tobago,2024,2.8445148
+Trinidad and Tobago,2025,2.5221806
+Trinidad and Tobago,2026,2.2757444
+Tunisia,2024,0.811728
+Tunisia,2025,1.5857465
+Tunisia,2026,3.5329075
+Turkmenistan,2024,3.856792
+Turkmenistan,2025,3.4474509
+Turkmenistan,2026,3.8447669
+"Türkiye, Republic of",2024,3.3538656
+"Türkiye, Republic of",2025,3.6655433
+"Türkiye, Republic of",2026,3.7735639
+Uganda,2024,4.5196805
+Uganda,2025,4.8205175
+Uganda,2026,5.1306405
+Ukraine,2024,2.06573
+Ukraine,2025,2.6644473
+Ukraine,2026,0.590847
+United Arab Emirates,2024,4.3144336
+United Arab Emirates,2025,4.3190665
+United Arab Emirates,2026,4.1400337
+United Kingdom,2024,3.7869036
+United Kingdom,2025,3.509459
+United Kingdom,2026,3.3893497
+United States,2024,4.883372
+United States,2025,4.5261874
+United States,2026,3.574209
+Uruguay,2024,2.8077493
+Uruguay,2025,3.272841
+Uruguay,2026,3.4629045
+"Uzbekistan, Republic of",2024,4.5060267
+"Uzbekistan, Republic of",2025,4.6623077
+"Uzbekistan, Republic of",2026,5.837605
+"Venezuela, República Bolivariana de",2024,4.3568287
+"Venezuela, República Bolivariana de",2025,3.7572312
+"Venezuela, República Bolivariana de",2026,-1.3323808
+Vietnam,2024,4.150083
+Vietnam,2025,5.4879856
+Vietnam,2026,6.3725634
+West Bank and Gaza,2024,2.835609
+Zambia,2024,3.4221153
+Zambia,2025,3.6295018
+Zambia,2026,5.2789893

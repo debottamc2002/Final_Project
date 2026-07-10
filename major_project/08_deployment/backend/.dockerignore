@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Version control & IDE config
+.git/
+.gitignore
+.vscode/
+
+# Local build outputs or data dumps
+dist/
+build/
+*.log

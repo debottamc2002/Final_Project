@@ -1,0 +1,5 @@
+Component,Best_Model,Primary_Metric,Score,Interpretation
+Econometric Baseline,Pooled OLS,RMSE,4.816,Interpretable baseline for GDP growth prediction
+Machine Learning Regression,Random Forest,RMSE,4.709,Best exact GDP growth forecasting model
+LSTM,LSTM,RMSE,5.022,"Sequence-learning benchmark, weaker than RF"
+Early Warning System,Extra Trees,ROC-AUC,0.93,Best high-instability risk detection layer
