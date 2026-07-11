@@ -1,0 +1,3 @@
+Layer,Model,RMSE,MAE,R2
+Layer 2b ML,Random Forest,4.709,2.631,0.241
+Layer 3 LSTM,LSTM,5.117,2.771,0.104
