@@ -37,6 +37,20 @@ function formatNumber(value: any, digits = 2) {
   return num.toFixed(digits);
 }
 
+function formatYear(value: any) {
+  const year = Number(value);
+  if (!Number.isFinite(year)) return value ?? "-";
+  return String(Math.trunc(year));
+}
+
+function yearColor(year: any) {
+  const key = String(Math.trunc(Number(year)));
+  if (key === "2024") return "#38bdf8";
+  if (key === "2025") return "#a855f7";
+  if (key === "2026") return "#f97316";
+  return "#22c55e";
+}
+
 function shortCountry(name: string) {
   return String(name || "")
     .replace(", Islamic Republic of", "")
@@ -72,7 +86,9 @@ function DataTable({
                 {columns.map((col) => (
                   <td key={col}>
                     {typeof row[col] === "number"
-                      ? formatNumber(row[col], 3)
+                      ? col === "YEAR"
+                        ? formatYear(row[col])
+                        : formatNumber(row[col], 3)
                       : row[col] ?? "-"}
                   </td>
                 ))}
@@ -139,22 +155,24 @@ export default function ScenarioPage() {
 
   const errorChart = useMemo(() => {
     return comparison
-      .filter((row) => String(row.YEAR) === "2026")
       .map((row) => ({
-        country: shortCountry(row.COUNTRY),
+        label: `${shortCountry(row.COUNTRY)} (${formatYear(row.YEAR)})`,
+        year: formatYear(row.YEAR),
         error: Math.abs(Number(row.Prediction_Error ?? 0))
       }))
       .sort((a, b) => b.error - a.error)
-      .slice(0, 12);
+      .slice(0, 15);
   }, [comparison]);
 
   const highRiskChart = topRisk.slice(0, 15).map((row) => ({
-    country: shortCountry(row.COUNTRY),
+    label: `${shortCountry(row.COUNTRY)} (${formatYear(row.YEAR)})`,
+    year: formatYear(row.YEAR),
     probability: Number(row.Crisis_Probability ?? 0)
   }));
 
   const lowRiskChart = lowRisk.slice(0, 15).map((row) => ({
-    country: shortCountry(row.COUNTRY),
+    label: `${shortCountry(row.COUNTRY)} (${formatYear(row.YEAR)})`,
+    year: formatYear(row.YEAR),
     probability: Number(row.Crisis_Probability ?? 0)
   }));
 
@@ -172,6 +190,12 @@ export default function ScenarioPage() {
       </section>
 
       {error && <div className="error-box">{error}</div>}
+
+      <section className="year-legend glass">
+        <span><i className="legend-2024" /> 2024</span>
+        <span><i className="legend-2025" /> 2025</span>
+        <span><i className="legend-2026" /> 2026</span>
+      </section>
 
       <section className="input-panel glass">
         <div>
@@ -221,9 +245,10 @@ export default function ScenarioPage() {
         </div>
 
         <div className="panel glass hover-lift">
-          <h2>Largest Absolute Forecast Errors, 2026</h2>
+          <h2>Largest Absolute Forecast Errors</h2>
           <p className="muted">
-            Countries where model forecast differs most from IMF projection.
+            Countries and years where model forecast differs most from IMF
+            projection.
           </p>
           <div className="chart-box tall-chart">
             <ResponsiveContainer width="100%" height={420}>
@@ -231,14 +256,18 @@ export default function ScenarioPage() {
                 <XAxis type="number" stroke="#cbd5e1" />
                 <YAxis
                   type="category"
-                  dataKey="country"
+                  dataKey="label"
                   stroke="#cbd5e1"
                   width={150}
                   interval={0}
                   tick={{ fontSize: 12 }}
                 />
                 <Tooltip />
-                <Bar dataKey="error" fill="#f59e0b" animationDuration={1000} />
+                <Bar dataKey="error" animationDuration={1000}>
+                  {errorChart.map((entry, index) => (
+                    <Cell key={index} fill={yearColor(entry.year)} />
+                  ))}
+                </Bar>
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -254,7 +283,7 @@ export default function ScenarioPage() {
                 <XAxis type="number" domain={[0, 1]} stroke="#cbd5e1" />
                 <YAxis
                   type="category"
-                  dataKey="country"
+                  dataKey="label"
                   stroke="#cbd5e1"
                   width={150}
                   interval={0}
@@ -262,8 +291,8 @@ export default function ScenarioPage() {
                 />
                 <Tooltip />
                 <Bar dataKey="probability">
-                  {highRiskChart.map((_, index) => (
-                    <Cell key={index} fill="#ef4444" />
+                  {highRiskChart.map((entry, index) => (
+                    <Cell key={index} fill={yearColor(entry.year)} />
                   ))}
                 </Bar>
               </BarChart>
@@ -279,14 +308,18 @@ export default function ScenarioPage() {
                 <XAxis type="number" domain={[0, 1]} stroke="#cbd5e1" />
                 <YAxis
                   type="category"
-                  dataKey="country"
+                  dataKey="label"
                   stroke="#cbd5e1"
                   width={150}
                   interval={0}
                   tick={{ fontSize: 12 }}
                 />
                 <Tooltip />
-                <Bar dataKey="probability" fill="#22c55e" />
+                <Bar dataKey="probability">
+                  {lowRiskChart.map((entry, index) => (
+                    <Cell key={index} fill={yearColor(entry.year)} />
+                  ))}
+                </Bar>
               </BarChart>
             </ResponsiveContainer>
           </div>

@@ -2,10 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import {
-  Bar,
-  BarChart,
   CartesianGrid,
-  Cell,
   Legend,
   Line,
   LineChart,
@@ -83,14 +80,6 @@ function formatNumber(value: any, digits = 3) {
   return num.toFixed(digits);
 }
 
-function shortCountry(name: string) {
-  return String(name || "")
-    .replace(", Islamic Republic of", "")
-    .replace(", Republic of", "")
-    .replace(", The", "")
-    .slice(0, 28);
-}
-
 function RiskBadge({ value }: { value: any }) {
   const risk = String(value ?? "").toLowerCase();
   let className = "badge neutral";
@@ -143,6 +132,8 @@ function DataTable({
                     <td key={column}>
                       {column === "Risk_Level" ? (
                         <RiskBadge value={row[column]} />
+                      ) : column === "YEAR" ? (
+                        String(Math.trunc(Number(row[column])))
                       ) : typeof row[column] === "number" ? (
                         formatNumber(row[column], 3)
                       ) : (
@@ -162,8 +153,6 @@ function DataTable({
 
 export default function Home() {
   const [comparisonRows, setComparisonRows] = useState<Row[]>([]);
-  const [topRisk, setTopRisk] = useState<Row[]>([]);
-  const [lowRisk, setLowRisk] = useState<Row[]>([]);
   const [models, setModels] = useState<Row[]>(FALLBACK_MODELS);
   const [health, setHealth] = useState("Checking...");
   const [error, setError] = useState("");
@@ -177,17 +166,21 @@ export default function Home() {
         const healthResponse = await fetch(`${API_BASE}/health`);
         setHealth(healthResponse.ok ? "Online" : "Issue detected");
 
-        const [comparison, topRows, lowRows, modelRows] = await Promise.all([
+        const [comparison, modelRows] = await Promise.all([
           fetchRows("/comparison/imf-vs-forecast"),
-          fetchRowsSafe("/ews/top-risk"),
-          fetchRowsSafe("/ews/low-risk"),
           fetchRowsSafe("/models/summary", FALLBACK_MODELS)
         ]);
 
         setComparisonRows(comparison);
-        setTopRisk(topRows);
-        setLowRisk(lowRows);
-        setModels(modelRows.length ? modelRows : FALLBACK_MODELS);
+        setModels(
+          modelRows.length
+            ? modelRows.map((row) => ({
+                ...row,
+                ML_Improvement_Percent:
+                  row.ML_Improvement_Percent ?? row["ML_Improvement_%"]
+              }))
+            : FALLBACK_MODELS
+        );
 
         const first2026 =
           comparison.find((row) => String(row.YEAR) === "2026")?.COUNTRY ||
@@ -234,16 +227,6 @@ export default function Home() {
         (row) => Number.isFinite(row.IMF) && Number.isFinite(row.Predicted)
       );
   }, [comparisonRows, selectedCountry]);
-
-  const topRiskChart = topRisk.slice(0, 12).map((row) => ({
-    country: shortCountry(row.COUNTRY),
-    probability: Number(row.Crisis_Probability ?? 0)
-  }));
-
-  const lowRiskChart = lowRisk.slice(0, 12).map((row) => ({
-    country: shortCountry(row.COUNTRY),
-    probability: Number(row.Crisis_Probability ?? 0)
-  }));
 
   return (
     <main>
@@ -293,7 +276,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="metrics-grid">
+      <section className="metrics-grid app-metrics">
         <MetricCard
           label="Predicted GDP Growth"
           value={
@@ -328,15 +311,15 @@ export default function Home() {
         />
       </section>
 
-      <section className="chart-grid">
-        <div className="panel glass hover-lift">
+      <section className="app-focus-grid">
+        <div className="panel glass hover-lift hero-chart-card">
           <h2>Country Forecast Trend</h2>
           <p className="muted">
-            Random Forest forecast compared with IMF projection for the selected
-            country.
+            Interactive comparison between your model forecast and IMF
+            projection for the selected country.
           </p>
-          <div className="chart-box">
-            <ResponsiveContainer width="100%" height={320}>
+          <div className="chart-box mega-chart">
+            <ResponsiveContainer width="100%" height={470}>
               <LineChart data={countryTrend}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#24324d" />
                 <XAxis dataKey="year" stroke="#cbd5e1" />
@@ -365,80 +348,7 @@ export default function Home() {
             </ResponsiveContainer>
           </div>
         </div>
-
-        <div className="panel glass hover-lift">
-          <h2>Top Crisis Risk Countries</h2>
-          <p className="muted">Highest predicted crisis probabilities.</p>
-          <div className="chart-box tall-chart">
-            <ResponsiveContainer width="100%" height={430}>
-              <BarChart data={topRiskChart} layout="vertical" margin={{ left: 30 }}>
-                <XAxis type="number" domain={[0, 1]} stroke="#cbd5e1" />
-                <YAxis
-                  type="category"
-                  dataKey="country"
-                  stroke="#cbd5e1"
-                  width={155}
-                  interval={0}
-                  tick={{ fontSize: 12 }}
-                />
-                <Tooltip />
-                <Bar dataKey="probability" animationDuration={1200}>
-                  {topRiskChart.map((_, index) => (
-                    <Cell key={index} fill="#ef4444" />
-                  ))}
-                </Bar>
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
       </section>
-
-      <section className="chart-grid">
-        <DataTable
-          title="Top 20 High-Risk Countries"
-          rows={topRisk.slice(0, 20)}
-          columns={[
-            "COUNTRY",
-            "YEAR",
-            "Crisis_Probability",
-            "Risk_Level",
-            "Early_Warning_Flag"
-          ]}
-        />
-
-        <div className="panel glass hover-lift">
-          <h2>Top 20 Low-Risk Countries</h2>
-          <div className="chart-box tall-chart">
-            <ResponsiveContainer width="100%" height={430}>
-              <BarChart data={lowRiskChart} layout="vertical" margin={{ left: 30 }}>
-                <XAxis type="number" domain={[0, 1]} stroke="#cbd5e1" />
-                <YAxis
-                  type="category"
-                  dataKey="country"
-                  stroke="#cbd5e1"
-                  width={155}
-                  interval={0}
-                  tick={{ fontSize: 12 }}
-                />
-                <Tooltip />
-                <Bar dataKey="probability" fill="#22c55e" animationDuration={1200} />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
-      </section>
-
-      <DataTable
-        title="Top 20 Non-Crisis / Low-Risk Countries"
-        rows={lowRisk.slice(0, 20)}
-        columns={[
-          "COUNTRY",
-          "YEAR",
-          "Crisis_Probability",
-          "Risk_Level",
-          "Early_Warning_Flag"
-        ]}
-      />
 
       <section className="panel glass interpretation-panel">
         <h2>AI-Style Interpretation</h2>
