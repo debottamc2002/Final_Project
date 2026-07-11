@@ -19,8 +19,7 @@ export default function RootLayout({
         <nav className="navbar">
           <div className="brand">MacroVision AI</div>
           <div className="nav-links">
-            <Link href="/scenario">2024-26 Scenario Dashboard</Link>
-            <Link href="/">Forecast Interface</Link>
+            <Link href="/scenario">Forecast & Scenario Dashboard</Link>
             <Link href="/about">About Us</Link>
           </div>
         </nav>

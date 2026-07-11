@@ -193,6 +193,10 @@ h1 {
   gap: 22px;
 }
 
+.metrics-grid.scenario-metrics {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .metric-card {
   padding: 22px;
   background: rgba(15, 23, 42, 0.76);
@@ -254,6 +258,10 @@ h1 {
     inset 0 30px 80px rgba(56, 189, 248, 0.06),
     0 28px 90px rgba(56, 189, 248, 0.1);
   transform: perspective(1200px) rotateX(1deg);
+}
+
+.hero-chart-card .mega-chart {
+  height: 520px;
 }
 
 .panel {
@@ -403,6 +411,7 @@ tr:hover td {
   .hero,
   .input-panel,
   .metrics-grid,
+  .metrics-grid.scenario-metrics,
   .chart-grid,
   .team-grid,
   .skills-grid {
