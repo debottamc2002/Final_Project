@@ -160,6 +160,10 @@ h1 {
   margin-bottom: 24px;
 }
 
+.input-panel.two-inputs {
+  grid-template-columns: 1.5fr 0.7fr;
+}
+
 .input-panel label {
   display: block;
   margin-bottom: 8px;

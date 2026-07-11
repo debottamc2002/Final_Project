@@ -1,4 +1,4 @@
-﻿export default function AboutPage() {
+export default function AboutPage() {
   return (
     <main>
       <section className="hero glass single-hero">

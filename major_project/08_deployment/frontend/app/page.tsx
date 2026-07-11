@@ -6,6 +6,7 @@ import {
   BarChart,
   CartesianGrid,
   Cell,
+  Legend,
   Line,
   LineChart,
   ResponsiveContainer,
@@ -18,13 +19,40 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL;
 
 type Row = Record<string, any>;
 
-const MODEL_COLUMN: Record<string, string> = {
-  "Random Forest": "Random Forest_Forecast",
-  XGBoost: "XGBoost_Forecast",
-  "Elastic Net": "Elastic Net_Forecast",
-  SVR: "SVR_Forecast",
-  LSTM: "LSTM_Forecast"
-};
+const FALLBACK_MODELS: Row[] = [
+  {
+    Layer: "Layer 2a Econometric",
+    Best_Model: "Pooled OLS",
+    RMSE: 4.816,
+    MAE: 2.755,
+    R2: 0.206,
+    ML_Improvement_Percent: "-"
+  },
+  {
+    Layer: "Layer 2b ML",
+    Best_Model: "Random Forest",
+    RMSE: 4.709,
+    MAE: 2.631,
+    R2: 0.241,
+    ML_Improvement_Percent: 2.22
+  },
+  {
+    Layer: "Layer 3 LSTM",
+    Best_Model: "LSTM",
+    RMSE: 5.117,
+    MAE: 2.771,
+    R2: 0.104,
+    ML_Improvement_Percent: "-"
+  },
+  {
+    Layer: "EWS Classifier",
+    Best_Model: "Extra Trees",
+    RMSE: "-",
+    MAE: "-",
+    R2: "ROC-AUC 0.930",
+    ML_Improvement_Percent: "-"
+  }
+];
 
 function normalizeResponse(data: any): Row[] {
   if (Array.isArray(data)) return data;
@@ -34,14 +62,24 @@ function normalizeResponse(data: any): Row[] {
 }
 
 async function fetchRows(endpoint: string): Promise<Row[]> {
+  if (!API_BASE) throw new Error("NEXT_PUBLIC_API_URL is missing");
+
   const response = await fetch(`${API_BASE}${endpoint}`);
   if (!response.ok) throw new Error(`Failed to fetch ${endpoint}`);
   return normalizeResponse(await response.json());
 }
 
+async function fetchRowsSafe(endpoint: string, fallback: Row[] = []) {
+  try {
+    return await fetchRows(endpoint);
+  } catch {
+    return fallback;
+  }
+}
+
 function formatNumber(value: any, digits = 3) {
   const num = Number(value);
-  if (!Number.isFinite(num)) return "-";
+  if (!Number.isFinite(num)) return value ?? "-";
   return num.toFixed(digits);
 }
 
@@ -83,7 +121,7 @@ function DataTable({
 }) {
   return (
     <section className="panel glass">
-      <h2>{title}</h2>
+      {title ? <h2>{title}</h2> : null}
       <div className="table-wrap">
         <table>
           <thead>
@@ -94,21 +132,27 @@ function DataTable({
             </tr>
           </thead>
           <tbody>
-            {rows.map((row, index) => (
-              <tr key={index}>
-                {columns.map((column) => (
-                  <td key={column}>
-                    {column === "Risk_Level" ? (
-                      <RiskBadge value={row[column]} />
-                    ) : typeof row[column] === "number" ? (
-                      formatNumber(row[column], 3)
-                    ) : (
-                      row[column] ?? "-"
-                    )}
-                  </td>
-                ))}
+            {rows.length === 0 ? (
+              <tr>
+                <td colSpan={columns.length}>No data available</td>
               </tr>
-            ))}
+            ) : (
+              rows.map((row, index) => (
+                <tr key={index}>
+                  {columns.map((column) => (
+                    <td key={column}>
+                      {column === "Risk_Level" ? (
+                        <RiskBadge value={row[column]} />
+                      ) : typeof row[column] === "number" ? (
+                        formatNumber(row[column], 3)
+                      ) : (
+                        row[column] ?? "-"
+                      )}
+                    </td>
+                  ))}
+                </tr>
+              ))
+            )}
           </tbody>
         </table>
       </div>
@@ -117,18 +161,15 @@ function DataTable({
 }
 
 export default function Home() {
-  const [ewsRows, setEwsRows] = useState<Row[]>([]);
+  const [comparisonRows, setComparisonRows] = useState<Row[]>([]);
   const [topRisk, setTopRisk] = useState<Row[]>([]);
   const [lowRisk, setLowRisk] = useState<Row[]>([]);
-  const [models, setModels] = useState<Row[]>([]);
-  const [mlForecasts, setMlForecasts] = useState<Row[]>([]);
-  const [lstmForecasts, setLstmForecasts] = useState<Row[]>([]);
+  const [models, setModels] = useState<Row[]>(FALLBACK_MODELS);
   const [health, setHealth] = useState("Checking...");
   const [error, setError] = useState("");
 
   const [selectedCountry, setSelectedCountry] = useState("");
   const [selectedYear, setSelectedYear] = useState("2026");
-  const [selectedModel, setSelectedModel] = useState("Random Forest");
 
   useEffect(() => {
     async function loadData() {
@@ -136,93 +177,63 @@ export default function Home() {
         const healthResponse = await fetch(`${API_BASE}/health`);
         setHealth(healthResponse.ok ? "Online" : "Issue detected");
 
-        const [ewsAll, topRiskRows, lowRiskRows, modelRows, mlRows, lstmRows] =
-          await Promise.all([
-            fetchRows("/ews"),
-            fetchRows("/ews/top-risk"),
-            fetchRows("/ews/low-risk"),
-            fetchRows("/models/summary"),
-            fetchRows("/forecasts/ml"),
-            fetchRows("/forecasts/lstm")
-          ]);
+        const [comparison, topRows, lowRows, modelRows] = await Promise.all([
+          fetchRows("/comparison/imf-vs-forecast"),
+          fetchRowsSafe("/ews/top-risk"),
+          fetchRowsSafe("/ews/low-risk"),
+          fetchRowsSafe("/models/summary", FALLBACK_MODELS)
+        ]);
 
-        setEwsRows(ewsAll);
-        setTopRisk(topRiskRows);
-        setLowRisk(lowRiskRows);
-        setModels(modelRows);
-        setMlForecasts(mlRows);
-        setLstmForecasts(lstmRows);
+        setComparisonRows(comparison);
+        setTopRisk(topRows);
+        setLowRisk(lowRows);
+        setModels(modelRows.length ? modelRows : FALLBACK_MODELS);
 
         const first2026 =
-          mlRows.find((row) => String(row.YEAR) === "2026")?.COUNTRY ||
-          mlRows[0]?.COUNTRY ||
+          comparison.find((row) => String(row.YEAR) === "2026")?.COUNTRY ||
+          comparison[0]?.COUNTRY ||
           "";
 
         setSelectedCountry(first2026);
       } catch (err: any) {
-        setError(err.message ?? "Something went wrong");
+        setError(err.message ?? "Could not load the forecast interface data");
       }
     }
 
     loadData();
   }, []);
 
-  const mergedForecasts = useMemo(() => {
-    return mlForecasts.map((row) => {
-      const lstm = lstmForecasts.find(
-        (item) => item.COUNTRY === row.COUNTRY && item.YEAR === row.YEAR
-      );
-
-      return {
-        ...row,
-        LSTM_Forecast: lstm?.LSTM_Forecast
-      };
-    });
-  }, [mlForecasts, lstmForecasts]);
-
   const countries = useMemo(() => {
     return Array.from(
-      new Set(mergedForecasts.map((row) => row.COUNTRY).filter(Boolean))
+      new Set(comparisonRows.map((row) => row.COUNTRY).filter(Boolean))
     ).sort();
-  }, [mergedForecasts]);
+  }, [comparisonRows]);
 
   const years = useMemo(() => {
     return Array.from(
-      new Set(
-        mergedForecasts
-          .map((row) => String(row.YEAR))
-          .filter((year) => Number(year) >= 2026)
-      )
+      new Set(comparisonRows.map((row) => String(row.YEAR)).filter(Boolean))
     ).sort();
-  }, [mergedForecasts]);
+  }, [comparisonRows]);
 
-  const selectedForecast = useMemo(() => {
-    return mergedForecasts.find(
+  const selectedRow = useMemo(() => {
+    return comparisonRows.find(
       (row) =>
         row.COUNTRY === selectedCountry && String(row.YEAR) === selectedYear
     );
-  }, [mergedForecasts, selectedCountry, selectedYear]);
+  }, [comparisonRows, selectedCountry, selectedYear]);
 
-  const selectedRisk = useMemo(() => {
-    return ewsRows.find(
-      (row) =>
-        row.COUNTRY === selectedCountry && String(row.YEAR) === selectedYear
-    );
-  }, [ewsRows, selectedCountry, selectedYear]);
-
-  const selectedForecastColumn = MODEL_COLUMN[selectedModel];
-  const forecastValue = selectedForecast?.[selectedForecastColumn];
-
-  const countryForecastTrend = useMemo(() => {
-    return mergedForecasts
+  const countryTrend = useMemo(() => {
+    return comparisonRows
       .filter((row) => row.COUNTRY === selectedCountry)
-      .filter((row) => Number(row.YEAR) >= 2026)
       .map((row) => ({
         year: String(row.YEAR),
-        value: Number(row[selectedForecastColumn])
+        IMF: Number(row.IMF_GDP_Growth),
+        Predicted: Number(row.Predicted_GDP_Growth)
       }))
-      .filter((row) => Number.isFinite(row.value));
-  }, [mergedForecasts, selectedCountry, selectedForecastColumn]);
+      .filter(
+        (row) => Number.isFinite(row.IMF) && Number.isFinite(row.Predicted)
+      );
+  }, [comparisonRows, selectedCountry]);
 
   const topRiskChart = topRisk.slice(0, 12).map((row) => ({
     country: shortCountry(row.COUNTRY),
@@ -241,8 +252,9 @@ export default function Home() {
           <p className="eyebrow">AI-Powered Macroeconomic Surveillance</p>
           <h1>Interactive GDP Forecast & Early Warning Interface</h1>
           <p className="hero-text">
-            Select a country, year, and model to view projected GDP growth,
-            crisis probability, risk category, and early warning status.
+            Select a country and year to view Random Forest GDP forecast, IMF
+            projection comparison, crisis probability, risk category, and early
+            warning status.
           </p>
         </div>
 
@@ -255,7 +267,7 @@ export default function Home() {
 
       {error && <div className="error-box">{error}</div>}
 
-      <section className="input-panel glass">
+      <section className="input-panel glass two-inputs">
         <div>
           <label>Country</label>
           <select
@@ -279,50 +291,40 @@ export default function Home() {
             ))}
           </select>
         </div>
-
-        <div>
-          <label>Model</label>
-          <select
-            value={selectedModel}
-            onChange={(e) => setSelectedModel(e.target.value)}
-          >
-            <option>Random Forest</option>
-            <option>XGBoost</option>
-            <option>Elastic Net</option>
-            <option>SVR</option>
-            <option>LSTM</option>
-          </select>
-        </div>
       </section>
 
       <section className="metrics-grid">
         <MetricCard
           label="Predicted GDP Growth"
           value={
-            forecastValue !== undefined
-              ? `${formatNumber(forecastValue, 2)}%`
+            selectedRow?.Predicted_GDP_Growth !== undefined
+              ? `${formatNumber(selectedRow.Predicted_GDP_Growth, 2)}%`
               : "Not available"
           }
-          subtitle={`${selectedModel} estimate`}
+          subtitle="Random Forest forecast"
+        />
+        <MetricCard
+          label="IMF Projection"
+          value={
+            selectedRow?.IMF_GDP_Growth !== undefined
+              ? `${formatNumber(selectedRow.IMF_GDP_Growth, 2)}%`
+              : "Not available"
+          }
+          subtitle="Projection-based comparison value"
         />
         <MetricCard
           label="Crisis Probability"
           value={
-            selectedRisk?.Crisis_Probability !== undefined
-              ? formatNumber(selectedRisk.Crisis_Probability, 3)
+            selectedRow?.Crisis_Probability !== undefined
+              ? formatNumber(selectedRow.Crisis_Probability, 3)
               : "Not available"
           }
           subtitle="EWS classifier score"
         />
         <MetricCard
           label="Risk Level"
-          value={selectedRisk?.Risk_Level ?? "Not available"}
+          value={selectedRow?.Risk_Level ?? "Not available"}
           subtitle="Low / Moderate / High"
-        />
-        <MetricCard
-          label="Warning Flag"
-          value={selectedRisk?.Early_Warning_Flag ?? "Not available"}
-          subtitle="1 means warning activated"
         />
       </section>
 
@@ -330,18 +332,29 @@ export default function Home() {
         <div className="panel glass hover-lift">
           <h2>Country Forecast Trend</h2>
           <p className="muted">
-            GDP growth projection for the selected country and model.
+            Random Forest forecast compared with IMF projection for the selected
+            country.
           </p>
           <div className="chart-box">
             <ResponsiveContainer width="100%" height={320}>
-              <LineChart data={countryForecastTrend}>
+              <LineChart data={countryTrend}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#24324d" />
                 <XAxis dataKey="year" stroke="#cbd5e1" />
                 <YAxis stroke="#cbd5e1" />
                 <Tooltip />
+                <Legend />
                 <Line
                   type="monotone"
-                  dataKey="value"
+                  dataKey="IMF"
+                  stroke="#22c55e"
+                  strokeWidth={4}
+                  dot={{ r: 6 }}
+                  activeDot={{ r: 9 }}
+                  animationDuration={1200}
+                />
+                <Line
+                  type="monotone"
+                  dataKey="Predicted"
                   stroke="#38bdf8"
                   strokeWidth={4}
                   dot={{ r: 6 }}
@@ -370,7 +383,7 @@ export default function Home() {
                 />
                 <Tooltip />
                 <Bar dataKey="probability" animationDuration={1200}>
-                  {topRiskChart.map((entry, index) => (
+                  {topRiskChart.map((_, index) => (
                     <Cell key={index} fill="#ef4444" />
                   ))}
                 </Bar>
@@ -381,20 +394,17 @@ export default function Home() {
       </section>
 
       <section className="chart-grid">
-        <div className="panel glass hover-lift">
-          <h2>Top 20 High-Risk Countries</h2>
-          <DataTable
-            title=""
-            rows={topRisk.slice(0, 20)}
-            columns={[
-              "COUNTRY",
-              "YEAR",
-              "Crisis_Probability",
-              "Risk_Level",
-              "Early_Warning_Flag"
-            ]}
-          />
-        </div>
+        <DataTable
+          title="Top 20 High-Risk Countries"
+          rows={topRisk.slice(0, 20)}
+          columns={[
+            "COUNTRY",
+            "YEAR",
+            "Crisis_Probability",
+            "Risk_Level",
+            "Early_Warning_Flag"
+          ]}
+        />
 
         <div className="panel glass hover-lift">
           <h2>Top 20 Low-Risk Countries</h2>
@@ -433,22 +443,28 @@ export default function Home() {
       <section className="panel glass interpretation-panel">
         <h2>AI-Style Interpretation</h2>
         <p>
-          For <strong>{selectedCountry}</strong> in{" "}
-          <strong>{selectedYear}</strong>, the selected model estimates GDP
+          For <strong>{selectedCountry || "the selected country"}</strong> in{" "}
+          <strong>{selectedYear}</strong>, the Random Forest model estimates GDP
           growth at{" "}
           <strong>
-            {forecastValue !== undefined
-              ? `${formatNumber(forecastValue, 2)}%`
+            {selectedRow?.Predicted_GDP_Growth !== undefined
+              ? `${formatNumber(selectedRow.Predicted_GDP_Growth, 2)}%`
+              : "not available"}
+          </strong>
+          , compared with the IMF projection value of{" "}
+          <strong>
+            {selectedRow?.IMF_GDP_Growth !== undefined
+              ? `${formatNumber(selectedRow.IMF_GDP_Growth, 2)}%`
               : "not available"}
           </strong>
           . The early warning system assigns a crisis probability of{" "}
           <strong>
-            {selectedRisk?.Crisis_Probability !== undefined
-              ? formatNumber(selectedRisk.Crisis_Probability, 3)
+            {selectedRow?.Crisis_Probability !== undefined
+              ? formatNumber(selectedRow.Crisis_Probability, 3)
               : "not available"}
           </strong>
           , placing the country in the{" "}
-          <strong>{selectedRisk?.Risk_Level ?? "not available"}</strong> risk
+          <strong>{selectedRow?.Risk_Level ?? "not available"}</strong> risk
           category.
         </p>
       </section>
@@ -462,17 +478,17 @@ export default function Home() {
           "RMSE",
           "MAE",
           "R2",
-          "ML_Improvement_%"
+          "ML_Improvement_Percent"
         ]}
       />
 
       <section className="disclaimer glass">
         <p>
-          <strong>* Disclaimer:</strong> Forecasts for future years are
-          model-based scenario estimates. They do not account for unexpected
-          natural calamities, wars, pandemics, policy shocks, financial crises,
-          or sudden geopolitical events. These outputs should be interpreted as
-          decision-support indicators, not guaranteed real-world outcomes.
+          <strong>* Disclaimer:</strong> Forecasts are model-based scenario
+          estimates and do not account for sudden natural calamities, wars,
+          pandemics, policy shocks, financial crises, or unexpected geopolitical
+          events. These outputs should be interpreted as decision-support
+          indicators, not guaranteed real-world outcomes.
         </p>
       </section>
     </main>
