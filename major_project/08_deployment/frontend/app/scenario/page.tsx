@@ -15,7 +15,9 @@ import {
   YAxis
 } from "recharts";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL;
+const API_BASE =
+  process.env.NEXT_PUBLIC_API_URL ||
+  "https://macro-surveillance-api.onrender.com";
 
 type Row = Record<string, any>;
 
@@ -61,10 +63,12 @@ function formatYear(value: any) {
 
 function yearColor(year: any) {
   const key = String(Math.trunc(Number(year)));
-  if (key === "2024") return "#38bdf8";
-  if (key === "2025") return "#a855f7";
   if (key === "2026") return "#f97316";
-  return "#22c55e";
+  if (key === "2027") return "#a855f7";
+  if (key === "2028") return "#22c55e";
+  if (key === "2029") return "#f43f5e";
+  if (key === "2030") return "#eab308";
+  return "#38bdf8";
 }
 
 function shortCountry(name: string) {
@@ -141,9 +145,9 @@ export default function ScenarioPage() {
     async function load() {
       try {
         const [comparisonRows, topRows, lowRows, modelRows] = await Promise.all([
-          fetchRows("/comparison/imf-vs-forecast"),
-          fetchRows("/ews/top-risk"),
-          fetchRows("/ews/low-risk"),
+          fetchRows("/comparison/scenario-2026-2030"),
+          fetchRows("/ews/top-risk-2026-2030"),
+          fetchRows("/ews/low-risk-2026-2030"),
           fetchRowsSafe("/models/summary", FALLBACK_MODELS)
         ]);
 
@@ -191,18 +195,19 @@ export default function ScenarioPage() {
       .filter((row) => row.COUNTRY === selectedCountry)
       .map((row) => ({
         year: formatYear(row.YEAR),
-        IMF: Number(row.IMF_GDP_Growth),
+        IMF: row.IMF_GDP_Growth === null || row.IMF_GDP_Growth === undefined ? null : Number(row.IMF_GDP_Growth),
         Predicted: Number(row.Predicted_GDP_Growth)
       }))
-      .filter((row) => Number.isFinite(row.IMF) && Number.isFinite(row.Predicted));
+      .filter((row) => Number.isFinite(row.Predicted));
   }, [comparison, selectedCountry]);
 
   const errorChart = useMemo(() => {
     return comparison
+      .filter((row) => Number.isFinite(Number(row.Prediction_Error)))
       .map((row) => ({
         label: `${shortCountry(row.COUNTRY)} (${formatYear(row.YEAR)})`,
         year: formatYear(row.YEAR),
-        error: Math.abs(Number(row.Prediction_Error ?? 0))
+        error: Math.abs(Number(row.Prediction_Error))
       }))
       .sort((a, b) => b.error - a.error)
       .slice(0, 15);
@@ -224,7 +229,7 @@ export default function ScenarioPage() {
     <main>
       <section className="hero glass single-hero">
         <div>
-          <p className="eyebrow">2024-2026 IMF Projection Scenario</p>
+          <p className="eyebrow">2026-2030 GDP Forecast Scenario</p>
           <h1>Macroeconomic Forecast & Early Warning Dashboard</h1>
           <p className="hero-text">
             Select a country and forecast year to view predicted GDP growth,
@@ -237,9 +242,11 @@ export default function ScenarioPage() {
       {error && <div className="error-box">{error}</div>}
 
       <section className="year-legend glass">
-        <span><i className="legend-2024" /> 2024</span>
-        <span><i className="legend-2025" /> 2025</span>
         <span><i className="legend-2026" /> 2026</span>
+        <span><i className="legend-2027" /> 2027</span>
+        <span><i className="legend-2028" /> 2028</span>
+        <span><i className="legend-2029" /> 2029</span>
+        <span><i className="legend-2030" /> 2030</span>
       </section>
 
       <section className="input-panel glass two-inputs">
@@ -395,7 +402,7 @@ export default function ScenarioPage() {
 
       <section className="disclaimer glass">
         <p>
-          <strong>* Disclaimer:</strong> The 2024-2026 values are evaluated against IMF projection-based values, not final real-world observed outcomes. Forecasts do not account for sudden natural calamities, wars, pandemics, policy shocks, or unexpected geopolitical events.
+          <strong>* Disclaimer:</strong> The 2026 value is compared with the available IMF projection horizon, while 2027-2030 are recursive t+1 model extrapolation scenarios. Forecasts do not account for sudden natural calamities, wars, pandemics, policy shocks, financial crises, or unexpected geopolitical events.
         </p>
       </section>
     </main>

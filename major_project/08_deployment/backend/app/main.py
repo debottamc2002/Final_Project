@@ -5,9 +5,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
-    title="Macro Surveillance API",
+    title="MacroVision AI API",
     description="GDP forecasting and early warning system backend",
-    version="1.0.0",
+    version="2.0.0",
 )
 
 app.add_middleware(
@@ -22,21 +22,31 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 
 
-def read_csv(filename):
+def read_csv(filename: str) -> list[dict]:
     path = DATA_DIR / filename
     if not path.exists():
         return []
+
     df = pd.read_csv(path)
     df = df.replace({float("inf"): None, float("-inf"): None})
     df = df.where(pd.notnull(df), None)
     return df.to_dict(orient="records")
 
 
+def sort_by_probability(rows: list[dict], reverse: bool) -> list[dict]:
+    return sorted(
+        rows,
+        key=lambda row: row.get("Crisis_Probability") or 0,
+        reverse=reverse,
+    )
+
+
 @app.get("/")
 def root():
     return {
-        "message": "Macro Surveillance API is running",
+        "message": "MacroVision AI API is running",
         "docs": "/docs",
+        "horizon": "2026-2030",
     }
 
 
@@ -45,99 +55,136 @@ def health():
     return {"status": "ok"}
 
 
-@app.get("/forecasts/ml")
-def ml_forecasts():
-    return {
-        "data": read_csv("layer2b_forecasts_2024_2026.csv")
-    }
+@app.get("/comparison/scenario-2026-2030")
+def scenario_2026_2030():
+    return {"data": read_csv("scenario_forecasts_2026_2030.csv")}
 
 
-@app.get("/forecasts/lstm")
-def lstm_forecasts():
-    return {
-        "data": read_csv("layer3_lstm_forecasts_2024_2026.csv")
-    }
+@app.get("/ews/scenario-2026-2030")
+def ews_scenario_2026_2030():
+    return {"data": read_csv("final_ews_2026_2030.csv")}
 
 
-@app.get("/ews")
-def ews_all():
-    return {
-        "data": read_csv("final_ews_2024_2026.csv")
-    }
+@app.get("/forecasts/ml-2026-2030")
+def ml_forecasts_2026_2030():
+    return {"data": read_csv("layer2b_forecasts_2026_2030.csv")}
 
 
-@app.get("/ews/top-risk")
-def ews_top_risk():
-    rows = read_csv("final_ews_2024_2026.csv")
-    rows = sorted(
-        rows,
-        key=lambda row: row.get("Crisis_Probability") or 0,
-        reverse=True,
-    )
-    return {"data": rows[:20]}
+@app.get("/ews/top-risk-2026-2030")
+def ews_top_risk_2026_2030():
+    rows = read_csv("ews_top20_high_risk_2026_2030.csv")
+    if not rows:
+        rows = sort_by_probability(
+            read_csv("scenario_forecasts_2026_2030.csv"),
+            reverse=True,
+        )[:20]
+    return {"data": rows}
 
 
-@app.get("/ews/low-risk")
-def ews_low_risk():
-    rows = read_csv("final_ews_2024_2026.csv")
-    rows = sorted(
-        rows,
-        key=lambda row: row.get("Crisis_Probability") or 0,
-    )
-    return {"data": rows[:20]}
+@app.get("/ews/low-risk-2026-2030")
+def ews_low_risk_2026_2030():
+    rows = read_csv("ews_top20_low_risk_2026_2030.csv")
+    if not rows:
+        rows = sort_by_probability(
+            read_csv("scenario_forecasts_2026_2030.csv"),
+            reverse=False,
+        )[:20]
+    return {"data": rows}
 
 
 @app.get("/models/summary")
 def model_summary():
-    rows = []
+    rows = read_csv("layer2a_vs_2b_summary.csv")
+    if rows:
+        output = []
+        for row in rows:
+            output.append(
+                {
+                    "Layer": row.get("Layer"),
+                    "Best_Model": row.get("Best_Model"),
+                    "RMSE": row.get("RMSE"),
+                    "MAE": row.get("MAE"),
+                    "R2": row.get("R2"),
+                    "ML_Improvement_Percent": row.get("ML_Improvement_%"),
+                }
+            )
 
-    rows.extend(read_csv("layer2a_vs_2b_summary.csv"))
+        output.extend(
+            [
+                {
+                    "Layer": "Layer 3 LSTM",
+                    "Best_Model": "LSTM",
+                    "RMSE": 5.117,
+                    "MAE": 2.771,
+                    "R2": 0.104,
+                    "ML_Improvement_Percent": None,
+                },
+                {
+                    "Layer": "EWS Classifier",
+                    "Best_Model": "Extra Trees",
+                    "RMSE": None,
+                    "MAE": None,
+                    "R2": "ROC-AUC 0.930",
+                    "ML_Improvement_Percent": None,
+                },
+            ]
+        )
+        return {"data": output}
 
-    lstm_rows = read_csv("layer2b_vs_lstm_comparison.csv")
-    for row in lstm_rows:
-        rows.append({
-            "Layer": row.get("Layer"),
-            "Best_Model": row.get("Model"),
-            "RMSE": row.get("RMSE"),
-            "MAE": row.get("MAE"),
-            "R2": row.get("R2"),
-            "ML_Improvement_%": None,
-        })
-
-    return {"data": rows}
-@app.get("/comparison/imf-vs-forecast")
-def imf_vs_forecast():
-    ml_rows = read_csv("layer2b_forecasts_2024_2026.csv")
-    imf_rows = read_csv("ews_vs_imf_projection_comparison_2024_2026.csv")
-
-    imf_lookup = {
-        (row.get("COUNTRY"), row.get("YEAR")): row
-        for row in imf_rows
+    return {
+        "data": [
+            {
+                "Layer": "Layer 2a Econometric",
+                "Best_Model": "Pooled OLS",
+                "RMSE": 4.816,
+                "MAE": 2.755,
+                "R2": 0.206,
+                "ML_Improvement_Percent": None,
+            },
+            {
+                "Layer": "Layer 2b ML",
+                "Best_Model": "Random Forest",
+                "RMSE": 4.709,
+                "MAE": 2.631,
+                "R2": 0.241,
+                "ML_Improvement_Percent": 2.22,
+            },
+            {
+                "Layer": "Layer 3 LSTM",
+                "Best_Model": "LSTM",
+                "RMSE": 5.117,
+                "MAE": 2.771,
+                "R2": 0.104,
+                "ML_Improvement_Percent": None,
+            },
+            {
+                "Layer": "EWS Classifier",
+                "Best_Model": "Extra Trees",
+                "RMSE": None,
+                "MAE": None,
+                "R2": "ROC-AUC 0.930",
+                "ML_Improvement_Percent": None,
+            },
+        ]
     }
 
-    output = []
 
-    for row in ml_rows:
-        key = (row.get("COUNTRY"), row.get("YEAR"))
-        imf = imf_lookup.get(key, {})
+# Backward-compatible endpoints. These keep older frontend builds alive.
+@app.get("/comparison/imf-vs-forecast")
+def imf_vs_forecast():
+    return scenario_2026_2030()
 
-        actual = imf.get("GDP_Growth")
-        predicted = row.get("Random Forest_Forecast")
 
-        error = None
-        if actual is not None and predicted is not None:
-            error = actual - predicted
+@app.get("/ews/top-risk")
+def ews_top_risk():
+    return ews_top_risk_2026_2030()
 
-        output.append({
-            "COUNTRY": row.get("COUNTRY"),
-            "YEAR": row.get("YEAR"),
-            "IMF_GDP_Growth": actual,
-            "Predicted_GDP_Growth": predicted,
-            "Prediction_Error": error,
-            "Crisis_Probability": imf.get("Crisis_Probability"),
-            "Risk_Level": imf.get("Risk_Level"),
-            "Early_Warning_Flag": imf.get("Early_Warning_Flag"),
-        })
 
-    return {"data": output}
+@app.get("/ews/low-risk")
+def ews_low_risk():
+    return ews_low_risk_2026_2030()
 
+
+@app.get("/ews")
+def ews_all():
+    return ews_scenario_2026_2030()
