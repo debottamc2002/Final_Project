@@ -1,0 +1,846 @@
+COUNTRY,YEAR,Predicted_GDP_Growth,Forecast_Model,Scenario_Type,Crisis_Probability,Risk_Level,Early_Warning_Flag,IMF_GDP_Growth,Prediction_Error
+Albania,2026,3.309944510581855,Random Forest,2026 IMF projection comparison year,0.1526895318427213,Low,0,3.409,0.099055489418145
+Algeria,2026,4.141893071573997,Random Forest,2026 IMF projection comparison year,0.5680692033521856,Moderate,0,3.777,-0.3648930715739968
+Angola,2026,3.025116579418537,Random Forest,2026 IMF projection comparison year,0.1642894698466411,Low,0,2.294,-0.7311165794185368
+Argentina,2026,3.512250683826334,Random Forest,2026 IMF projection comparison year,0.3098037882744514,Moderate,0,3.5,-0.012250683826334
+"Armenia, Republic of",2026,4.393129414068281,Random Forest,2026 IMF projection comparison year,0.1917855032386696,Low,0,5.3,0.9068705859317188
+Australia,2026,1.8358189194111727,Random Forest,2026 IMF projection comparison year,0.1972669978212083,Low,0,2.009,0.1731810805888267
+Austria,2026,1.6940902864145877,Random Forest,2026 IMF projection comparison year,0.2683578018153227,Low,0,0.682,-1.012090286414587
+"Azerbaijan, Republic of",2026,2.8911802141164102,Random Forest,2026 IMF projection comparison year,0.3529040529681371,Moderate,0,2.217,-0.6741802141164102
+"Bahamas, The",2026,2.3396458034671497,Random Forest,2026 IMF projection comparison year,0.2787732099192481,Low,0,2.1,-0.2396458034671496
+"Bahrain, Kingdom of",2026,1.491612823834409,Random Forest,2026 IMF projection comparison year,0.2955483548300707,Low,0,-0.499,-1.9906128238344087
+Bangladesh,2026,4.350926494151537,Random Forest,2026 IMF projection comparison year,0.2809196712816822,Low,0,4.693,0.3420735058484627
+Barbados,2026,2.663691793362025,Random Forest,2026 IMF projection comparison year,0.296934510850807,Low,0,2.465,-0.1986917933620251
+"Belarus, Republic of",2026,2.093265202958105,Random Forest,2026 IMF projection comparison year,0.1462773857978745,Low,0,1.22,-0.8732652029581052
+Belgium,2026,1.1617430617571516,Random Forest,2026 IMF projection comparison year,0.2382123243407276,Low,0,0.661,-0.5007430617571516
+Belize,2026,2.5967961808348834,Random Forest,2026 IMF projection comparison year,0.2606932562872047,Low,0,2.192,-0.4047961808348832
+Benin,2026,5.755505453519953,Random Forest,2026 IMF projection comparison year,0.3612565650523556,Moderate,0,6.972,1.2164945464800478
+Bhutan,2026,6.888452111622616,Random Forest,2026 IMF projection comparison year,0.4257984097253921,Moderate,0,7.478,0.5895478883773837
+Bolivia,2026,1.0500394136296485,Random Forest,2026 IMF projection comparison year,0.268180443177746,Low,0,-3.285,-4.335039413629648
+Bosnia and Herzegovina,2026,2.5730134013922497,Random Forest,2026 IMF projection comparison year,0.3448120711987804,Moderate,0,2.2,-0.3730134013922495
+Botswana,2026,2.1262554855268765,Random Forest,2026 IMF projection comparison year,0.6166579744709051,High,1,4.749,2.622744514473123
+Brazil,2026,2.069159235103337,Random Forest,2026 IMF projection comparison year,0.2631276624254259,Low,0,1.911,-0.1581592351033371
+Brunei Darussalam,2026,2.4117694546508166,Random Forest,2026 IMF projection comparison year,0.3329771438406647,Moderate,0,2.6,0.1882305453491835
+Bulgaria,2026,2.778152959143883,Random Forest,2026 IMF projection comparison year,0.5039658540578703,Moderate,0,2.773,-0.0051529591438828
+Burkina Faso,2026,4.270450400314723,Random Forest,2026 IMF projection comparison year,0.2724565412431016,Low,0,4.858,0.5875495996852766
+Burundi,2026,4.126085955336339,Random Forest,2026 IMF projection comparison year,0.3146298472566458,Moderate,0,3.819,-0.3070859553363387
+Cabo Verde,2026,4.564333691182525,Random Forest,2026 IMF projection comparison year,0.4842243365766425,Moderate,0,4.787,0.2226663088174749
+Cambodia,2026,4.275402383202644,Random Forest,2026 IMF projection comparison year,0.2279532379887674,Low,0,4.022,-0.2534023832026442
+Cameroon,2026,3.2207600865175485,Random Forest,2026 IMF projection comparison year,0.1311349142871042,Low,0,3.344,0.1232399134824513
+Canada,2026,1.548451188735921,Random Forest,2026 IMF projection comparison year,0.2571716332442748,Low,0,1.5,-0.0484511887359209
+Central African Republic,2026,2.953109622145969,Random Forest,2026 IMF projection comparison year,0.6238723768881617,High,1,2.613,-0.3401096221459689
+Chad,2026,4.17135889133634,Random Forest,2026 IMF projection comparison year,0.2836412206485004,Low,0,5.23,1.05864110866366
+Chile,2026,2.6668931807707623,Random Forest,2026 IMF projection comparison year,0.1360899574893593,Low,0,2.396,-0.2708931807707624
+"China, People's Republic of",2026,4.009131259378763,Random Forest,2026 IMF projection comparison year,0.3359754119107074,Moderate,0,4.413,0.4038687406212373
+Colombia,2026,2.5068410596720234,Random Forest,2026 IMF projection comparison year,0.1405555538345079,Low,0,2.342,-0.1648410596720233
+"Comoros, Union of the",2026,4.047120626053617,Random Forest,2026 IMF projection comparison year,0.3785886651767513,Moderate,0,4.083,0.0358793739463827
+"Congo, Democratic Republic of the",2026,4.319264328876503,Random Forest,2026 IMF projection comparison year,0.4772761866015909,Moderate,0,5.901,1.5817356711234971
+"Congo, Republic of",2026,2.6635383674109265,Random Forest,2026 IMF projection comparison year,0.2752685184553327,Low,0,2.837,0.1734616325890736
+Costa Rica,2026,3.338268138228245,Random Forest,2026 IMF projection comparison year,0.2696095447485666,Low,0,3.56,0.2217318617717545
+"Croatia, Republic of",2026,2.7543830962771447,Random Forest,2026 IMF projection comparison year,0.182344134892762,Low,0,2.638,-0.1163830962771448
+Cyprus,2026,2.998546254990679,Random Forest,2026 IMF projection comparison year,0.4599475974864043,Moderate,0,2.953,-0.0455462549906791
+Czech Republic,2026,2.36573168441665,Random Forest,2026 IMF projection comparison year,0.3745444982140337,Moderate,0,2.234,-0.1317316844166498
+Côte d'Ivoire,2026,5.364033494936152,Random Forest,2026 IMF projection comparison year,0.4009214405310082,Moderate,0,6.2,0.8359665050638485
+Denmark,2026,2.137850565708198,Random Forest,2026 IMF projection comparison year,0.3499552820232423,Moderate,0,2.0,-0.1378505657081978
+Djibouti,2026,5.27884421483257,Random Forest,2026 IMF projection comparison year,0.3784520190354395,Moderate,0,6.0,0.7211557851674302
+Dominica,2026,3.4644146674005265,Random Forest,2026 IMF projection comparison year,0.3152511768020793,Moderate,0,3.137,-0.3274146674005265
+Dominican Republic,2026,3.508094502865554,Random Forest,2026 IMF projection comparison year,0.1470778411005683,Low,0,3.72,0.2119054971344462
+Ecuador,2026,2.2716208826556543,Random Forest,2026 IMF projection comparison year,0.1858005925073398,Low,0,2.51,0.2383791173443454
+"Egypt, Arab Republic of",2026,4.218366629224001,Random Forest,2026 IMF projection comparison year,0.2050055185004688,Low,0,4.24,0.0216333707759988
+El Salvador,2026,3.29491315289268,Random Forest,2026 IMF projection comparison year,0.3514141088665798,Moderate,0,3.3,0.0050868471073197
+"Equatorial Guinea, Republic of",2026,-1.399415183497312,Random Forest,2026 IMF projection comparison year,0.3432938437801053,Moderate,0,-2.686,-1.286584816502688
+"Estonia, Republic of",2026,1.8341905793134368,Random Forest,2026 IMF projection comparison year,0.3586897498238481,Moderate,0,1.429,-0.4051905793134371
+"Eswatini, Kingdom of",2026,4.016991675638834,Random Forest,2026 IMF projection comparison year,0.4859627830255835,Moderate,0,4.037,0.0200083243611661
+"Ethiopia, The Federal Democratic Republic of",2026,8.318995463449829,Random Forest,2026 IMF projection comparison year,0.6307319460615318,High,1,9.204,0.8850045365501717
+Finland,2026,1.4161711449114218,Random Forest,2026 IMF projection comparison year,0.3064372486608368,Moderate,0,1.047,-0.3691711449114219
+France,2026,1.377972628572253,Random Forest,2026 IMF projection comparison year,0.4060636915109148,Moderate,0,0.858,-0.5199726285722531
+Gabon,2026,2.668298715638993,Random Forest,2026 IMF projection comparison year,0.3957816940829897,Moderate,0,2.665,-0.0032987156389929
+"Gambia, The",2026,3.228650183177524,Random Forest,2026 IMF projection comparison year,0.4251047242671261,Moderate,0,5.112,1.8833498168224765
+Georgia,2026,4.736330649539176,Random Forest,2026 IMF projection comparison year,0.1533576842905089,Low,0,5.306,0.5696693504608241
+Germany,2026,1.661830658254943,Random Forest,2026 IMF projection comparison year,0.3789707495709282,Moderate,0,0.791,-0.8708306582549429
+Ghana,2026,5.00671698332675,Random Forest,2026 IMF projection comparison year,0.2168027564089867,Low,0,4.75,-0.2567169833267497
+Greece,2026,2.1171972014707894,Random Forest,2026 IMF projection comparison year,0.5375796707273769,Moderate,0,1.802,-0.3151972014707893
+Guatemala,2026,3.747522899685403,Random Forest,2026 IMF projection comparison year,0.3954544894417052,Moderate,0,3.94,0.1924771003145968
+Guinea,2026,6.294943069903311,Random Forest,2026 IMF projection comparison year,0.4366191291399037,Moderate,0,8.677,2.382056930096689
+Guinea-Bissau,2026,4.38677195756189,Random Forest,2026 IMF projection comparison year,0.3205354329379112,Moderate,0,4.9,0.5132280424381106
+Guyana,2026,17.307288831524364,Random Forest,2026 IMF projection comparison year,0.6588253182782801,High,1,16.168,-1.1392888315243646
+Haiti,2026,2.3842099339653378,Random Forest,2026 IMF projection comparison year,0.1479164447895804,Low,0,-1.7,-4.0842099339653375
+Honduras,2026,3.352955886095178,Random Forest,2026 IMF projection comparison year,0.1663902070125196,Low,0,3.3,-0.0529558860951779
+"Hong Kong Special Administrative Region, People's Republic of China",2026,2.843242097053708,Random Forest,2026 IMF projection comparison year,0.4891889243049661,Moderate,0,2.42,-0.4232420970537083
+Hungary,2026,1.8952340467417743,Random Forest,2026 IMF projection comparison year,0.3942051945915258,Moderate,0,1.662,-0.2332340467417746
+Iceland,2026,1.788461140205665,Random Forest,2026 IMF projection comparison year,0.1234938188138124,Low,0,1.902,0.1135388597943349
+India,2026,6.377817200671019,Random Forest,2026 IMF projection comparison year,0.1750112255969697,Low,0,6.478,0.100182799328981
+Indonesia,2026,4.032106138208346,Random Forest,2026 IMF projection comparison year,0.3615641324355402,Moderate,0,4.95,0.9178938617916544
+"Iran, Islamic Republic of",2026,0.788880115435373,Random Forest,2026 IMF projection comparison year,0.2722117302435397,Low,0,-6.07,-6.858880115435373
+Ireland,2026,3.37652660932752,Random Forest,2026 IMF projection comparison year,0.3562129687092439,Moderate,0,2.516,-0.8605266093275197
+Israel,2026,3.111296040637215,Random Forest,2026 IMF projection comparison year,0.394215440507687,Moderate,0,3.53,0.4187039593627846
+Italy,2026,1.512944589843103,Random Forest,2026 IMF projection comparison year,0.4153121699133171,Moderate,0,0.521,-0.9919445898431032
+Jamaica,2026,1.5425129101846629,Random Forest,2026 IMF projection comparison year,0.281864957086271,Low,0,-1.152,-2.6945129101846628
+Japan,2026,1.6541422813837734,Random Forest,2026 IMF projection comparison year,0.1744314184535892,Low,0,0.719,-0.9351422813837734
+Jordan,2026,2.681099322665322,Random Forest,2026 IMF projection comparison year,0.2133796417639502,Low,0,2.748,0.066900677334678
+"Kazakhstan, Republic of",2026,4.114721240509077,Random Forest,2026 IMF projection comparison year,0.1738881153833451,Low,0,4.609,0.494278759490923
+Kenya,2026,4.075304567237312,Random Forest,2026 IMF projection comparison year,0.345063151403983,Moderate,0,4.474,0.3986954327626879
+Kiribati,2026,3.0156888835852773,Random Forest,2026 IMF projection comparison year,0.3171216684344399,Moderate,0,3.102,0.0863111164147225
+"Korea, Republic of",2026,1.732157981406386,Random Forest,2026 IMF projection comparison year,0.4065968003033822,Moderate,0,1.862,0.129842018593614
+"Kosovo, Republic of",2026,3.186851432982601,Random Forest,2026 IMF projection comparison year,0.1926828832511199,Low,0,3.3,0.1131485670173986
+Kuwait,2026,1.971115348851964,Random Forest,2026 IMF projection comparison year,0.6157643880381859,High,1,-0.561,-2.5321153488519643
+Kyrgyz Republic,2026,4.361143221835117,Random Forest,2026 IMF projection comparison year,0.4515507359547146,Moderate,0,6.075,1.7138567781648837
+Lao People's Democratic Republic,2026,4.245838128975668,Random Forest,2026 IMF projection comparison year,0.5072159294505941,Moderate,0,4.013,-0.2328381289756675
+"Latvia, Republic of",2026,2.359393713400028,Random Forest,2026 IMF projection comparison year,0.1974205456371697,Low,0,2.218,-0.1413937134000282
+"Lesotho, Kingdom of",2026,2.419422110112782,Random Forest,2026 IMF projection comparison year,0.3137887974542858,Moderate,0,1.111,-1.308422110112782
+Liberia,2026,3.25196756477637,Random Forest,2026 IMF projection comparison year,0.3256713473072185,Moderate,0,5.111,1.8590324352236296
+Libya,2026,3.964017608247408,Random Forest,2026 IMF projection comparison year,0.3938147088277552,Moderate,0,6.72,2.755982391752592
+"Lithuania, Republic of",2026,2.828984940397726,Random Forest,2026 IMF projection comparison year,0.4232729476386946,Moderate,0,2.912,0.0830150596022738
+Luxembourg,2026,1.853770275576432,Random Forest,2026 IMF projection comparison year,0.2100033938577731,Low,0,1.592,-0.2617702755764317
+"Madagascar, Republic of",2026,3.570549140452293,Random Forest,2026 IMF projection comparison year,0.2080548915905271,Low,0,3.636,0.0654508595477065
+Malawi,2026,2.3710151132371746,Random Forest,2026 IMF projection comparison year,0.2183485651992978,Low,0,2.227,-0.1440151132371747
+Malaysia,2026,4.041463764473444,Random Forest,2026 IMF projection comparison year,0.2806670200111507,Low,0,4.7,0.6585362355265563
+Maldives,2026,2.779739343393347,Random Forest,2026 IMF projection comparison year,0.2920081249850562,Low,0,3.022,0.2422606566066529
+Mali,2026,4.229879242038328,Random Forest,2026 IMF projection comparison year,0.3419917388873831,Moderate,0,5.5,1.2701207579616725
+Malta,2026,3.558624655316452,Random Forest,2026 IMF projection comparison year,0.2659402531489075,Low,0,3.7,0.1413753446835479
+"Mauritania, Islamic Republic of",2026,4.001740436757205,Random Forest,2026 IMF projection comparison year,0.3657773562271997,Moderate,0,4.417,0.4152595632427944
+Mauritius,2026,3.402522994049435,Random Forest,2026 IMF projection comparison year,0.3334750355447639,Moderate,0,3.4,-0.0025229940494351
+Mexico,2026,1.4298912096163854,Random Forest,2026 IMF projection comparison year,0.256994740488439,Low,0,1.639,0.2091087903836146
+"Moldova, Republic of",2026,2.41556888284024,Random Forest,2026 IMF projection comparison year,0.2811973570605605,Low,0,1.9,-0.51556888284024
+Mongolia,2026,4.281489981288251,Random Forest,2026 IMF projection comparison year,0.4868405338284796,Moderate,0,5.261,0.9795100187117488
+Montenegro,2026,2.490604887006037,Random Forest,2026 IMF projection comparison year,0.2878590591137454,Low,0,2.8,0.3093951129939629
+Morocco,2026,4.021650555216388,Random Forest,2026 IMF projection comparison year,0.3934592444241535,Moderate,0,4.872,0.8503494447836122
+"Mozambique, Republic of",2026,1.4519946299194353,Random Forest,2026 IMF projection comparison year,0.2605490880086387,Low,0,0.519,-0.9329946299194352
+Myanmar,2026,2.346953199777541,Random Forest,2026 IMF projection comparison year,0.2760277712808348,Low,0,2.995,0.6480468002224593
+Namibia,2026,2.6021820856544986,Random Forest,2026 IMF projection comparison year,0.1676943413803338,Low,0,2.396,-0.2061820856544987
+Nepal,2026,3.098024358678293,Random Forest,2026 IMF projection comparison year,0.2528612842529934,Low,0,2.956,-0.142024358678293
+"Netherlands, The",2026,1.766433630601785,Random Forest,2026 IMF projection comparison year,0.1474680627974641,Low,0,1.233,-0.5334336306017848
+New Zealand,2026,1.414203361053483,Random Forest,2026 IMF projection comparison year,0.2424053272477277,Low,0,2.131,0.7167966389465168
+Nicaragua,2026,3.8496804724415288,Random Forest,2026 IMF projection comparison year,0.3721659340570403,Moderate,0,3.84,-0.0096804724415289
+Niger,2026,5.435282403399494,Random Forest,2026 IMF projection comparison year,0.4078802938920041,Moderate,0,6.728,1.2927175966005056
+Nigeria,2026,4.024077086761845,Random Forest,2026 IMF projection comparison year,0.2012706329851827,Low,0,4.058,0.0339229132381548
+"North Macedonia, Republic of",2026,3.030601323958165,Random Forest,2026 IMF projection comparison year,0.2184790521573976,Low,0,3.1,0.069398676041835
+Norway,2026,1.961977391057982,Random Forest,2026 IMF projection comparison year,0.330877204593321,Moderate,0,1.475,-0.486977391057982
+Oman,2026,2.9465902410071507,Random Forest,2026 IMF projection comparison year,0.3789752600667021,Moderate,0,3.452,0.5054097589928492
+Pakistan,2026,3.788207955191539,Random Forest,2026 IMF projection comparison year,0.4548075759747356,Moderate,0,3.603,-0.1852079551915388
+"Palau, Republic of",2026,3.208155195227493,Random Forest,2026 IMF projection comparison year,0.4458522768358005,Moderate,0,3.3,0.0918448047725069
+Panama,2026,4.196639190707883,Random Forest,2026 IMF projection comparison year,0.1946494680752875,Low,0,3.84,-0.3566391907078827
+Papua New Guinea,2026,3.813372962120044,Random Forest,2026 IMF projection comparison year,0.2594279729569201,Low,0,3.753,-0.0603729621200441
+Paraguay,2026,3.892164433484517,Random Forest,2026 IMF projection comparison year,0.3002247545516701,Moderate,0,4.2,0.3078355665154837
+Peru,2026,3.021642354025938,Random Forest,2026 IMF projection comparison year,0.1989450678299696,Low,0,2.82,-0.201642354025938
+Philippines,2026,3.931226843123161,Random Forest,2026 IMF projection comparison year,0.2749429431379399,Low,0,4.066,0.1347731568768386
+"Poland, Republic of",2026,3.296218130512476,Random Forest,2026 IMF projection comparison year,0.2737987724767204,Low,0,3.324,0.0277818694875242
+Portugal,2026,2.036361398306069,Random Forest,2026 IMF projection comparison year,0.3297127909787568,Moderate,0,1.93,-0.1063613983060689
+Qatar,2026,-0.4796091639701741,Random Forest,2026 IMF projection comparison year,0.164881394331641,Low,0,-8.646,-8.166390836029827
+Romania,2026,1.0950161542331416,Random Forest,2026 IMF projection comparison year,0.424622936930595,Moderate,0,0.694,-0.4010161542331416
+Russian Federation,2026,2.0261416595384585,Random Forest,2026 IMF projection comparison year,0.3011683688196185,Moderate,0,1.091,-0.9351416595384584
+Rwanda,2026,6.636117712413343,Random Forest,2026 IMF projection comparison year,0.2996885611855383,Low,0,7.233,0.5968822875866566
+Saudi Arabia,2026,3.0234036902788017,Random Forest,2026 IMF projection comparison year,0.2983641685200621,Low,0,3.115,0.0915963097211984
+Senegal,2026,3.535820421471113,Random Forest,2026 IMF projection comparison year,0.3062757518448464,Moderate,0,2.173,-1.3628204214711128
+"Serbia, Republic of",2026,2.7661831242821955,Random Forest,2026 IMF projection comparison year,0.1943823193535871,Low,0,2.835,0.0688168757178044
+Seychelles,2026,2.820577826678499,Random Forest,2026 IMF projection comparison year,0.1408429446101619,Low,0,1.521,-1.2995778266784992
+Sierra Leone,2026,4.116843213567384,Random Forest,2026 IMF projection comparison year,0.1534057900759243,Low,0,4.55,0.4331567864326162
+Singapore,2026,3.3934654915334925,Random Forest,2026 IMF projection comparison year,0.6249914430009686,High,1,3.507,0.1135345084665075
+Slovak Republic,2026,1.157651788213749,Random Forest,2026 IMF projection comparison year,0.4339840812331152,Moderate,0,0.601,-0.5566517882137489
+"Slovenia, Republic of",2026,1.968271679291672,Random Forest,2026 IMF projection comparison year,0.2016713317248054,Low,0,2.0,0.0317283207083278
+Solomon Islands,2026,2.661144513592948,Random Forest,2026 IMF projection comparison year,0.444586298069252,Moderate,0,2.785,0.1238554864070522
+South Africa,2026,1.3629242512703974,Random Forest,2026 IMF projection comparison year,0.4225155592446255,Moderate,0,1.049,-0.3139242512703974
+"South Sudan, Republic of",2026,5.109406128210684,Random Forest,2026 IMF projection comparison year,0.6144846701740883,High,1,4.141,-0.9684061282106836
+Spain,2026,2.2219303672801414,Random Forest,2026 IMF projection comparison year,0.156852395256166,Low,0,2.09,-0.1319303672801415
+St. Lucia,2026,2.5019595656207216,Random Forest,2026 IMF projection comparison year,0.1819737398533132,Low,0,1.963,-0.5389595656207216
+St. Vincent and the Grenadines,2026,2.939046922008559,Random Forest,2026 IMF projection comparison year,0.5157987736498503,Moderate,0,3.0,0.0609530779914408
+Sudan,2026,2.7041194885258384,Random Forest,2026 IMF projection comparison year,0.175510005531339,Low,0,0.713,-1.9911194885258383
+Suriname,2026,3.9632232873418007,Random Forest,2026 IMF projection comparison year,0.6608655654333033,High,1,3.927,-0.0362232873418006
+Sweden,2026,1.834383119444459,Random Forest,2026 IMF projection comparison year,0.3243699026216001,Moderate,0,1.963,0.128616880555541
+Switzerland,2026,1.9755423086728807,Random Forest,2026 IMF projection comparison year,0.1953457890202205,Low,0,1.342,-0.6335423086728811
+"São Tomé and Príncipe, Democratic Republic of",2026,2.765568916255865,Random Forest,2026 IMF projection comparison year,0.1609064555035272,Low,0,3.4,0.6344310837441349
+Taiwan Province of China,2026,5.086315130781659,Random Forest,2026 IMF projection comparison year,0.3735162373626453,Moderate,0,5.181,0.0946848692183408
+"Tajikistan, Republic of",2026,6.065335287170059,Random Forest,2026 IMF projection comparison year,0.2589048090429405,Low,0,6.0,-0.0653352871700594
+"Tanzania, United Republic of",2026,5.460698414275324,Random Forest,2026 IMF projection comparison year,0.2621098985899614,Low,0,5.94,0.4793015857246763
+Thailand,2026,2.1252124622095647,Random Forest,2026 IMF projection comparison year,0.2864492128476255,Low,0,1.5,-0.6252124622095647
+Togo,2026,4.191283324359618,Random Forest,2026 IMF projection comparison year,0.3044168556308624,Moderate,0,5.0,0.8087166756403823
+Trinidad and Tobago,2026,1.7063526249843033,Random Forest,2026 IMF projection comparison year,0.4100658093129487,Moderate,0,0.766,-0.9403526249843032
+Tunisia,2026,2.1481954891597126,Random Forest,2026 IMF projection comparison year,0.1333140110747615,Low,0,2.113,-0.0351954891597126
+Turkmenistan,2026,2.695037087500497,Random Forest,2026 IMF projection comparison year,0.1710974937515623,Low,0,2.6,-0.0950370875004971
+"Türkiye, Republic of",2026,3.2941284410414844,Random Forest,2026 IMF projection comparison year,0.2760369355051797,Low,0,3.366,0.0718715589585157
+Uganda,2026,6.956008336632814,Random Forest,2026 IMF projection comparison year,0.5722415805375857,Moderate,0,7.508,0.5519916633671862
+Ukraine,2026,2.51028075361175,Random Forest,2026 IMF projection comparison year,0.4990918212241824,Moderate,0,2.0,-0.5102807536117502
+United Arab Emirates,2026,3.024426676577481,Random Forest,2026 IMF projection comparison year,0.3513993627008122,Moderate,0,3.143,0.1185733234225185
+United Kingdom,2026,1.1522518268879445,Random Forest,2026 IMF projection comparison year,0.3673305107168128,Moderate,0,0.797,-0.3552518268879444
+United States,2026,2.3709083360558783,Random Forest,2026 IMF projection comparison year,0.4382745743083823,Moderate,0,2.324,-0.0469083360558784
+Uruguay,2026,2.062286523944643,Random Forest,2026 IMF projection comparison year,0.2058393422176684,Low,0,1.8,-0.262286523944643
+"Uzbekistan, Republic of",2026,6.274640467455454,Random Forest,2026 IMF projection comparison year,0.3097483426048705,Moderate,0,6.474,0.1993595325445465
+"Venezuela, República Bolivariana de",2026,1.9582540207974035,Random Forest,2026 IMF projection comparison year,0.5575586830574977,Moderate,0,4.043,2.0847459792025966
+Vietnam,2026,6.751698776794282,Random Forest,2026 IMF projection comparison year,0.3887148493046607,Moderate,0,7.1,0.3483012232057172
+Zambia,2026,4.374072712976044,Random Forest,2026 IMF projection comparison year,0.2880960449061359,Low,0,4.287,-0.0870727129760435
+Albania,2027,3.226517273720417,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1526895318427213,Low,0,,
+Algeria,2027,4.249984880587051,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6350768246019798,High,1,,
+Angola,2027,3.0057536663655857,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1609047816256114,Low,0,,
+Argentina,2027,3.7104370625080536,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3169309786414602,Moderate,0,,
+"Armenia, Republic of",2027,3.635266880742336,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1904237426751631,Low,0,,
+Australia,2027,1.847489355817577,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2017562288490408,Low,0,,
+Austria,2027,1.8108311721758708,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2971316446605211,Low,0,,
+"Azerbaijan, Republic of",2027,2.64044841317164,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3510958893779056,Moderate,0,,
+"Bahamas, The",2027,2.4460431213700877,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2887430553730509,Low,0,,
+"Bahrain, Kingdom of",2027,1.4187792934646957,Random Forest,2027-2030 recursive t+1 model extrapolation,0.287348734181649,Low,0,,
+Bangladesh,2027,4.271710191555062,Random Forest,2027-2030 recursive t+1 model extrapolation,0.280186872023188,Low,0,,
+Barbados,2027,2.64943438840795,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2967859026138024,Low,0,,
+"Belarus, Republic of",2027,1.86431909958303,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1398966348860445,Low,0,,
+Belgium,2027,1.320395871670022,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2396920529150076,Low,0,,
+Belize,2027,2.5368118768211083,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2586863674387802,Low,0,,
+Benin,2027,5.317742635721976,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2987760282883605,Low,0,,
+Bhutan,2027,6.968223735719853,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3895972488185479,Moderate,0,,
+Bolivia,2027,1.4988112730779122,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2679400550256031,Low,0,,
+Bosnia and Herzegovina,2027,2.474849935414101,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3471231692447782,Moderate,0,,
+Botswana,2027,2.5756175551578715,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4771351731969022,Moderate,0,,
+Brazil,2027,1.7840673530243194,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2577022420558491,Low,0,,
+Brunei Darussalam,2027,2.1975919277439684,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3285534458643547,Moderate,0,,
+Bulgaria,2027,2.672532049391293,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5038968189313051,Moderate,0,,
+Burkina Faso,2027,4.096693044978995,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2724565412431016,Low,0,,
+Burundi,2027,4.114642780877794,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3156792196181051,Moderate,0,,
+Cabo Verde,2027,4.161774111098014,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4833005621578974,Moderate,0,,
+Cambodia,2027,4.256602423028256,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2276156362422422,Low,0,,
+Cameroon,2027,3.0024453223494234,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1299386565110622,Low,0,,
+Canada,2027,1.509167840559886,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2505269678816827,Low,0,,
+Central African Republic,2027,2.8716427054114564,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6245654101121106,High,1,,
+Chad,2027,4.000423381691625,Random Forest,2027-2030 recursive t+1 model extrapolation,0.282595065933301,Low,0,,
+Chile,2027,2.661332340706291,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1376515431572814,Low,0,,
+"China, People's Republic of",2027,3.984270667692451,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3335360013287262,Moderate,0,,
+Colombia,2027,2.758022422786558,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1433225164839066,Low,0,,
+"Comoros, Union of the",2027,4.052547106776342,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3828955519353396,Moderate,0,,
+"Congo, Democratic Republic of the",2027,3.9258120020817455,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3137420615259365,Moderate,0,,
+"Congo, Republic of",2027,2.793170820258712,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2357422394957934,Low,0,,
+Costa Rica,2027,3.2708642356593973,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2684386343606177,Low,0,,
+"Croatia, Republic of",2027,2.668996966579093,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1869187702704849,Low,0,,
+Cyprus,2027,2.963638048049687,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4593477064398048,Moderate,0,,
+Czech Republic,2027,2.4477459842733498,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3847798264958176,Moderate,0,,
+Côte d'Ivoire,2027,4.65727362812512,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3985170206889992,Moderate,0,,
+Denmark,2027,2.0903945476780303,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3725520376994761,Moderate,0,,
+Djibouti,2027,4.549822823371279,Random Forest,2027-2030 recursive t+1 model extrapolation,0.369029219623383,Moderate,0,,
+Dominica,2027,3.769121305515091,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3152511768020793,Moderate,0,,
+Dominican Republic,2027,3.276301961754202,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1453271030952761,Low,0,,
+Ecuador,2027,2.746031278959907,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1987113470747609,Low,0,,
+"Egypt, Arab Republic of",2027,4.219757954817309,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2090179381909472,Low,0,,
+El Salvador,2027,3.311066493603169,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3539064958459132,Moderate,0,,
+"Equatorial Guinea, Republic of",2027,-1.3805749135472571,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3430919330390631,Moderate,0,,
+"Estonia, Republic of",2027,1.901829215378968,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3637828787090428,Moderate,0,,
+"Eswatini, Kingdom of",2027,4.030935905506774,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4814306619226048,Moderate,0,,
+"Ethiopia, The Federal Democratic Republic of",2027,7.568410736443073,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5141475401776964,Moderate,0,,
+Finland,2027,1.4548389414318068,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3055202858989086,Moderate,0,,
+France,2027,1.4863073401176872,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4064756962794743,Moderate,0,,
+Gabon,2027,2.625704463384768,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3945642420629497,Moderate,0,,
+"Gambia, The",2027,3.096593213345436,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3039001981927875,Moderate,0,,
+Georgia,2027,4.570602608367247,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1490162343036401,Low,0,,
+Germany,2027,1.7710700992200843,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4540162541191378,Moderate,0,,
+Ghana,2027,5.006395842713706,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2168027564089867,Low,0,,
+Greece,2027,2.214108630319019,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5520377313758049,Moderate,0,,
+Guatemala,2027,3.584516511812069,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3631954892087745,Moderate,0,,
+Guinea,2027,5.298616257648435,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4388060912843156,Moderate,0,,
+Guinea-Bissau,2027,4.331945139559476,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3067678931474972,Moderate,0,,
+Guyana,2027,12.713080788352544,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6601384748751988,High,1,,
+Haiti,2027,2.6332447132487578,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3058865512390426,Moderate,0,,
+Honduras,2027,3.405680667993668,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1663902070125196,Low,0,,
+"Hong Kong Special Administrative Region, People's Republic of China",2027,2.9315230496984284,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5179469654671799,Moderate,0,,
+Hungary,2027,1.919234738015701,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3979716863894342,Moderate,0,,
+Iceland,2027,1.877407054673491,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1304900290092542,Low,0,,
+India,2027,6.335444296157763,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1693385858195697,Low,0,,
+Indonesia,2027,3.809181526205801,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2330555896040517,Low,0,,
+"Iran, Islamic Republic of",2027,1.3220533052142611,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2722117302435397,Low,0,,
+Ireland,2027,3.9801125390647054,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3582313501969611,Moderate,0,,
+Israel,2027,3.1639729942416763,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3924492348223666,Moderate,0,,
+Italy,2027,1.6582822770193484,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5351456945771436,Moderate,0,,
+Jamaica,2027,1.7884338879938404,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4180589790837993,Moderate,0,,
+Japan,2027,1.7876782224295675,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3010014033798942,Moderate,0,,
+Jordan,2027,2.672811562744799,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2133796417639502,Low,0,,
+"Kazakhstan, Republic of",2027,4.076865435227307,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1734538413536327,Low,0,,
+Kenya,2027,3.977815130948491,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2933150791675225,Low,0,,
+Kiribati,2027,2.9465573178433577,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3081905206607655,Moderate,0,,
+"Korea, Republic of",2027,1.7016981403306433,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4046987347020365,Moderate,0,,
+"Kosovo, Republic of",2027,2.9927371195817263,Random Forest,2027-2030 recursive t+1 model extrapolation,0.18882301893419,Low,0,,
+Kuwait,2027,1.9949167100879537,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6169272491564282,High,1,,
+Kyrgyz Republic,2027,4.424945081827282,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3372295376906634,Moderate,0,,
+Lao People's Democratic Republic,2027,4.238604996336562,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5055158322923115,Moderate,0,,
+"Latvia, Republic of",2027,2.556195052425036,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2119609855382835,Low,0,,
+"Lesotho, Kingdom of",2027,2.1678360107816017,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3318391013943613,Moderate,0,,
+Liberia,2027,3.330917723154529,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1964656272538638,Low,0,,
+Libya,2027,1.889894757221236,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3949696359740944,Moderate,0,,
+"Lithuania, Republic of",2027,2.744538839080142,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4225799144147455,Moderate,0,,
+Luxembourg,2027,1.89373344527718,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2138756659955694,Low,0,,
+"Madagascar, Republic of",2027,3.525712088760786,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1886844433053503,Low,0,,
+Malawi,2027,2.5697794441694493,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2183485651992978,Low,0,,
+Malaysia,2027,3.8433950774166736,Random Forest,2027-2030 recursive t+1 model extrapolation,0.233201749430695,Low,0,,
+Maldives,2027,2.7084811185233657,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2926536886047671,Low,0,,
+Mali,2027,3.899985549846945,Random Forest,2027-2030 recursive t+1 model extrapolation,0.18371719640468,Low,0,,
+Malta,2027,3.362144037507758,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2631786788672499,Low,0,,
+"Mauritania, Islamic Republic of",2027,3.887883036640869,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3041640236337176,Moderate,0,,
+Mauritius,2027,3.373430809995165,Random Forest,2027-2030 recursive t+1 model extrapolation,0.332596515990725,Moderate,0,,
+Mexico,2027,1.42571723997079,Random Forest,2027-2030 recursive t+1 model extrapolation,0.256994740488439,Low,0,,
+"Moldova, Republic of",2027,2.813514676419151,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2841437907915948,Low,0,,
+Mongolia,2027,3.913159929120761,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4848928338198492,Moderate,0,,
+Montenegro,2027,2.432709185214827,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2858059116218938,Low,0,,
+Morocco,2027,3.891013991773967,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2780110946661664,Low,0,,
+"Mozambique, Republic of",2027,1.5476674329178235,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2620258371633328,Low,0,,
+Myanmar,2027,2.150551392216084,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2791518681102326,Low,0,,
+Namibia,2027,2.52456517569576,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1666464000879163,Low,0,,
+Nepal,2027,3.118906520959521,Random Forest,2027-2030 recursive t+1 model extrapolation,0.251048418173605,Low,0,,
+"Netherlands, The",2027,1.831725910048668,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1501877538918404,Low,0,,
+New Zealand,2027,1.368937719393418,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2467314091532705,Low,0,,
+Nicaragua,2027,3.848317094437125,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3721659340570403,Moderate,0,,
+Niger,2027,4.846102859117664,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2946029742072663,Low,0,,
+Nigeria,2027,4.004971982981672,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2012706329851827,Low,0,,
+"North Macedonia, Republic of",2027,3.020607509545986,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2064403434418721,Low,0,,
+Norway,2027,2.0540231029545777,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3322321116014926,Moderate,0,,
+Oman,2027,2.7730872021136177,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3606096469157349,Moderate,0,,
+Pakistan,2027,4.025962901264617,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4545111859457967,Moderate,0,,
+"Palau, Republic of",2027,2.957380259171754,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4438115727805186,Moderate,0,,
+Panama,2027,4.214183480257762,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1971122514119256,Low,0,,
+Papua New Guinea,2027,3.984175232526524,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2631844495190971,Low,0,,
+Paraguay,2027,3.874010220089154,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2388296574088756,Low,0,,
+Peru,2027,3.171516252221641,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1994148654600441,Low,0,,
+Philippines,2027,3.871232266472688,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2737028944424991,Low,0,,
+"Poland, Republic of",2027,3.213988957683226,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2753899182889776,Low,0,,
+Portugal,2027,1.944648783309038,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3367684900559267,Moderate,0,,
+Qatar,2027,1.8393983704753256,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1642191842016425,Low,0,,
+Romania,2027,1.3085327459263876,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4247816653030806,Moderate,0,,
+Russian Federation,2027,1.5858349221376993,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2822911400774907,Low,0,,
+Rwanda,2027,6.414058428037889,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2992815018514212,Low,0,,
+Saudi Arabia,2027,3.042798372117591,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2983641685200621,Low,0,,
+Senegal,2027,3.703380755750949,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3039323068327907,Moderate,0,,
+"Serbia, Republic of",2027,2.592054826751924,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1941406705884271,Low,0,,
+Seychelles,2027,3.090653441594775,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1391062112272088,Low,0,,
+Sierra Leone,2027,4.013400511248829,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1535149126576069,Low,0,,
+Singapore,2027,3.380587374424381,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6249315685689995,High,1,,
+Slovak Republic,2027,1.30776639785935,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4307468907571513,Moderate,0,,
+"Slovenia, Republic of",2027,1.9713229668238643,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2025040740584612,Low,0,,
+Solomon Islands,2027,2.586907062715701,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4130688648790248,Moderate,0,,
+South Africa,2027,1.383559463449919,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4282417457045535,Moderate,0,,
+"South Sudan, Republic of",2027,4.8566945991356425,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6154017390006682,High,1,,
+Spain,2027,2.3109451815935818,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1618013549971819,Low,0,,
+St. Lucia,2027,2.4026513207360334,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2404207366649168,Low,0,,
+St. Vincent and the Grenadines,2027,2.732098266212299,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5030247488115122,Moderate,0,,
+Sudan,2027,3.258882602561087,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3196422872465745,Moderate,0,,
+Suriname,2027,4.383159125218477,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6595759594710545,High,1,,
+Sweden,2027,1.8465074228388096,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3332771321925847,Moderate,0,,
+Switzerland,2027,2.059758314307224,Random Forest,2027-2030 recursive t+1 model extrapolation,0.199432162453692,Low,0,,
+"São Tomé and Príncipe, Democratic Republic of",2027,2.933661104732385,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1542924862593558,Low,0,,
+Taiwan Province of China,2027,5.0777671953025125,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3439337558059158,Moderate,0,,
+"Tajikistan, Republic of",2027,6.269301159114705,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2569528837618787,Low,0,,
+"Tanzania, United Republic of",2027,5.287048082590758,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2618012211149464,Low,0,,
+Thailand,2027,2.157149647359151,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2828420671648129,Low,0,,
+Togo,2027,4.081421112571964,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1870046466046904,Low,0,,
+Trinidad and Tobago,2027,1.667591986689504,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4094279131289122,Moderate,0,,
+Tunisia,2027,2.18125457748415,Random Forest,2027-2030 recursive t+1 model extrapolation,0.13502950871887,Low,0,,
+Turkmenistan,2027,2.666024594604935,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1699706453642281,Low,0,,
+"Türkiye, Republic of",2027,3.140535542128637,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2760369355051797,Low,0,,
+Uganda,2027,6.969060859662224,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5097076419759127,Moderate,0,,
+Ukraine,2027,2.6730701866615205,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4955927209549601,Moderate,0,,
+United Arab Emirates,2027,3.001468569810647,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3513993627008122,Moderate,0,,
+United Kingdom,2027,1.2826640526854296,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3673305107168128,Moderate,0,,
+United States,2027,2.314516735438805,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4408050841822639,Moderate,0,,
+Uruguay,2027,1.881089287655763,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2081490943553147,Low,0,,
+"Uzbekistan, Republic of",2027,6.198203520196697,Random Forest,2027-2030 recursive t+1 model extrapolation,0.304836836487356,Moderate,0,,
+"Venezuela, República Bolivariana de",2027,-1.025980650120648,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5581400464864589,Moderate,0,,
+Vietnam,2027,6.570300594235661,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3500977797398518,Moderate,0,,
+Zambia,2027,4.403443982831568,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2899066093968049,Low,0,,
+Albania,2028,3.024306264388813,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1511948510043061,Low,0,,
+Algeria,2028,4.260948742044526,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6345878567029679,High,1,,
+Angola,2028,2.98647758288726,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1590067160242657,Low,0,,
+Argentina,2028,3.818855779135748,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3154183781052672,Moderate,0,,
+"Armenia, Republic of",2028,3.3557087154575944,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1866832982760356,Low,0,,
+Australia,2028,1.825973965894644,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2010969401140597,Low,0,,
+Austria,2028,1.8398823820436383,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3124053690631338,Moderate,0,,
+"Azerbaijan, Republic of",2028,2.7889194730616538,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3529040529681371,Moderate,0,,
+"Bahamas, The",2028,2.423570517074587,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3029121928097257,Moderate,0,,
+"Bahrain, Kingdom of",2028,1.386894686359463,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2823802696376135,Low,0,,
+Bangladesh,2028,4.176708519377411,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2831582763714293,Low,0,,
+Barbados,2028,2.622903145857002,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2967859026138024,Low,0,,
+"Belarus, Republic of",2028,1.8448479595651543,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1417025653454585,Low,0,,
+Belgium,2028,1.322649967322196,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2389719848666171,Low,0,,
+Belize,2028,2.3893695871849028,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2563983147237048,Low,0,,
+Benin,2028,4.925563213265357,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2223945680727151,Low,0,,
+Bhutan,2028,6.997275614331076,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3908745824183097,Moderate,0,,
+Bolivia,2028,1.5783997034373058,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2679400550256031,Low,0,,
+Bosnia and Herzegovina,2028,2.5595683001050045,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3453689706972466,Moderate,0,,
+Botswana,2028,3.141305823029656,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4806709235965576,Moderate,0,,
+Brazil,2028,1.4445874254541051,Random Forest,2027-2030 recursive t+1 model extrapolation,0.256216859430867,Low,0,,
+Brunei Darussalam,2028,2.2776007361601924,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3329171889955734,Moderate,0,,
+Bulgaria,2028,2.639149812469703,Random Forest,2027-2030 recursive t+1 model extrapolation,0.496155036989451,Moderate,0,,
+Burkina Faso,2028,4.087956821338343,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2722630616392679,Low,0,,
+Burundi,2028,4.113562733772122,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3167826465855251,Moderate,0,,
+Cabo Verde,2028,4.021935341255229,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4837292649505574,Moderate,0,,
+Cambodia,2028,4.225079817092663,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2276156362422422,Low,0,,
+Cameroon,2028,2.9501580416554547,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1299386565110622,Low,0,,
+Canada,2028,1.502568079552394,Random Forest,2027-2030 recursive t+1 model extrapolation,0.249495184215055,Low,0,,
+Central African Republic,2028,2.759432707455856,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6240216065133269,High,1,,
+Chad,2028,3.980945739050187,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2844224706707512,Low,0,,
+Chile,2028,2.761000769161023,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1388372667070325,Low,0,,
+"China, People's Republic of",2028,3.97322657512303,Random Forest,2027-2030 recursive t+1 model extrapolation,0.331894045902722,Moderate,0,,
+Colombia,2028,2.780701305677595,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1433047371655207,Low,0,,
+"Comoros, Union of the",2028,4.038153690175733,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3828955519353396,Moderate,0,,
+"Congo, Democratic Republic of the",2028,3.8625221227889823,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2874106963388961,Low,0,,
+"Congo, Republic of",2028,2.85567307630464,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2474428318619777,Low,0,,
+Costa Rica,2028,3.1342066882870268,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2697014111431366,Low,0,,
+"Croatia, Republic of",2028,2.6466729106277187,Random Forest,2027-2030 recursive t+1 model extrapolation,0.183440618688977,Low,0,,
+Cyprus,2028,2.8948615372472983,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4595986978125083,Moderate,0,,
+Czech Republic,2028,2.416419809668914,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3962224935186246,Moderate,0,,
+Côte d'Ivoire,2028,4.163077149869472,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3103118985981243,Moderate,0,,
+Denmark,2028,2.0088458589802145,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3568052137496916,Moderate,0,,
+Djibouti,2028,4.082930347339566,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2608157819035857,Low,0,,
+Dominica,2028,4.039378122587266,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3155802639235826,Moderate,0,,
+Dominican Republic,2028,3.148042035603599,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1460901222523814,Low,0,,
+Ecuador,2028,2.7152024606633307,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1964822343692383,Low,0,,
+"Egypt, Arab Republic of",2028,4.226260412346464,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2090179381909472,Low,0,,
+El Salvador,2028,3.354794025961609,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3493161894064155,Moderate,0,,
+"Equatorial Guinea, Republic of",2028,-0.9698923086283886,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3406475343043421,Moderate,0,,
+"Estonia, Republic of",2028,2.0240047307511166,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3715043376065721,Moderate,0,,
+"Eswatini, Kingdom of",2028,4.013318258130266,Random Forest,2027-2030 recursive t+1 model extrapolation,0.478075219830537,Moderate,0,,
+"Ethiopia, The Federal Democratic Republic of",2028,7.06993803133673,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4641112518967182,Moderate,0,,
+Finland,2028,1.4653592487674771,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3089426360615931,Moderate,0,,
+France,2028,1.5006063514111168,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4057009654206879,Moderate,0,,
+Gabon,2028,2.648180253614093,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3838257958943992,Moderate,0,,
+"Gambia, The",2028,3.0819051951505188,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3019629305181044,Moderate,0,,
+Georgia,2028,4.124195912836731,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1451193846274091,Low,0,,
+Germany,2028,1.813165196529365,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4668052173772995,Moderate,0,,
+Ghana,2028,4.980989104515824,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2160292174793673,Low,0,,
+Greece,2028,2.4953660279512,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5550864431624176,Moderate,0,,
+Guatemala,2028,3.350819792615531,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3427889763818403,Moderate,0,,
+Guinea,2028,4.887097734889948,Random Forest,2027-2030 recursive t+1 model extrapolation,0.355598477875009,Moderate,0,,
+Guinea-Bissau,2028,4.249947410606226,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2871360285417741,Low,0,,
+Guyana,2028,9.574950314918713,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6605411859685257,High,1,,
+Haiti,2028,2.639412162758603,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3098411544719385,Moderate,0,,
+Honduras,2028,3.4207237729696875,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1651512278461485,Low,0,,
+"Hong Kong Special Administrative Region, People's Republic of China",2028,2.951907541898189,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5323138183538174,Moderate,0,,
+Hungary,2028,2.000419694671125,Random Forest,2027-2030 recursive t+1 model extrapolation,0.404358946863033,Moderate,0,,
+Iceland,2028,1.92428858078178,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1322061733266883,Low,0,,
+India,2028,6.451790403235681,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1670472704857163,Low,0,,
+Indonesia,2028,3.803589830488894,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2321403254381914,Low,0,,
+"Iran, Islamic Republic of",2028,1.3935304522678489,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2722117302435397,Low,0,,
+Ireland,2028,4.160969062768087,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3554741594812335,Moderate,0,,
+Israel,2028,3.1504578486323043,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3917826561137964,Moderate,0,,
+Italy,2028,1.6776525151443364,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5645700657267922,Moderate,0,,
+Jamaica,2028,1.8907402514848848,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4712308671824498,Moderate,0,,
+Japan,2028,1.815534764426599,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3039144506709954,Moderate,0,,
+Jordan,2028,2.672811562744799,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2133796417639502,Low,0,,
+"Kazakhstan, Republic of",2028,4.0413947764221,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1710133885399423,Low,0,,
+Kenya,2028,3.969997346590046,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2928692283843191,Low,0,,
+Kiribati,2028,2.839698304145089,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3025617233504699,Moderate,0,,
+"Korea, Republic of",2028,1.7387881531672875,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4094345259609691,Moderate,0,,
+"Kosovo, Republic of",2028,2.9359715468015684,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1888963705665369,Low,0,,
+Kuwait,2028,1.9384889630506823,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6157269812349737,High,1,,
+Kyrgyz Republic,2028,4.070229424743953,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3362407149331269,Moderate,0,,
+Lao People's Democratic Republic,2028,4.248755218483601,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5055158322923115,Moderate,0,,
+"Latvia, Republic of",2028,2.572986339642536,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2140236782171865,Low,0,,
+"Lesotho, Kingdom of",2028,2.057917875250726,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3175054842533677,Moderate,0,,
+Liberia,2028,3.3016558639623,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2070840732283017,Low,0,,
+Libya,2028,2.2142205462239137,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2679757033294173,Low,0,,
+"Lithuania, Republic of",2028,2.714093040105597,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4225799144147455,Moderate,0,,
+Luxembourg,2028,1.997008005738728,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2226310231701864,Low,0,,
+"Madagascar, Republic of",2028,3.5160107337737045,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1846210873118193,Low,0,,
+Malawi,2028,2.6365106151414706,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2173981054032543,Low,0,,
+Malaysia,2028,3.834779257222363,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2322864852648346,Low,0,,
+Maldives,2028,2.5736610989096653,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2906757158426353,Low,0,,
+Mali,2028,3.853873533439217,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1845458402995031,Low,0,,
+Malta,2028,3.292750156217929,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2631786788672499,Low,0,,
+"Mauritania, Islamic Republic of",2028,3.890074049441465,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2865686790561336,Low,0,,
+Mauritius,2028,3.35197567798514,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3338915725781032,Moderate,0,,
+Mexico,2028,1.4987276813019916,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2618817075439014,Low,0,,
+"Moldova, Republic of",2028,2.856397732801233,Random Forest,2027-2030 recursive t+1 model extrapolation,0.282875857933667,Low,0,,
+Mongolia,2028,3.900221030576406,Random Forest,2027-2030 recursive t+1 model extrapolation,0.48521877876872,Moderate,0,,
+Montenegro,2028,2.369941847038984,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2858059116218938,Low,0,,
+Morocco,2028,3.887053596391028,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2634557101700072,Low,0,,
+"Mozambique, Republic of",2028,1.5128586855112185,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2651838987004325,Low,0,,
+Myanmar,2028,2.6028950092047367,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2989988402286175,Low,0,,
+Namibia,2028,2.546616777812976,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1666464000879163,Low,0,,
+Nepal,2028,3.0608981006576435,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2509865014538527,Low,0,,
+"Netherlands, The",2028,1.8382922214480824,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1501877538918404,Low,0,,
+New Zealand,2028,1.4746384634071816,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2499387722179137,Low,0,,
+Nicaragua,2028,3.803997423199477,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3671616543663791,Moderate,0,,
+Niger,2028,4.123118728942127,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2814025949029861,Low,0,,
+Nigeria,2028,3.994175611028723,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2003217514667713,Low,0,,
+"North Macedonia, Republic of",2028,2.9820339444035167,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2035849942295604,Low,0,,
+Norway,2028,2.118644917477089,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3378431366991763,Moderate,0,,
+Oman,2028,2.670777321233545,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3600997965290994,Moderate,0,,
+Pakistan,2028,4.148247163129623,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4860255476300333,Moderate,0,,
+"Palau, Republic of",2028,3.030840291595528,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4434735770280281,Moderate,0,,
+Panama,2028,4.199869831501854,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1951795814890912,Low,0,,
+Papua New Guinea,2028,3.97958486072254,Random Forest,2027-2030 recursive t+1 model extrapolation,0.286211076891613,Low,0,,
+Paraguay,2028,3.839963166152892,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2327098812844099,Low,0,,
+Peru,2028,3.1226611004218503,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1996058591348618,Low,0,,
+Philippines,2028,3.863839440197581,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2718565843267017,Low,0,,
+"Poland, Republic of",2028,3.026362684044995,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2732221282754988,Low,0,,
+Portugal,2028,1.9909400633285208,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3269832788638055,Moderate,0,,
+Qatar,2028,1.895660330620034,Random Forest,2027-2030 recursive t+1 model extrapolation,0.164270436438591,Low,0,,
+Romania,2028,1.3218643756334734,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4260991471333724,Moderate,0,,
+Russian Federation,2028,1.6381262154792346,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2860266140453927,Low,0,,
+Rwanda,2028,6.381640582054536,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2980187250689022,Low,0,,
+Saudi Arabia,2028,2.9774998389683494,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2958566699970222,Low,0,,
+Senegal,2028,3.732011840322944,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2993982360563316,Low,0,,
+"Serbia, Republic of",2028,2.649677941580786,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1968538196975196,Low,0,,
+Seychelles,2028,3.0248738121541803,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1355481348391964,Low,0,,
+Sierra Leone,2028,4.012188684349479,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1535149126576069,Low,0,,
+Singapore,2028,3.338837942808245,Random Forest,2027-2030 recursive t+1 model extrapolation,0.624073265517277,High,1,,
+Slovak Republic,2028,1.3640438779108175,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4322798249192123,Moderate,0,,
+"Slovenia, Republic of",2028,2.068552473686199,Random Forest,2027-2030 recursive t+1 model extrapolation,0.201924778383785,Low,0,,
+Solomon Islands,2028,2.5918163724800105,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3980421394302799,Moderate,0,,
+South Africa,2028,1.384189981384902,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4299386819335983,Moderate,0,,
+"South Sudan, Republic of",2028,5.04850389376935,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6132474807194995,High,1,,
+Spain,2028,2.314566863704236,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1635820535563575,Low,0,,
+St. Lucia,2028,2.402292610282205,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2216110229496386,Low,0,,
+St. Vincent and the Grenadines,2028,2.345841308629423,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4802745483789202,Moderate,0,,
+Sudan,2028,3.532854070123154,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3180568879288458,Moderate,0,,
+Suriname,2028,4.109482117340099,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6634775795650036,High,1,,
+Sweden,2028,1.8488334094753949,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3336818153970585,Moderate,0,,
+Switzerland,2028,2.099834455029669,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2088779753277504,Low,0,,
+"São Tomé and Príncipe, Democratic Republic of",2028,3.035530503246557,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1569000005615322,Low,0,,
+Taiwan Province of China,2028,4.35723224345969,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3437960953326154,Moderate,0,,
+"Tajikistan, Republic of",2028,6.563880984099797,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2548199544404235,Low,0,,
+"Tanzania, United Republic of",2028,4.300955896226959,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2618012211149464,Low,0,,
+Thailand,2028,2.0636992614579848,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2818685397007777,Low,0,,
+Togo,2028,4.035357197948614,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1707459634464512,Low,0,,
+Trinidad and Tobago,2028,1.7259356473827303,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4088307691660383,Moderate,0,,
+Tunisia,2028,2.2026399551626974,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1349364910707886,Low,0,,
+Turkmenistan,2028,2.607021211459383,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1699706453642281,Low,0,,
+"Türkiye, Republic of",2028,2.906743690173249,Random Forest,2027-2030 recursive t+1 model extrapolation,0.274494826910545,Low,0,,
+Uganda,2028,7.034943496169,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5044852656864487,Moderate,0,,
+Ukraine,2028,2.741636248956715,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4984065737323641,Moderate,0,,
+United Arab Emirates,2028,2.900610095026423,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3492832645116047,Moderate,0,,
+United Kingdom,2028,1.2852961028530447,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3675459630485821,Moderate,0,,
+United States,2028,2.3069372688158825,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4388198810393179,Moderate,0,,
+Uruguay,2028,1.8737865876657516,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2061499978136963,Low,0,,
+"Uzbekistan, Republic of",2028,6.251415744511888,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3053026170536897,Moderate,0,,
+"Venezuela, República Bolivariana de",2028,-2.6449117987166235,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4370879650824353,Moderate,0,,
+Vietnam,2028,6.58687669800282,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3413529292856218,Moderate,0,,
+Zambia,2028,4.38888775291056,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2899066093968049,Low,0,,
+Albania,2029,2.985784429186242,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1512847855116548,Low,0,,
+Algeria,2029,4.264088148494904,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6346855757131709,High,1,,
+Angola,2029,3.003591186419014,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1605470056929266,Low,0,,
+Argentina,2029,3.9632466910027504,Random Forest,2027-2030 recursive t+1 model extrapolation,0.316697970938316,Moderate,0,,
+"Armenia, Republic of",2029,3.184927486654425,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1826861114140633,Low,0,,
+Australia,2029,1.8441471298686851,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2003352853535371,Low,0,,
+Austria,2029,1.8987035054406944,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3246643576791542,Moderate,0,,
+"Azerbaijan, Republic of",2029,2.8408201917712232,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3520399247918709,Moderate,0,,
+"Bahamas, The",2029,2.474205235365853,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2949073610369534,Low,0,,
+"Bahrain, Kingdom of",2029,1.4361207855751823,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2860252138259286,Low,0,,
+Bangladesh,2029,4.066934487517166,Random Forest,2027-2030 recursive t+1 model extrapolation,0.281449648805707,Low,0,,
+Barbados,2029,2.6673060600923915,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2983794451149137,Low,0,,
+"Belarus, Republic of",2029,1.869611951088629,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1431723811725103,Low,0,,
+Belgium,2029,1.32376031201199,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2414369051137685,Low,0,,
+Belize,2029,2.5189887552563075,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2586863674387802,Low,0,,
+Benin,2029,4.391463240577998,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2051177721504393,Low,0,,
+Bhutan,2029,7.051726211338485,Random Forest,2027-2030 recursive t+1 model extrapolation,0.391139548757976,Moderate,0,,
+Bolivia,2029,1.6474772000251336,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2732150602677385,Low,0,,
+Bosnia and Herzegovina,2029,2.6731804027826858,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3453689706972466,Moderate,0,,
+Botswana,2029,2.6480077430651856,Random Forest,2027-2030 recursive t+1 model extrapolation,0.482744161384908,Moderate,0,,
+Brazil,2029,1.3484920240552103,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2537122947024594,Low,0,,
+Brunei Darussalam,2029,2.3072707198949174,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3289987323612831,Moderate,0,,
+Bulgaria,2029,2.6336444333453803,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4871277898626092,Moderate,0,,
+Burkina Faso,2029,4.064768939428799,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2722630616392679,Low,0,,
+Burundi,2029,4.110391879132714,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3167826465855251,Moderate,0,,
+Cabo Verde,2029,4.030008959632754,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4845579088453807,Moderate,0,,
+Cambodia,2029,4.236339950034742,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2276156362422422,Low,0,,
+Cameroon,2029,2.9397750058069154,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1294581352589803,Low,0,,
+Canada,2029,1.502568079552394,Random Forest,2027-2030 recursive t+1 model extrapolation,0.249495184215055,Low,0,,
+Central African Republic,2029,2.7848463838846835,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6225149782861371,High,1,,
+Chad,2029,3.910365411876705,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2837870882492175,Low,0,,
+Chile,2029,2.83451696039166,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1391860931295955,Low,0,,
+"China, People's Republic of",2029,3.962048937134981,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3305718521925113,Moderate,0,,
+Colombia,2029,2.854555856404456,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1444631880106286,Low,0,,
+"Comoros, Union of the",2029,4.039769282371499,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3828955519353396,Moderate,0,,
+"Congo, Democratic Republic of the",2029,3.82095325282322,Random Forest,2027-2030 recursive t+1 model extrapolation,0.285495247915607,Low,0,,
+"Congo, Republic of",2029,2.8612116248364163,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2548007561003597,Low,0,,
+Costa Rica,2029,3.021253462071558,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2667582526103026,Low,0,,
+"Croatia, Republic of",2029,2.6466729106277187,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1794349644298435,Low,0,,
+Cyprus,2029,2.809066239496427,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4595986978125083,Moderate,0,,
+Czech Republic,2029,2.448736844057932,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3922561815355627,Moderate,0,,
+Côte d'Ivoire,2029,4.036665360230697,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2664010487979338,Low,0,,
+Denmark,2029,2.004558228885073,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3405968703155821,Moderate,0,,
+Djibouti,2029,3.9524541304754113,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2379746398963986,Low,0,,
+Dominica,2029,4.249670945606033,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3174301678123128,Moderate,0,,
+Dominican Republic,2029,3.006060261852418,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1436225897476869,Low,0,,
+Ecuador,2029,2.7335992910893467,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1964644550508524,Low,0,,
+"Egypt, Arab Republic of",2029,4.226260412346464,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2090179381909472,Low,0,,
+El Salvador,2029,3.3758950919984336,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3520652770443239,Moderate,0,,
+"Equatorial Guinea, Republic of",2029,-0.89055718463351,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3417895332473676,Moderate,0,,
+"Estonia, Republic of",2029,2.097139894109993,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3745329716223696,Moderate,0,,
+"Eswatini, Kingdom of",2029,4.015071176099244,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4633050834901035,Moderate,0,,
+"Ethiopia, The Federal Democratic Republic of",2029,7.074546723315158,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4636179894006292,Moderate,0,,
+Finland,2029,1.5225784316198658,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3102568122815682,Moderate,0,,
+France,2029,1.5720887749539718,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4089362140728063,Moderate,0,,
+Gabon,2029,2.647243401762241,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3843512965906667,Moderate,0,,
+"Gambia, The",2029,2.9588756843736146,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2977630975994472,Low,0,,
+Georgia,2029,4.01152949432187,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1451193846274091,Low,0,,
+Germany,2029,1.858299011101243,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4698149088351034,Moderate,0,,
+Ghana,2029,4.969890537306672,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2166190250149332,Low,0,,
+Greece,2029,2.5594834210751705,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5558170353940186,Moderate,0,,
+Guatemala,2029,3.270179589110592,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3447035522068981,Moderate,0,,
+Guinea,2029,4.692482343484653,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3245707886355698,Moderate,0,,
+Guinea-Bissau,2029,4.264697637454298,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2611667408461057,Low,0,,
+Guyana,2029,7.807697520706615,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5140363792585669,Moderate,0,,
+Haiti,2029,2.951062475049711,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3200141564716572,Moderate,0,,
+Honduras,2029,3.4264053072182725,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1651512278461485,Low,0,,
+"Hong Kong Special Administrative Region, People's Republic of China",2029,3.0757583283199224,Random Forest,2027-2030 recursive t+1 model extrapolation,0.531244963774273,Moderate,0,,
+Hungary,2029,2.025412410059302,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4055974410184402,Moderate,0,,
+Iceland,2029,1.9230892448555044,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1322061733266883,Low,0,,
+India,2029,6.480554156415237,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1751435005528283,Low,0,,
+Indonesia,2029,3.767846324920229,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2302940153223941,Low,0,,
+"Iran, Islamic Republic of",2029,1.307712133268036,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2758491250859303,Low,0,,
+Ireland,2029,4.173583662568737,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3562959027497908,Moderate,0,,
+Israel,2029,3.139179660433517,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3924492348223666,Moderate,0,,
+Italy,2029,1.7288730723439434,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5662659328500615,Moderate,0,,
+Jamaica,2029,1.883984160463623,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4877443297307465,Moderate,0,,
+Japan,2029,1.8926850185751412,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3072148197468221,Moderate,0,,
+Jordan,2029,2.672811562744799,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2133796417639502,Low,0,,
+"Kazakhstan, Republic of",2029,4.020419942370732,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1703379888120939,Low,0,,
+Kenya,2029,3.960074188222188,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2906569576614282,Low,0,,
+Kiribati,2029,2.927076341681369,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2997796794066177,Low,0,,
+"Korea, Republic of",2029,1.7479343295886187,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4085205039082358,Moderate,0,,
+"Kosovo, Republic of",2029,2.87201055144445,Random Forest,2027-2030 recursive t+1 model extrapolation,0.188415849314455,Low,0,,
+Kuwait,2029,2.031824550404834,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6193614667300236,High,1,,
+Kyrgyz Republic,2029,4.067501974149029,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3302408276089733,Moderate,0,,
+Lao People's Democratic Republic,2029,4.2337639894212025,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5055158322923115,Moderate,0,,
+"Latvia, Republic of",2029,2.6417002380860635,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2155852638851087,Low,0,,
+"Lesotho, Kingdom of",2029,2.221373946089913,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3120487126703587,Moderate,0,,
+Liberia,2029,3.119763464281762,Random Forest,2027-2030 recursive t+1 model extrapolation,0.19221403052867,Low,0,,
+Libya,2029,1.804347344251098,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2603060036358469,Low,0,,
+"Lithuania, Republic of",2029,2.7137649039944858,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4240526369415009,Moderate,0,,
+Luxembourg,2029,2.0367835610190497,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2255505129528478,Low,0,,
+"Madagascar, Republic of",2029,3.5040788142269395,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1813656326522166,Low,0,,
+Malawi,2029,2.6844207761032512,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2183785212904056,Low,0,,
+Malaysia,2029,3.8236775688107216,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2304401751490373,Low,0,,
+Maldives,2029,2.582810161528981,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2887776502412896,Low,0,,
+Mali,2029,3.801367681332664,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1841870943084672,Low,0,,
+Malta,2029,3.197527791113103,Random Forest,2027-2030 recursive t+1 model extrapolation,0.260951980852692,Low,0,,
+"Mauritania, Islamic Republic of",2029,3.885299658901846,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2868259906429738,Low,0,,
+Mauritius,2029,3.3461478413307404,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3338915725781032,Moderate,0,,
+Mexico,2029,1.4954032067253933,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2616550007476481,Low,0,,
+"Moldova, Republic of",2029,2.980695096946982,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2822539153754784,Low,0,,
+Mongolia,2029,3.816575688192114,Random Forest,2027-2030 recursive t+1 model extrapolation,0.483480908142415,Moderate,0,,
+Montenegro,2029,2.258536941437292,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2844514034535674,Low,0,,
+Morocco,2029,3.83755971222523,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2625117351934829,Low,0,,
+"Mozambique, Republic of",2029,1.550864710183185,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2689897283996903,Low,0,,
+Myanmar,2029,2.5007992489174287,Random Forest,2027-2030 recursive t+1 model extrapolation,0.298135380387289,Low,0,,
+Namibia,2029,2.5603982824832543,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1667559547012298,Low,0,,
+Nepal,2029,3.066285887601655,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2513003705174517,Low,0,,
+"Netherlands, The",2029,1.8732519864151256,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1524291028825596,Low,0,,
+New Zealand,2029,1.431209789148386,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2506299285312515,Low,0,,
+Nicaragua,2029,3.788635734754856,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3640764865645498,Moderate,0,,
+Niger,2029,3.940611375165231,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2779374727560077,Low,0,,
+Nigeria,2029,3.984446912798288,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2003217514667713,Low,0,,
+"North Macedonia, Republic of",2029,2.925929128409457,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2023462724350836,Low,0,,
+Norway,2029,2.215221209138372,Random Forest,2027-2030 recursive t+1 model extrapolation,0.344957362451339,Moderate,0,,
+Oman,2029,2.572202732378781,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3593111539549206,Moderate,0,,
+Pakistan,2029,4.15320060239877,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5020100943089013,Moderate,0,,
+"Palau, Republic of",2029,3.0103839771972747,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4442327845689938,Moderate,0,,
+Panama,2029,4.220904913729048,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1958549812169395,Low,0,,
+Papua New Guinea,2029,3.9778320058576497,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2786379648347979,Low,0,,
+Paraguay,2029,3.8373543957422704,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2272941679618601,Low,0,,
+Peru,2029,3.169647987596463,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1994148654600441,Low,0,,
+Philippines,2029,3.8587658050412696,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2718565843267017,Low,0,,
+"Poland, Republic of",2029,3.012302217675708,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2728586221497898,Low,0,,
+Portugal,2029,2.0063155471425222,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3314459330294663,Moderate,0,,
+Qatar,2029,2.0153333369932938,Random Forest,2027-2030 recursive t+1 model extrapolation,0.169199802049773,Low,0,,
+Romania,2029,1.3285969986663648,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4280654221713932,Moderate,0,,
+Russian Federation,2029,1.6626129296218433,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2935970741115855,Low,0,,
+Rwanda,2029,6.389605123712896,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2992815018514212,Low,0,,
+Saudi Arabia,2029,2.884366793912563,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2958566699970222,Low,0,,
+Senegal,2029,3.836089794824948,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2992664432285372,Low,0,,
+"Serbia, Republic of",2029,2.645994331904178,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1968538196975196,Low,0,,
+Seychelles,2029,3.1551927273681386,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1393268298352164,Low,0,,
+Sierra Leone,2029,4.003586734528295,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1520751474954413,Low,0,,
+Singapore,2029,3.3239728193538336,Random Forest,2027-2030 recursive t+1 model extrapolation,0.624073265517277,High,1,,
+Slovak Republic,2029,1.3775421110221029,Random Forest,2027-2030 recursive t+1 model extrapolation,0.434628603278231,Moderate,0,,
+"Slovenia, Republic of",2029,2.128735478008493,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2014449960801156,Low,0,,
+Solomon Islands,2029,2.543685683530775,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3966942025227337,Moderate,0,,
+South Africa,2029,1.4154737161272424,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4303192814448436,Moderate,0,,
+"South Sudan, Republic of",2029,4.975091100628977,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6133691908083952,High,1,,
+Spain,2029,2.3287281376519102,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1635820535563575,Low,0,,
+St. Lucia,2029,2.4729832404805414,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2221496688390013,Low,0,,
+St. Vincent and the Grenadines,2029,2.2681261204461136,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4332775693361846,Moderate,0,,
+Sudan,2029,3.650811816127451,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3224373279873097,Moderate,0,,
+Suriname,2029,4.305215938763505,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6630420516010358,High,1,,
+Sweden,2029,1.8631743582179283,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3330350214146961,Moderate,0,,
+Switzerland,2029,2.2045539301785584,Random Forest,2027-2030 recursive t+1 model extrapolation,0.210375184323465,Low,0,,
+"São Tomé and Príncipe, Democratic Republic of",2029,3.074121975556794,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1561905518607014,Low,0,,
+Taiwan Province of China,2029,4.179005553598225,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2439978566322541,Low,0,,
+"Tajikistan, Republic of",2029,6.618308586892244,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2540989612994655,Low,0,,
+"Tanzania, United Republic of",2029,4.00570081037241,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2604356538843693,Low,0,,
+Thailand,2029,2.1270709521394413,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2827738004831154,Low,0,,
+Togo,2029,3.9813543287864808,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1678164672010441,Low,0,,
+Trinidad and Tobago,2029,1.74666309048612,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4119083034688712,Moderate,0,,
+Tunisia,2029,2.4066396356341704,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1349364910707886,Low,0,,
+Turkmenistan,2029,2.6012574448174126,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1680725797628825,Low,0,,
+"Türkiye, Republic of",2029,2.6940304032641014,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2751614056191153,Low,0,,
+Uganda,2029,7.110252413753908,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5148243226672559,Moderate,0,,
+Ukraine,2029,2.5826157135519776,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5007975905360024,Moderate,0,,
+United Arab Emirates,2029,2.800336448138665,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3492832645116047,Moderate,0,,
+United Kingdom,2029,1.2881820550234453,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3675459630485821,Moderate,0,,
+United States,2029,2.3039495145025306,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4388198810393179,Moderate,0,,
+Uruguay,2029,1.8737865876657516,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2059415058880468,Low,0,,
+"Uzbekistan, Republic of",2029,6.272097113113548,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3053026170536897,Moderate,0,,
+"Venezuela, República Bolivariana de",2029,-2.8672912815267577,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3910698504935038,Moderate,0,,
+Vietnam,2029,6.609038077039132,Random Forest,2027-2030 recursive t+1 model extrapolation,0.344914488305115,Moderate,0,,
+Zambia,2029,4.377866283403469,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2899066093968049,Low,0,,
+Albania,2030,2.9567733068364217,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1508042642595729,Low,0,,
+Algeria,2030,4.256016392452908,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6346855757131709,High,1,,
+Angola,2030,3.00657545630186,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1605470056929266,Low,0,,
+Argentina,2030,3.970886453280978,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3182105714745089,Moderate,0,,
+"Armenia, Republic of",2030,2.9836856494682062,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1780828709657849,Low,0,,
+Australia,2030,1.8441471298686851,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2003352853535371,Low,0,,
+Austria,2030,1.926538590477873,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3341043146180345,Moderate,0,,
+"Azerbaijan, Republic of",2030,2.843337593944125,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3527756139299594,Moderate,0,,
+"Bahamas, The",2030,2.476744363194739,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3032725344184746,Moderate,0,,
+"Bahrain, Kingdom of",2030,1.4400131514794412,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2860252138259286,Low,0,,
+Bangladesh,2030,4.054551192227012,Random Forest,2027-2030 recursive t+1 model extrapolation,0.281449648805707,Low,0,,
+Barbados,2030,2.6673060600923915,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2983794451149137,Low,0,,
+"Belarus, Republic of",2030,1.874970222518604,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1415367995964983,Low,0,,
+Belgium,2030,1.3262740184252375,Random Forest,2027-2030 recursive t+1 model extrapolation,0.242074408404792,Low,0,,
+Belize,2030,2.4823401106359584,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2586863674387802,Low,0,,
+Benin,2030,4.259360285611987,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2040716174352399,Low,0,,
+Bhutan,2030,7.08079965869344,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3966771346824914,Moderate,0,,
+Bolivia,2030,1.796928866165185,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2761578397818724,Low,0,,
+Bosnia and Herzegovina,2030,2.69179155895343,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3453689706972466,Moderate,0,,
+Botswana,2030,2.886724515634619,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4797508575797038,Moderate,0,,
+Brazil,2030,1.289130124408714,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2455237329973713,Low,0,,
+Brunei Darussalam,2030,2.300669954420535,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3289987323612831,Moderate,0,,
+Bulgaria,2030,2.626931016065038,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4871474723486508,Moderate,0,,
+Burkina Faso,2030,4.03501668345295,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2724163058062427,Low,0,,
+Burundi,2030,4.115022421768373,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3167826465855251,Moderate,0,,
+Cabo Verde,2030,4.022101487984724,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4845579088453807,Moderate,0,,
+Cambodia,2030,4.233620270129126,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2257492783196487,Low,0,,
+Cameroon,2030,2.878234574912652,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1294581352589803,Low,0,,
+Canada,2030,1.5092343548277074,Random Forest,2027-2030 recursive t+1 model extrapolation,0.249495184215055,Low,0,,
+Central African Republic,2030,2.778984257868164,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6219832887146269,High,1,,
+Chad,2030,3.9166603308778174,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2826519234863968,Low,0,,
+Chile,2030,2.854662287984244,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1391860931295955,Low,0,,
+"China, People's Republic of",2030,3.9508440486310072,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3305718521925113,Moderate,0,,
+Colombia,2030,2.861610545575234,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1467092061516814,Low,0,,
+"Comoros, Union of the",2030,4.044399825007159,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3828955519353396,Moderate,0,,
+"Congo, Democratic Republic of the",2030,3.864754624690693,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2836199116146063,Low,0,,
+"Congo, Republic of",2030,2.8955816730430226,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2515179122050516,Low,0,,
+Costa Rica,2030,2.9946448612391587,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2657129337957718,Low,0,,
+"Croatia, Republic of",2030,2.6382722428964134,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1794349644298435,Low,0,,
+Cyprus,2030,2.756022420823661,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4583414276175223,Moderate,0,,
+Czech Republic,2030,2.448736844057932,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3962402598429874,Moderate,0,,
+Côte d'Ivoire,2030,3.994561839575488,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2601669635109624,Low,0,,
+Denmark,2030,2.0079677092208854,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3393439799838088,Moderate,0,,
+Djibouti,2030,3.97648583318044,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2388433010975365,Low,0,,
+Dominica,2030,4.195551945025262,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3205645013133394,Moderate,0,,
+Dominican Republic,2030,2.950710680213905,Random Forest,2027-2030 recursive t+1 model extrapolation,0.14359241346972,Low,0,,
+Ecuador,2030,2.7932594213585022,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1968132814734153,Low,0,,
+"Egypt, Arab Republic of",2030,4.2255262118633725,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2090179381909472,Low,0,,
+El Salvador,2030,3.386116842803778,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3517852691723791,Moderate,0,,
+"Equatorial Guinea, Republic of",2030,-0.9190439829035127,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3405682987067316,Moderate,0,,
+"Estonia, Republic of",2030,2.276068809886824,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3751288804531139,Moderate,0,,
+"Eswatini, Kingdom of",2030,4.010593807051624,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4596338061477178,Moderate,0,,
+"Ethiopia, The Federal Democratic Republic of",2030,7.119678020293071,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4647167711847478,Moderate,0,,
+Finland,2030,1.5295251038516424,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3091796992082217,Moderate,0,,
+France,2030,1.582543440451457,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4179292222313943,Moderate,0,,
+Gabon,2030,2.637714902784736,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3821659590018638,Moderate,0,,
+"Gambia, The",2030,2.899795221411046,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2968430315825933,Low,0,,
+Georgia,2030,4.010773751718799,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1443652040214863,Low,0,,
+Germany,2030,1.8771277969884173,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4730180001479779,Moderate,0,,
+Ghana,2030,4.958713721230607,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2166190250149332,Low,0,,
+Greece,2030,2.626452280280521,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5567344709953645,Moderate,0,,
+Guatemala,2030,3.150961778968318,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3455100514683456,Moderate,0,,
+Guinea,2030,4.701686925032238,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3227107522787312,Moderate,0,,
+Guinea-Bissau,2030,4.263086782871604,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2596840769562435,Low,0,,
+Guyana,2030,6.359567264061141,Random Forest,2027-2030 recursive t+1 model extrapolation,0.51427703736982,Moderate,0,,
+Haiti,2030,3.011216759190701,Random Forest,2027-2030 recursive t+1 model extrapolation,0.319813455859063,Moderate,0,,
+Honduras,2030,3.430798889722196,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1663902070125196,Low,0,,
+"Hong Kong Special Administrative Region, People's Republic of China",2030,3.1171675611613106,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5504988785134196,Moderate,0,,
+Hungary,2030,2.084547394319827,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4055974410184402,Moderate,0,,
+Iceland,2030,1.932559659119793,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1309599467318366,Low,0,,
+India,2030,6.522816535051765,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1752660851589649,Low,0,,
+Indonesia,2030,3.597263652030593,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2302940153223941,Low,0,,
+"Iran, Islamic Republic of",2030,1.3103759130289707,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2780794213952044,Low,0,,
+Ireland,2030,4.179390744848788,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3569294116311936,Moderate,0,,
+Israel,2030,3.141117216140968,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3932979395457711,Moderate,0,,
+Italy,2030,1.7326655448714163,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5743177985938569,Moderate,0,,
+Jamaica,2030,1.941284543041382,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4881521586346419,Moderate,0,,
+Japan,2030,1.9489090822651784,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3079240122204867,Moderate,0,,
+Jordan,2030,2.669356750315664,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2133796417639502,Low,0,,
+"Kazakhstan, Republic of",2030,4.0047467596966255,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1703379888120939,Low,0,,
+Kenya,2030,3.9505235446108258,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2906569576614282,Low,0,,
+Kiribati,2030,2.9109905299101646,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2994664550499868,Low,0,,
+"Korea, Republic of",2030,1.7391490065255013,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4085205039082358,Moderate,0,,
+"Kosovo, Republic of",2030,2.749447654384789,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1877064006136242,Low,0,,
+Kuwait,2030,2.026166192708666,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6194632168029951,High,1,,
+Kyrgyz Republic,2030,4.067501974149029,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3302408276089733,Moderate,0,,
+Lao People's Democratic Republic,2030,4.24584448429475,Random Forest,2027-2030 recursive t+1 model extrapolation,0.506387285555771,Moderate,0,,
+"Latvia, Republic of",2030,2.668823807123564,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2155674845667228,Low,0,,
+"Lesotho, Kingdom of",2030,2.336626483123937,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3221009741758444,Moderate,0,,
+Liberia,2030,3.209439152259815,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1807471738939625,Low,0,,
+Libya,2030,2.6627611789646184,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2592624004639748,Low,0,,
+"Lithuania, Republic of",2030,2.714040978241177,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4240526369415009,Moderate,0,,
+Luxembourg,2030,2.145705799967529,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2255303320831839,Low,0,,
+"Madagascar, Republic of",2030,3.5040788142269395,Random Forest,2027-2030 recursive t+1 model extrapolation,0.17691660396274,Low,0,,
+Malawi,2030,2.749665544353422,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2213207656551978,Low,0,,
+Malaysia,2030,3.849142476726924,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2304401751490373,Low,0,,
+Maldives,2030,2.5233232486963075,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2887776502412896,Low,0,,
+Mali,2030,3.700627092444785,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1830836673410472,Low,0,,
+Malta,2030,3.0157309824202057,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2584048756602846,Low,0,,
+"Mauritania, Islamic Republic of",2030,3.875312378940568,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2819535189873843,Low,0,,
+Mauritius,2030,3.339058303320726,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3338915725781032,Moderate,0,,
+Mexico,2030,1.4954032067253933,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2616550007476481,Low,0,,
+"Moldova, Republic of",2030,3.172614574626769,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2876791672158043,Low,0,,
+Mongolia,2030,3.828019366859421,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4832503667501579,Moderate,0,,
+Montenegro,2030,2.1633092989666776,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2838953761845892,Low,0,,
+Morocco,2030,3.831384736557059,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2629288240927583,Low,0,,
+"Mozambique, Republic of",2030,1.56406043710656,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2699932442701032,Low,0,,
+Myanmar,2030,2.5422543508050994,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2970142206806634,Low,0,,
+Namibia,2030,2.547650669989577,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1654547554392372,Low,0,,
+Nepal,2030,3.0631711121552097,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2519821832062735,Low,0,,
+"Netherlands, The",2030,1.878990185028368,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1519890092788154,Low,0,,
+New Zealand,2030,1.4377966449398767,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2485319197652615,Low,0,,
+Nicaragua,2030,3.6135956302405856,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3644386329965537,Moderate,0,,
+Niger,2030,3.972799924319356,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2788061339571456,Low,0,,
+Nigeria,2030,3.9810967265756494,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2003217514667713,Low,0,,
+"North Macedonia, Republic of",2030,2.848093305758452,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2009141375586256,Low,0,,
+Norway,2030,2.35324812575087,Random Forest,2027-2030 recursive t+1 model extrapolation,0.350683230715972,Moderate,0,,
+Oman,2030,2.556931956123776,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3593111539549206,Moderate,0,,
+Pakistan,2030,4.153571971811034,Random Forest,2027-2030 recursive t+1 model extrapolation,0.500836499041701,Moderate,0,,
+"Palau, Republic of",2030,3.0150901972568827,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4454489949591641,Moderate,0,,
+Panama,2030,4.090853145033472,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1958549812169395,Low,0,,
+Papua New Guinea,2030,3.964512902659531,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2732845589333121,Low,0,,
+Paraguay,2030,3.830882410650928,Random Forest,2027-2030 recursive t+1 model extrapolation,0.224257812072269,Low,0,,
+Peru,2030,3.162943368872099,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1998322651465474,Low,0,,
+Philippines,2030,3.8569498459581406,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2718565843267017,Low,0,,
+"Poland, Republic of",2030,3.000669527253743,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2728586221497898,Low,0,,
+Portugal,2030,2.008481076842071,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3317809165724567,Moderate,0,,
+Qatar,2030,2.05195112870055,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1736387963825519,Low,0,,
+Romania,2030,1.3448985360808503,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4289518074228368,Moderate,0,,
+Russian Federation,2030,1.6346952405713728,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2867127709009284,Low,0,,
+Rwanda,2030,6.396856298478001,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2981398615159294,Low,0,,
+Saudi Arabia,2030,2.717540547149616,Random Forest,2027-2030 recursive t+1 model extrapolation,0.296914180048454,Low,0,,
+Senegal,2030,3.936924512723258,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2992664432285372,Low,0,,
+"Serbia, Republic of",2030,2.6188292992402284,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1968538196975196,Low,0,,
+Seychelles,2030,3.2255317741337564,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1393268298352164,Low,0,,
+Sierra Leone,2030,4.001132989496974,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1520751474954413,Low,0,,
+Singapore,2030,3.321927569193531,Random Forest,2027-2030 recursive t+1 model extrapolation,0.624073265517277,High,1,,
+Slovak Republic,2030,1.3822826260024872,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4347882832990942,Moderate,0,,
+"Slovenia, Republic of",2030,2.165939773816354,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2025206872145293,Low,0,,
+Solomon Islands,2030,2.5269904219960044,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3878835870993165,Moderate,0,,
+South Africa,2030,1.438179475109522,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4302541131317554,Moderate,0,,
+"South Sudan, Republic of",2030,5.038512787401604,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6124631565720309,High,1,,
+Spain,2030,2.339654717759863,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1637726699805967,Low,0,,
+St. Lucia,2030,2.4837501959336903,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2299374133243395,Low,0,,
+St. Vincent and the Grenadines,2030,2.057362880019898,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4335092940323828,Moderate,0,,
+Sudan,2030,3.5189957929702005,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3222782627534743,Moderate,0,,
+Suriname,2030,4.184014136310388,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6630420516010358,High,1,,
+Sweden,2030,1.8670466034086757,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3330350214146961,Moderate,0,,
+Switzerland,2030,2.415438422004195,Random Forest,2027-2030 recursive t+1 model extrapolation,0.209989300817056,Low,0,,
+"São Tomé and Príncipe, Democratic Republic of",2030,3.100996227456826,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1569000005615322,Low,0,,
+Taiwan Province of China,2030,4.205553656957053,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2320221114034119,Low,0,,
+"Tajikistan, Republic of",2030,6.665207035195304,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2563087361670934,Low,0,,
+"Tanzania, United Republic of",2030,3.9749070458452582,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2612642977791924,Low,0,,
+Thailand,2030,2.1650164151475777,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2827738004831154,Low,0,,
+Togo,2030,3.9710932161337102,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1668986777616387,Low,0,,
+Trinidad and Tobago,2030,1.7537840910861864,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4119083034688712,Moderate,0,,
+Tunisia,2030,2.444355802446274,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1351791677810537,Low,0,,
+Turkmenistan,2030,2.60008240726124,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1680725797628825,Low,0,,
+"Türkiye, Republic of",2030,2.574033092344763,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2739290117758176,Low,0,,
+Uganda,2030,7.168958987365369,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5297729340606615,Moderate,0,,
+Ukraine,2030,2.5953464468617784,Random Forest,2027-2030 recursive t+1 model extrapolation,0.5007975905360024,Moderate,0,,
+United Arab Emirates,2030,2.750478098416988,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3476977229905555,Moderate,0,,
+United Kingdom,2030,1.2895081811897795,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3678599133017678,Moderate,0,,
+United States,2030,2.301275284109268,Random Forest,2027-2030 recursive t+1 model extrapolation,0.4392308359522759,Moderate,0,,
+Uruguay,2030,1.8769749026520797,Random Forest,2027-2030 recursive t+1 model extrapolation,0.208130157847325,Low,0,,
+"Uzbekistan, Republic of",2030,6.274550552035239,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3053026170536897,Moderate,0,,
+"Venezuela, República Bolivariana de",2030,-2.9139709684381256,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3895607812813055,Moderate,0,,
+Vietnam,2030,6.615823540604427,Random Forest,2027-2030 recursive t+1 model extrapolation,0.3474199476420218,Moderate,0,,
+Zambia,2030,4.370853671391333,Random Forest,2027-2030 recursive t+1 model extrapolation,0.2890198958251813,Low,0,,

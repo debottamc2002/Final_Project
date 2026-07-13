@@ -1,0 +1,21 @@
+COUNTRY,YEAR,Predicted_GDP_Growth,Forecast_Model,Scenario_Type,Crisis_Probability,Risk_Level,Early_Warning_Flag,IMF_GDP_Growth,Prediction_Error
+Suriname,2028,4.109482117340099,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6634775795650036,High,1,,
+Suriname,2030,4.184014136310388,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6630420516010358,High,1,,
+Suriname,2029,4.305215938763505,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6630420516010358,High,1,,
+Suriname,2026,3.9632232873418007,Random Forest,2026 IMF projection comparison year,0.6608655654333033,High,1,3.927,-0.0362232873418006
+Guyana,2028,9.574950314918713,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6605411859685257,High,1,,
+Guyana,2027,12.713080788352544,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6601384748751988,High,1,,
+Suriname,2027,4.383159125218477,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6595759594710545,High,1,,
+Guyana,2026,17.307288831524364,Random Forest,2026 IMF projection comparison year,0.6588253182782801,High,1,16.168,-1.1392888315243646
+Algeria,2027,4.249984880587051,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6350768246019798,High,1,,
+Algeria,2029,4.264088148494904,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6346855757131709,High,1,,
+Algeria,2030,4.256016392452908,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6346855757131709,High,1,,
+Algeria,2028,4.260948742044526,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6345878567029679,High,1,,
+"Ethiopia, The Federal Democratic Republic of",2026,8.318995463449829,Random Forest,2026 IMF projection comparison year,0.6307319460615318,High,1,9.204,0.8850045365501717
+Singapore,2026,3.3934654915334925,Random Forest,2026 IMF projection comparison year,0.6249914430009686,High,1,3.507,0.1135345084665075
+Singapore,2027,3.380587374424381,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6249315685689995,High,1,,
+Central African Republic,2027,2.8716427054114564,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6245654101121106,High,1,,
+Singapore,2030,3.321927569193531,Random Forest,2027-2030 recursive t+1 model extrapolation,0.624073265517277,High,1,,
+Singapore,2029,3.3239728193538336,Random Forest,2027-2030 recursive t+1 model extrapolation,0.624073265517277,High,1,,
+Singapore,2028,3.338837942808245,Random Forest,2027-2030 recursive t+1 model extrapolation,0.624073265517277,High,1,,
+Central African Republic,2028,2.759432707455856,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6240216065133269,High,1,,

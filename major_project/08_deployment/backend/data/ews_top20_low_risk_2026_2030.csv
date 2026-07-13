@@ -1,0 +1,21 @@
+COUNTRY,YEAR,Predicted_GDP_Growth,Forecast_Model,Scenario_Type,Crisis_Probability,Risk_Level,Early_Warning_Flag,IMF_GDP_Growth,Prediction_Error
+Iceland,2026,1.788461140205665,Random Forest,2026 IMF projection comparison year,0.1234938188138124,Low,0,1.902,0.1135388597943349
+Cameroon,2029,2.9397750058069154,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1294581352589803,Low,0,,
+Cameroon,2030,2.878234574912652,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1294581352589803,Low,0,,
+Cameroon,2028,2.9501580416554547,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1299386565110622,Low,0,,
+Cameroon,2027,3.0024453223494234,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1299386565110622,Low,0,,
+Iceland,2027,1.877407054673491,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1304900290092542,Low,0,,
+Iceland,2030,1.932559659119793,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1309599467318366,Low,0,,
+Cameroon,2026,3.2207600865175485,Random Forest,2026 IMF projection comparison year,0.1311349142871042,Low,0,3.344,0.1232399134824513
+Iceland,2028,1.92428858078178,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1322061733266883,Low,0,,
+Iceland,2029,1.9230892448555044,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1322061733266883,Low,0,,
+Tunisia,2026,2.1481954891597126,Random Forest,2026 IMF projection comparison year,0.1333140110747615,Low,0,2.113,-0.0351954891597126
+Tunisia,2028,2.2026399551626974,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1349364910707886,Low,0,,
+Tunisia,2029,2.4066396356341704,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1349364910707886,Low,0,,
+Tunisia,2027,2.18125457748415,Random Forest,2027-2030 recursive t+1 model extrapolation,0.13502950871887,Low,0,,
+Tunisia,2030,2.444355802446274,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1351791677810537,Low,0,,
+Seychelles,2028,3.0248738121541803,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1355481348391964,Low,0,,
+Chile,2026,2.6668931807707623,Random Forest,2026 IMF projection comparison year,0.1360899574893593,Low,0,2.396,-0.2708931807707624
+Chile,2027,2.661332340706291,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1376515431572814,Low,0,,
+Chile,2028,2.761000769161023,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1388372667070325,Low,0,,
+Seychelles,2027,3.090653441594775,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1391062112272088,Low,0,,

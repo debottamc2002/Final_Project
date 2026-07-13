@@ -1,0 +1,846 @@
+COUNTRY,YEAR,Best_EWS_Model,Crisis_Probability,Risk_Level,Early_Warning_Flag
+Albania,2026,Extra Trees,0.1526895318427213,Low,0
+Algeria,2026,Extra Trees,0.5680692033521856,Moderate,0
+Angola,2026,Extra Trees,0.1642894698466411,Low,0
+Argentina,2026,Extra Trees,0.3098037882744514,Moderate,0
+"Armenia, Republic of",2026,Extra Trees,0.1917855032386696,Low,0
+Australia,2026,Extra Trees,0.1972669978212083,Low,0
+Austria,2026,Extra Trees,0.2683578018153227,Low,0
+"Azerbaijan, Republic of",2026,Extra Trees,0.3529040529681371,Moderate,0
+"Bahamas, The",2026,Extra Trees,0.2787732099192481,Low,0
+"Bahrain, Kingdom of",2026,Extra Trees,0.2955483548300707,Low,0
+Bangladesh,2026,Extra Trees,0.2809196712816822,Low,0
+Barbados,2026,Extra Trees,0.296934510850807,Low,0
+"Belarus, Republic of",2026,Extra Trees,0.1462773857978745,Low,0
+Belgium,2026,Extra Trees,0.2382123243407276,Low,0
+Belize,2026,Extra Trees,0.2606932562872047,Low,0
+Benin,2026,Extra Trees,0.3612565650523556,Moderate,0
+Bhutan,2026,Extra Trees,0.4257984097253921,Moderate,0
+Bolivia,2026,Extra Trees,0.268180443177746,Low,0
+Bosnia and Herzegovina,2026,Extra Trees,0.3448120711987804,Moderate,0
+Botswana,2026,Extra Trees,0.6166579744709051,High,1
+Brazil,2026,Extra Trees,0.2631276624254259,Low,0
+Brunei Darussalam,2026,Extra Trees,0.3329771438406647,Moderate,0
+Bulgaria,2026,Extra Trees,0.5039658540578703,Moderate,0
+Burkina Faso,2026,Extra Trees,0.2724565412431016,Low,0
+Burundi,2026,Extra Trees,0.3146298472566458,Moderate,0
+Cabo Verde,2026,Extra Trees,0.4842243365766425,Moderate,0
+Cambodia,2026,Extra Trees,0.2279532379887674,Low,0
+Cameroon,2026,Extra Trees,0.1311349142871042,Low,0
+Canada,2026,Extra Trees,0.2571716332442748,Low,0
+Central African Republic,2026,Extra Trees,0.6238723768881617,High,1
+Chad,2026,Extra Trees,0.2836412206485004,Low,0
+Chile,2026,Extra Trees,0.1360899574893593,Low,0
+"China, People's Republic of",2026,Extra Trees,0.3359754119107074,Moderate,0
+Colombia,2026,Extra Trees,0.1405555538345079,Low,0
+"Comoros, Union of the",2026,Extra Trees,0.3785886651767513,Moderate,0
+"Congo, Democratic Republic of the",2026,Extra Trees,0.4772761866015909,Moderate,0
+"Congo, Republic of",2026,Extra Trees,0.2752685184553327,Low,0
+Costa Rica,2026,Extra Trees,0.2696095447485666,Low,0
+"Croatia, Republic of",2026,Extra Trees,0.182344134892762,Low,0
+Cyprus,2026,Extra Trees,0.4599475974864043,Moderate,0
+Czech Republic,2026,Extra Trees,0.3745444982140337,Moderate,0
+Côte d'Ivoire,2026,Extra Trees,0.4009214405310082,Moderate,0
+Denmark,2026,Extra Trees,0.3499552820232423,Moderate,0
+Djibouti,2026,Extra Trees,0.3784520190354395,Moderate,0
+Dominica,2026,Extra Trees,0.3152511768020793,Moderate,0
+Dominican Republic,2026,Extra Trees,0.1470778411005683,Low,0
+Ecuador,2026,Extra Trees,0.1858005925073398,Low,0
+"Egypt, Arab Republic of",2026,Extra Trees,0.2050055185004688,Low,0
+El Salvador,2026,Extra Trees,0.3514141088665798,Moderate,0
+"Equatorial Guinea, Republic of",2026,Extra Trees,0.3432938437801053,Moderate,0
+"Estonia, Republic of",2026,Extra Trees,0.3586897498238481,Moderate,0
+"Eswatini, Kingdom of",2026,Extra Trees,0.4859627830255835,Moderate,0
+"Ethiopia, The Federal Democratic Republic of",2026,Extra Trees,0.6307319460615318,High,1
+Finland,2026,Extra Trees,0.3064372486608368,Moderate,0
+France,2026,Extra Trees,0.4060636915109148,Moderate,0
+Gabon,2026,Extra Trees,0.3957816940829897,Moderate,0
+"Gambia, The",2026,Extra Trees,0.4251047242671261,Moderate,0
+Georgia,2026,Extra Trees,0.1533576842905089,Low,0
+Germany,2026,Extra Trees,0.3789707495709282,Moderate,0
+Ghana,2026,Extra Trees,0.2168027564089867,Low,0
+Greece,2026,Extra Trees,0.5375796707273769,Moderate,0
+Guatemala,2026,Extra Trees,0.3954544894417052,Moderate,0
+Guinea,2026,Extra Trees,0.4366191291399037,Moderate,0
+Guinea-Bissau,2026,Extra Trees,0.3205354329379112,Moderate,0
+Guyana,2026,Extra Trees,0.6588253182782801,High,1
+Haiti,2026,Extra Trees,0.1479164447895804,Low,0
+Honduras,2026,Extra Trees,0.1663902070125196,Low,0
+"Hong Kong Special Administrative Region, People's Republic of China",2026,Extra Trees,0.4891889243049661,Moderate,0
+Hungary,2026,Extra Trees,0.3942051945915258,Moderate,0
+Iceland,2026,Extra Trees,0.1234938188138124,Low,0
+India,2026,Extra Trees,0.1750112255969697,Low,0
+Indonesia,2026,Extra Trees,0.3615641324355402,Moderate,0
+"Iran, Islamic Republic of",2026,Extra Trees,0.2722117302435397,Low,0
+Ireland,2026,Extra Trees,0.3562129687092439,Moderate,0
+Israel,2026,Extra Trees,0.394215440507687,Moderate,0
+Italy,2026,Extra Trees,0.4153121699133171,Moderate,0
+Jamaica,2026,Extra Trees,0.281864957086271,Low,0
+Japan,2026,Extra Trees,0.1744314184535892,Low,0
+Jordan,2026,Extra Trees,0.2133796417639502,Low,0
+"Kazakhstan, Republic of",2026,Extra Trees,0.1738881153833451,Low,0
+Kenya,2026,Extra Trees,0.345063151403983,Moderate,0
+Kiribati,2026,Extra Trees,0.3171216684344399,Moderate,0
+"Korea, Republic of",2026,Extra Trees,0.4065968003033822,Moderate,0
+"Kosovo, Republic of",2026,Extra Trees,0.1926828832511199,Low,0
+Kuwait,2026,Extra Trees,0.6157643880381859,High,1
+Kyrgyz Republic,2026,Extra Trees,0.4515507359547146,Moderate,0
+Lao People's Democratic Republic,2026,Extra Trees,0.5072159294505941,Moderate,0
+"Latvia, Republic of",2026,Extra Trees,0.1974205456371697,Low,0
+"Lesotho, Kingdom of",2026,Extra Trees,0.3137887974542858,Moderate,0
+Liberia,2026,Extra Trees,0.3256713473072185,Moderate,0
+Libya,2026,Extra Trees,0.3938147088277552,Moderate,0
+"Lithuania, Republic of",2026,Extra Trees,0.4232729476386946,Moderate,0
+Luxembourg,2026,Extra Trees,0.2100033938577731,Low,0
+"Madagascar, Republic of",2026,Extra Trees,0.2080548915905271,Low,0
+Malawi,2026,Extra Trees,0.2183485651992978,Low,0
+Malaysia,2026,Extra Trees,0.2806670200111507,Low,0
+Maldives,2026,Extra Trees,0.2920081249850562,Low,0
+Mali,2026,Extra Trees,0.3419917388873831,Moderate,0
+Malta,2026,Extra Trees,0.2659402531489075,Low,0
+"Mauritania, Islamic Republic of",2026,Extra Trees,0.3657773562271997,Moderate,0
+Mauritius,2026,Extra Trees,0.3334750355447639,Moderate,0
+Mexico,2026,Extra Trees,0.256994740488439,Low,0
+"Moldova, Republic of",2026,Extra Trees,0.2811973570605605,Low,0
+Mongolia,2026,Extra Trees,0.4868405338284796,Moderate,0
+Montenegro,2026,Extra Trees,0.2878590591137454,Low,0
+Morocco,2026,Extra Trees,0.3934592444241535,Moderate,0
+"Mozambique, Republic of",2026,Extra Trees,0.2605490880086387,Low,0
+Myanmar,2026,Extra Trees,0.2760277712808348,Low,0
+Namibia,2026,Extra Trees,0.1676943413803338,Low,0
+Nepal,2026,Extra Trees,0.2528612842529934,Low,0
+"Netherlands, The",2026,Extra Trees,0.1474680627974641,Low,0
+New Zealand,2026,Extra Trees,0.2424053272477277,Low,0
+Nicaragua,2026,Extra Trees,0.3721659340570403,Moderate,0
+Niger,2026,Extra Trees,0.4078802938920041,Moderate,0
+Nigeria,2026,Extra Trees,0.2012706329851827,Low,0
+"North Macedonia, Republic of",2026,Extra Trees,0.2184790521573976,Low,0
+Norway,2026,Extra Trees,0.330877204593321,Moderate,0
+Oman,2026,Extra Trees,0.3789752600667021,Moderate,0
+Pakistan,2026,Extra Trees,0.4548075759747356,Moderate,0
+"Palau, Republic of",2026,Extra Trees,0.4458522768358005,Moderate,0
+Panama,2026,Extra Trees,0.1946494680752875,Low,0
+Papua New Guinea,2026,Extra Trees,0.2594279729569201,Low,0
+Paraguay,2026,Extra Trees,0.3002247545516701,Moderate,0
+Peru,2026,Extra Trees,0.1989450678299696,Low,0
+Philippines,2026,Extra Trees,0.2749429431379399,Low,0
+"Poland, Republic of",2026,Extra Trees,0.2737987724767204,Low,0
+Portugal,2026,Extra Trees,0.3297127909787568,Moderate,0
+Qatar,2026,Extra Trees,0.164881394331641,Low,0
+Romania,2026,Extra Trees,0.424622936930595,Moderate,0
+Russian Federation,2026,Extra Trees,0.3011683688196185,Moderate,0
+Rwanda,2026,Extra Trees,0.2996885611855383,Low,0
+Saudi Arabia,2026,Extra Trees,0.2983641685200621,Low,0
+Senegal,2026,Extra Trees,0.3062757518448464,Moderate,0
+"Serbia, Republic of",2026,Extra Trees,0.1943823193535871,Low,0
+Seychelles,2026,Extra Trees,0.1408429446101619,Low,0
+Sierra Leone,2026,Extra Trees,0.1534057900759243,Low,0
+Singapore,2026,Extra Trees,0.6249914430009686,High,1
+Slovak Republic,2026,Extra Trees,0.4339840812331152,Moderate,0
+"Slovenia, Republic of",2026,Extra Trees,0.2016713317248054,Low,0
+Solomon Islands,2026,Extra Trees,0.444586298069252,Moderate,0
+South Africa,2026,Extra Trees,0.4225155592446255,Moderate,0
+"South Sudan, Republic of",2026,Extra Trees,0.6144846701740883,High,1
+Spain,2026,Extra Trees,0.156852395256166,Low,0
+St. Lucia,2026,Extra Trees,0.1819737398533132,Low,0
+St. Vincent and the Grenadines,2026,Extra Trees,0.5157987736498503,Moderate,0
+Sudan,2026,Extra Trees,0.175510005531339,Low,0
+Suriname,2026,Extra Trees,0.6608655654333033,High,1
+Sweden,2026,Extra Trees,0.3243699026216001,Moderate,0
+Switzerland,2026,Extra Trees,0.1953457890202205,Low,0
+"São Tomé and Príncipe, Democratic Republic of",2026,Extra Trees,0.1609064555035272,Low,0
+Taiwan Province of China,2026,Extra Trees,0.3735162373626453,Moderate,0
+"Tajikistan, Republic of",2026,Extra Trees,0.2589048090429405,Low,0
+"Tanzania, United Republic of",2026,Extra Trees,0.2621098985899614,Low,0
+Thailand,2026,Extra Trees,0.2864492128476255,Low,0
+Togo,2026,Extra Trees,0.3044168556308624,Moderate,0
+Trinidad and Tobago,2026,Extra Trees,0.4100658093129487,Moderate,0
+Tunisia,2026,Extra Trees,0.1333140110747615,Low,0
+Turkmenistan,2026,Extra Trees,0.1710974937515623,Low,0
+"Türkiye, Republic of",2026,Extra Trees,0.2760369355051797,Low,0
+Uganda,2026,Extra Trees,0.5722415805375857,Moderate,0
+Ukraine,2026,Extra Trees,0.4990918212241824,Moderate,0
+United Arab Emirates,2026,Extra Trees,0.3513993627008122,Moderate,0
+United Kingdom,2026,Extra Trees,0.3673305107168128,Moderate,0
+United States,2026,Extra Trees,0.4382745743083823,Moderate,0
+Uruguay,2026,Extra Trees,0.2058393422176684,Low,0
+"Uzbekistan, Republic of",2026,Extra Trees,0.3097483426048705,Moderate,0
+"Venezuela, República Bolivariana de",2026,Extra Trees,0.5575586830574977,Moderate,0
+Vietnam,2026,Extra Trees,0.3887148493046607,Moderate,0
+Zambia,2026,Extra Trees,0.2880960449061359,Low,0
+Albania,2027,Extra Trees,0.1526895318427213,Low,0
+Algeria,2027,Extra Trees,0.6350768246019798,High,1
+Angola,2027,Extra Trees,0.1609047816256114,Low,0
+Argentina,2027,Extra Trees,0.3169309786414602,Moderate,0
+"Armenia, Republic of",2027,Extra Trees,0.1904237426751631,Low,0
+Australia,2027,Extra Trees,0.2017562288490408,Low,0
+Austria,2027,Extra Trees,0.2971316446605211,Low,0
+"Azerbaijan, Republic of",2027,Extra Trees,0.3510958893779056,Moderate,0
+"Bahamas, The",2027,Extra Trees,0.2887430553730509,Low,0
+"Bahrain, Kingdom of",2027,Extra Trees,0.287348734181649,Low,0
+Bangladesh,2027,Extra Trees,0.280186872023188,Low,0
+Barbados,2027,Extra Trees,0.2967859026138024,Low,0
+"Belarus, Republic of",2027,Extra Trees,0.1398966348860445,Low,0
+Belgium,2027,Extra Trees,0.2396920529150076,Low,0
+Belize,2027,Extra Trees,0.2586863674387802,Low,0
+Benin,2027,Extra Trees,0.2987760282883605,Low,0
+Bhutan,2027,Extra Trees,0.3895972488185479,Moderate,0
+Bolivia,2027,Extra Trees,0.2679400550256031,Low,0
+Bosnia and Herzegovina,2027,Extra Trees,0.3471231692447782,Moderate,0
+Botswana,2027,Extra Trees,0.4771351731969022,Moderate,0
+Brazil,2027,Extra Trees,0.2577022420558491,Low,0
+Brunei Darussalam,2027,Extra Trees,0.3285534458643547,Moderate,0
+Bulgaria,2027,Extra Trees,0.5038968189313051,Moderate,0
+Burkina Faso,2027,Extra Trees,0.2724565412431016,Low,0
+Burundi,2027,Extra Trees,0.3156792196181051,Moderate,0
+Cabo Verde,2027,Extra Trees,0.4833005621578974,Moderate,0
+Cambodia,2027,Extra Trees,0.2276156362422422,Low,0
+Cameroon,2027,Extra Trees,0.1299386565110622,Low,0
+Canada,2027,Extra Trees,0.2505269678816827,Low,0
+Central African Republic,2027,Extra Trees,0.6245654101121106,High,1
+Chad,2027,Extra Trees,0.282595065933301,Low,0
+Chile,2027,Extra Trees,0.1376515431572814,Low,0
+"China, People's Republic of",2027,Extra Trees,0.3335360013287262,Moderate,0
+Colombia,2027,Extra Trees,0.1433225164839066,Low,0
+"Comoros, Union of the",2027,Extra Trees,0.3828955519353396,Moderate,0
+"Congo, Democratic Republic of the",2027,Extra Trees,0.3137420615259365,Moderate,0
+"Congo, Republic of",2027,Extra Trees,0.2357422394957934,Low,0
+Costa Rica,2027,Extra Trees,0.2684386343606177,Low,0
+"Croatia, Republic of",2027,Extra Trees,0.1869187702704849,Low,0
+Cyprus,2027,Extra Trees,0.4593477064398048,Moderate,0
+Czech Republic,2027,Extra Trees,0.3847798264958176,Moderate,0
+Côte d'Ivoire,2027,Extra Trees,0.3985170206889992,Moderate,0
+Denmark,2027,Extra Trees,0.3725520376994761,Moderate,0
+Djibouti,2027,Extra Trees,0.369029219623383,Moderate,0
+Dominica,2027,Extra Trees,0.3152511768020793,Moderate,0
+Dominican Republic,2027,Extra Trees,0.1453271030952761,Low,0
+Ecuador,2027,Extra Trees,0.1987113470747609,Low,0
+"Egypt, Arab Republic of",2027,Extra Trees,0.2090179381909472,Low,0
+El Salvador,2027,Extra Trees,0.3539064958459132,Moderate,0
+"Equatorial Guinea, Republic of",2027,Extra Trees,0.3430919330390631,Moderate,0
+"Estonia, Republic of",2027,Extra Trees,0.3637828787090428,Moderate,0
+"Eswatini, Kingdom of",2027,Extra Trees,0.4814306619226048,Moderate,0
+"Ethiopia, The Federal Democratic Republic of",2027,Extra Trees,0.5141475401776964,Moderate,0
+Finland,2027,Extra Trees,0.3055202858989086,Moderate,0
+France,2027,Extra Trees,0.4064756962794743,Moderate,0
+Gabon,2027,Extra Trees,0.3945642420629497,Moderate,0
+"Gambia, The",2027,Extra Trees,0.3039001981927875,Moderate,0
+Georgia,2027,Extra Trees,0.1490162343036401,Low,0
+Germany,2027,Extra Trees,0.4540162541191378,Moderate,0
+Ghana,2027,Extra Trees,0.2168027564089867,Low,0
+Greece,2027,Extra Trees,0.5520377313758049,Moderate,0
+Guatemala,2027,Extra Trees,0.3631954892087745,Moderate,0
+Guinea,2027,Extra Trees,0.4388060912843156,Moderate,0
+Guinea-Bissau,2027,Extra Trees,0.3067678931474972,Moderate,0
+Guyana,2027,Extra Trees,0.6601384748751988,High,1
+Haiti,2027,Extra Trees,0.3058865512390426,Moderate,0
+Honduras,2027,Extra Trees,0.1663902070125196,Low,0
+"Hong Kong Special Administrative Region, People's Republic of China",2027,Extra Trees,0.5179469654671799,Moderate,0
+Hungary,2027,Extra Trees,0.3979716863894342,Moderate,0
+Iceland,2027,Extra Trees,0.1304900290092542,Low,0
+India,2027,Extra Trees,0.1693385858195697,Low,0
+Indonesia,2027,Extra Trees,0.2330555896040517,Low,0
+"Iran, Islamic Republic of",2027,Extra Trees,0.2722117302435397,Low,0
+Ireland,2027,Extra Trees,0.3582313501969611,Moderate,0
+Israel,2027,Extra Trees,0.3924492348223666,Moderate,0
+Italy,2027,Extra Trees,0.5351456945771436,Moderate,0
+Jamaica,2027,Extra Trees,0.4180589790837993,Moderate,0
+Japan,2027,Extra Trees,0.3010014033798942,Moderate,0
+Jordan,2027,Extra Trees,0.2133796417639502,Low,0
+"Kazakhstan, Republic of",2027,Extra Trees,0.1734538413536327,Low,0
+Kenya,2027,Extra Trees,0.2933150791675225,Low,0
+Kiribati,2027,Extra Trees,0.3081905206607655,Moderate,0
+"Korea, Republic of",2027,Extra Trees,0.4046987347020365,Moderate,0
+"Kosovo, Republic of",2027,Extra Trees,0.18882301893419,Low,0
+Kuwait,2027,Extra Trees,0.6169272491564282,High,1
+Kyrgyz Republic,2027,Extra Trees,0.3372295376906634,Moderate,0
+Lao People's Democratic Republic,2027,Extra Trees,0.5055158322923115,Moderate,0
+"Latvia, Republic of",2027,Extra Trees,0.2119609855382835,Low,0
+"Lesotho, Kingdom of",2027,Extra Trees,0.3318391013943613,Moderate,0
+Liberia,2027,Extra Trees,0.1964656272538638,Low,0
+Libya,2027,Extra Trees,0.3949696359740944,Moderate,0
+"Lithuania, Republic of",2027,Extra Trees,0.4225799144147455,Moderate,0
+Luxembourg,2027,Extra Trees,0.2138756659955694,Low,0
+"Madagascar, Republic of",2027,Extra Trees,0.1886844433053503,Low,0
+Malawi,2027,Extra Trees,0.2183485651992978,Low,0
+Malaysia,2027,Extra Trees,0.233201749430695,Low,0
+Maldives,2027,Extra Trees,0.2926536886047671,Low,0
+Mali,2027,Extra Trees,0.18371719640468,Low,0
+Malta,2027,Extra Trees,0.2631786788672499,Low,0
+"Mauritania, Islamic Republic of",2027,Extra Trees,0.3041640236337176,Moderate,0
+Mauritius,2027,Extra Trees,0.332596515990725,Moderate,0
+Mexico,2027,Extra Trees,0.256994740488439,Low,0
+"Moldova, Republic of",2027,Extra Trees,0.2841437907915948,Low,0
+Mongolia,2027,Extra Trees,0.4848928338198492,Moderate,0
+Montenegro,2027,Extra Trees,0.2858059116218938,Low,0
+Morocco,2027,Extra Trees,0.2780110946661664,Low,0
+"Mozambique, Republic of",2027,Extra Trees,0.2620258371633328,Low,0
+Myanmar,2027,Extra Trees,0.2791518681102326,Low,0
+Namibia,2027,Extra Trees,0.1666464000879163,Low,0
+Nepal,2027,Extra Trees,0.251048418173605,Low,0
+"Netherlands, The",2027,Extra Trees,0.1501877538918404,Low,0
+New Zealand,2027,Extra Trees,0.2467314091532705,Low,0
+Nicaragua,2027,Extra Trees,0.3721659340570403,Moderate,0
+Niger,2027,Extra Trees,0.2946029742072663,Low,0
+Nigeria,2027,Extra Trees,0.2012706329851827,Low,0
+"North Macedonia, Republic of",2027,Extra Trees,0.2064403434418721,Low,0
+Norway,2027,Extra Trees,0.3322321116014926,Moderate,0
+Oman,2027,Extra Trees,0.3606096469157349,Moderate,0
+Pakistan,2027,Extra Trees,0.4545111859457967,Moderate,0
+"Palau, Republic of",2027,Extra Trees,0.4438115727805186,Moderate,0
+Panama,2027,Extra Trees,0.1971122514119256,Low,0
+Papua New Guinea,2027,Extra Trees,0.2631844495190971,Low,0
+Paraguay,2027,Extra Trees,0.2388296574088756,Low,0
+Peru,2027,Extra Trees,0.1994148654600441,Low,0
+Philippines,2027,Extra Trees,0.2737028944424991,Low,0
+"Poland, Republic of",2027,Extra Trees,0.2753899182889776,Low,0
+Portugal,2027,Extra Trees,0.3367684900559267,Moderate,0
+Qatar,2027,Extra Trees,0.1642191842016425,Low,0
+Romania,2027,Extra Trees,0.4247816653030806,Moderate,0
+Russian Federation,2027,Extra Trees,0.2822911400774907,Low,0
+Rwanda,2027,Extra Trees,0.2992815018514212,Low,0
+Saudi Arabia,2027,Extra Trees,0.2983641685200621,Low,0
+Senegal,2027,Extra Trees,0.3039323068327907,Moderate,0
+"Serbia, Republic of",2027,Extra Trees,0.1941406705884271,Low,0
+Seychelles,2027,Extra Trees,0.1391062112272088,Low,0
+Sierra Leone,2027,Extra Trees,0.1535149126576069,Low,0
+Singapore,2027,Extra Trees,0.6249315685689995,High,1
+Slovak Republic,2027,Extra Trees,0.4307468907571513,Moderate,0
+"Slovenia, Republic of",2027,Extra Trees,0.2025040740584612,Low,0
+Solomon Islands,2027,Extra Trees,0.4130688648790248,Moderate,0
+South Africa,2027,Extra Trees,0.4282417457045535,Moderate,0
+"South Sudan, Republic of",2027,Extra Trees,0.6154017390006682,High,1
+Spain,2027,Extra Trees,0.1618013549971819,Low,0
+St. Lucia,2027,Extra Trees,0.2404207366649168,Low,0
+St. Vincent and the Grenadines,2027,Extra Trees,0.5030247488115122,Moderate,0
+Sudan,2027,Extra Trees,0.3196422872465745,Moderate,0
+Suriname,2027,Extra Trees,0.6595759594710545,High,1
+Sweden,2027,Extra Trees,0.3332771321925847,Moderate,0
+Switzerland,2027,Extra Trees,0.199432162453692,Low,0
+"São Tomé and Príncipe, Democratic Republic of",2027,Extra Trees,0.1542924862593558,Low,0
+Taiwan Province of China,2027,Extra Trees,0.3439337558059158,Moderate,0
+"Tajikistan, Republic of",2027,Extra Trees,0.2569528837618787,Low,0
+"Tanzania, United Republic of",2027,Extra Trees,0.2618012211149464,Low,0
+Thailand,2027,Extra Trees,0.2828420671648129,Low,0
+Togo,2027,Extra Trees,0.1870046466046904,Low,0
+Trinidad and Tobago,2027,Extra Trees,0.4094279131289122,Moderate,0
+Tunisia,2027,Extra Trees,0.13502950871887,Low,0
+Turkmenistan,2027,Extra Trees,0.1699706453642281,Low,0
+"Türkiye, Republic of",2027,Extra Trees,0.2760369355051797,Low,0
+Uganda,2027,Extra Trees,0.5097076419759127,Moderate,0
+Ukraine,2027,Extra Trees,0.4955927209549601,Moderate,0
+United Arab Emirates,2027,Extra Trees,0.3513993627008122,Moderate,0
+United Kingdom,2027,Extra Trees,0.3673305107168128,Moderate,0
+United States,2027,Extra Trees,0.4408050841822639,Moderate,0
+Uruguay,2027,Extra Trees,0.2081490943553147,Low,0
+"Uzbekistan, Republic of",2027,Extra Trees,0.304836836487356,Moderate,0
+"Venezuela, República Bolivariana de",2027,Extra Trees,0.5581400464864589,Moderate,0
+Vietnam,2027,Extra Trees,0.3500977797398518,Moderate,0
+Zambia,2027,Extra Trees,0.2899066093968049,Low,0
+Albania,2028,Extra Trees,0.1511948510043061,Low,0
+Algeria,2028,Extra Trees,0.6345878567029679,High,1
+Angola,2028,Extra Trees,0.1590067160242657,Low,0
+Argentina,2028,Extra Trees,0.3154183781052672,Moderate,0
+"Armenia, Republic of",2028,Extra Trees,0.1866832982760356,Low,0
+Australia,2028,Extra Trees,0.2010969401140597,Low,0
+Austria,2028,Extra Trees,0.3124053690631338,Moderate,0
+"Azerbaijan, Republic of",2028,Extra Trees,0.3529040529681371,Moderate,0
+"Bahamas, The",2028,Extra Trees,0.3029121928097257,Moderate,0
+"Bahrain, Kingdom of",2028,Extra Trees,0.2823802696376135,Low,0
+Bangladesh,2028,Extra Trees,0.2831582763714293,Low,0
+Barbados,2028,Extra Trees,0.2967859026138024,Low,0
+"Belarus, Republic of",2028,Extra Trees,0.1417025653454585,Low,0
+Belgium,2028,Extra Trees,0.2389719848666171,Low,0
+Belize,2028,Extra Trees,0.2563983147237048,Low,0
+Benin,2028,Extra Trees,0.2223945680727151,Low,0
+Bhutan,2028,Extra Trees,0.3908745824183097,Moderate,0
+Bolivia,2028,Extra Trees,0.2679400550256031,Low,0
+Bosnia and Herzegovina,2028,Extra Trees,0.3453689706972466,Moderate,0
+Botswana,2028,Extra Trees,0.4806709235965576,Moderate,0
+Brazil,2028,Extra Trees,0.256216859430867,Low,0
+Brunei Darussalam,2028,Extra Trees,0.3329171889955734,Moderate,0
+Bulgaria,2028,Extra Trees,0.496155036989451,Moderate,0
+Burkina Faso,2028,Extra Trees,0.2722630616392679,Low,0
+Burundi,2028,Extra Trees,0.3167826465855251,Moderate,0
+Cabo Verde,2028,Extra Trees,0.4837292649505574,Moderate,0
+Cambodia,2028,Extra Trees,0.2276156362422422,Low,0
+Cameroon,2028,Extra Trees,0.1299386565110622,Low,0
+Canada,2028,Extra Trees,0.249495184215055,Low,0
+Central African Republic,2028,Extra Trees,0.6240216065133269,High,1
+Chad,2028,Extra Trees,0.2844224706707512,Low,0
+Chile,2028,Extra Trees,0.1388372667070325,Low,0
+"China, People's Republic of",2028,Extra Trees,0.331894045902722,Moderate,0
+Colombia,2028,Extra Trees,0.1433047371655207,Low,0
+"Comoros, Union of the",2028,Extra Trees,0.3828955519353396,Moderate,0
+"Congo, Democratic Republic of the",2028,Extra Trees,0.2874106963388961,Low,0
+"Congo, Republic of",2028,Extra Trees,0.2474428318619777,Low,0
+Costa Rica,2028,Extra Trees,0.2697014111431366,Low,0
+"Croatia, Republic of",2028,Extra Trees,0.183440618688977,Low,0
+Cyprus,2028,Extra Trees,0.4595986978125083,Moderate,0
+Czech Republic,2028,Extra Trees,0.3962224935186246,Moderate,0
+Côte d'Ivoire,2028,Extra Trees,0.3103118985981243,Moderate,0
+Denmark,2028,Extra Trees,0.3568052137496916,Moderate,0
+Djibouti,2028,Extra Trees,0.2608157819035857,Low,0
+Dominica,2028,Extra Trees,0.3155802639235826,Moderate,0
+Dominican Republic,2028,Extra Trees,0.1460901222523814,Low,0
+Ecuador,2028,Extra Trees,0.1964822343692383,Low,0
+"Egypt, Arab Republic of",2028,Extra Trees,0.2090179381909472,Low,0
+El Salvador,2028,Extra Trees,0.3493161894064155,Moderate,0
+"Equatorial Guinea, Republic of",2028,Extra Trees,0.3406475343043421,Moderate,0
+"Estonia, Republic of",2028,Extra Trees,0.3715043376065721,Moderate,0
+"Eswatini, Kingdom of",2028,Extra Trees,0.478075219830537,Moderate,0
+"Ethiopia, The Federal Democratic Republic of",2028,Extra Trees,0.4641112518967182,Moderate,0
+Finland,2028,Extra Trees,0.3089426360615931,Moderate,0
+France,2028,Extra Trees,0.4057009654206879,Moderate,0
+Gabon,2028,Extra Trees,0.3838257958943992,Moderate,0
+"Gambia, The",2028,Extra Trees,0.3019629305181044,Moderate,0
+Georgia,2028,Extra Trees,0.1451193846274091,Low,0
+Germany,2028,Extra Trees,0.4668052173772995,Moderate,0
+Ghana,2028,Extra Trees,0.2160292174793673,Low,0
+Greece,2028,Extra Trees,0.5550864431624176,Moderate,0
+Guatemala,2028,Extra Trees,0.3427889763818403,Moderate,0
+Guinea,2028,Extra Trees,0.355598477875009,Moderate,0
+Guinea-Bissau,2028,Extra Trees,0.2871360285417741,Low,0
+Guyana,2028,Extra Trees,0.6605411859685257,High,1
+Haiti,2028,Extra Trees,0.3098411544719385,Moderate,0
+Honduras,2028,Extra Trees,0.1651512278461485,Low,0
+"Hong Kong Special Administrative Region, People's Republic of China",2028,Extra Trees,0.5323138183538174,Moderate,0
+Hungary,2028,Extra Trees,0.404358946863033,Moderate,0
+Iceland,2028,Extra Trees,0.1322061733266883,Low,0
+India,2028,Extra Trees,0.1670472704857163,Low,0
+Indonesia,2028,Extra Trees,0.2321403254381914,Low,0
+"Iran, Islamic Republic of",2028,Extra Trees,0.2722117302435397,Low,0
+Ireland,2028,Extra Trees,0.3554741594812335,Moderate,0
+Israel,2028,Extra Trees,0.3917826561137964,Moderate,0
+Italy,2028,Extra Trees,0.5645700657267922,Moderate,0
+Jamaica,2028,Extra Trees,0.4712308671824498,Moderate,0
+Japan,2028,Extra Trees,0.3039144506709954,Moderate,0
+Jordan,2028,Extra Trees,0.2133796417639502,Low,0
+"Kazakhstan, Republic of",2028,Extra Trees,0.1710133885399423,Low,0
+Kenya,2028,Extra Trees,0.2928692283843191,Low,0
+Kiribati,2028,Extra Trees,0.3025617233504699,Moderate,0
+"Korea, Republic of",2028,Extra Trees,0.4094345259609691,Moderate,0
+"Kosovo, Republic of",2028,Extra Trees,0.1888963705665369,Low,0
+Kuwait,2028,Extra Trees,0.6157269812349737,High,1
+Kyrgyz Republic,2028,Extra Trees,0.3362407149331269,Moderate,0
+Lao People's Democratic Republic,2028,Extra Trees,0.5055158322923115,Moderate,0
+"Latvia, Republic of",2028,Extra Trees,0.2140236782171865,Low,0
+"Lesotho, Kingdom of",2028,Extra Trees,0.3175054842533677,Moderate,0
+Liberia,2028,Extra Trees,0.2070840732283017,Low,0
+Libya,2028,Extra Trees,0.2679757033294173,Low,0
+"Lithuania, Republic of",2028,Extra Trees,0.4225799144147455,Moderate,0
+Luxembourg,2028,Extra Trees,0.2226310231701864,Low,0
+"Madagascar, Republic of",2028,Extra Trees,0.1846210873118193,Low,0
+Malawi,2028,Extra Trees,0.2173981054032543,Low,0
+Malaysia,2028,Extra Trees,0.2322864852648346,Low,0
+Maldives,2028,Extra Trees,0.2906757158426353,Low,0
+Mali,2028,Extra Trees,0.1845458402995031,Low,0
+Malta,2028,Extra Trees,0.2631786788672499,Low,0
+"Mauritania, Islamic Republic of",2028,Extra Trees,0.2865686790561336,Low,0
+Mauritius,2028,Extra Trees,0.3338915725781032,Moderate,0
+Mexico,2028,Extra Trees,0.2618817075439014,Low,0
+"Moldova, Republic of",2028,Extra Trees,0.282875857933667,Low,0
+Mongolia,2028,Extra Trees,0.48521877876872,Moderate,0
+Montenegro,2028,Extra Trees,0.2858059116218938,Low,0
+Morocco,2028,Extra Trees,0.2634557101700072,Low,0
+"Mozambique, Republic of",2028,Extra Trees,0.2651838987004325,Low,0
+Myanmar,2028,Extra Trees,0.2989988402286175,Low,0
+Namibia,2028,Extra Trees,0.1666464000879163,Low,0
+Nepal,2028,Extra Trees,0.2509865014538527,Low,0
+"Netherlands, The",2028,Extra Trees,0.1501877538918404,Low,0
+New Zealand,2028,Extra Trees,0.2499387722179137,Low,0
+Nicaragua,2028,Extra Trees,0.3671616543663791,Moderate,0
+Niger,2028,Extra Trees,0.2814025949029861,Low,0
+Nigeria,2028,Extra Trees,0.2003217514667713,Low,0
+"North Macedonia, Republic of",2028,Extra Trees,0.2035849942295604,Low,0
+Norway,2028,Extra Trees,0.3378431366991763,Moderate,0
+Oman,2028,Extra Trees,0.3600997965290994,Moderate,0
+Pakistan,2028,Extra Trees,0.4860255476300333,Moderate,0
+"Palau, Republic of",2028,Extra Trees,0.4434735770280281,Moderate,0
+Panama,2028,Extra Trees,0.1951795814890912,Low,0
+Papua New Guinea,2028,Extra Trees,0.286211076891613,Low,0
+Paraguay,2028,Extra Trees,0.2327098812844099,Low,0
+Peru,2028,Extra Trees,0.1996058591348618,Low,0
+Philippines,2028,Extra Trees,0.2718565843267017,Low,0
+"Poland, Republic of",2028,Extra Trees,0.2732221282754988,Low,0
+Portugal,2028,Extra Trees,0.3269832788638055,Moderate,0
+Qatar,2028,Extra Trees,0.164270436438591,Low,0
+Romania,2028,Extra Trees,0.4260991471333724,Moderate,0
+Russian Federation,2028,Extra Trees,0.2860266140453927,Low,0
+Rwanda,2028,Extra Trees,0.2980187250689022,Low,0
+Saudi Arabia,2028,Extra Trees,0.2958566699970222,Low,0
+Senegal,2028,Extra Trees,0.2993982360563316,Low,0
+"Serbia, Republic of",2028,Extra Trees,0.1968538196975196,Low,0
+Seychelles,2028,Extra Trees,0.1355481348391964,Low,0
+Sierra Leone,2028,Extra Trees,0.1535149126576069,Low,0
+Singapore,2028,Extra Trees,0.624073265517277,High,1
+Slovak Republic,2028,Extra Trees,0.4322798249192123,Moderate,0
+"Slovenia, Republic of",2028,Extra Trees,0.201924778383785,Low,0
+Solomon Islands,2028,Extra Trees,0.3980421394302799,Moderate,0
+South Africa,2028,Extra Trees,0.4299386819335983,Moderate,0
+"South Sudan, Republic of",2028,Extra Trees,0.6132474807194995,High,1
+Spain,2028,Extra Trees,0.1635820535563575,Low,0
+St. Lucia,2028,Extra Trees,0.2216110229496386,Low,0
+St. Vincent and the Grenadines,2028,Extra Trees,0.4802745483789202,Moderate,0
+Sudan,2028,Extra Trees,0.3180568879288458,Moderate,0
+Suriname,2028,Extra Trees,0.6634775795650036,High,1
+Sweden,2028,Extra Trees,0.3336818153970585,Moderate,0
+Switzerland,2028,Extra Trees,0.2088779753277504,Low,0
+"São Tomé and Príncipe, Democratic Republic of",2028,Extra Trees,0.1569000005615322,Low,0
+Taiwan Province of China,2028,Extra Trees,0.3437960953326154,Moderate,0
+"Tajikistan, Republic of",2028,Extra Trees,0.2548199544404235,Low,0
+"Tanzania, United Republic of",2028,Extra Trees,0.2618012211149464,Low,0
+Thailand,2028,Extra Trees,0.2818685397007777,Low,0
+Togo,2028,Extra Trees,0.1707459634464512,Low,0
+Trinidad and Tobago,2028,Extra Trees,0.4088307691660383,Moderate,0
+Tunisia,2028,Extra Trees,0.1349364910707886,Low,0
+Turkmenistan,2028,Extra Trees,0.1699706453642281,Low,0
+"Türkiye, Republic of",2028,Extra Trees,0.274494826910545,Low,0
+Uganda,2028,Extra Trees,0.5044852656864487,Moderate,0
+Ukraine,2028,Extra Trees,0.4984065737323641,Moderate,0
+United Arab Emirates,2028,Extra Trees,0.3492832645116047,Moderate,0
+United Kingdom,2028,Extra Trees,0.3675459630485821,Moderate,0
+United States,2028,Extra Trees,0.4388198810393179,Moderate,0
+Uruguay,2028,Extra Trees,0.2061499978136963,Low,0
+"Uzbekistan, Republic of",2028,Extra Trees,0.3053026170536897,Moderate,0
+"Venezuela, República Bolivariana de",2028,Extra Trees,0.4370879650824353,Moderate,0
+Vietnam,2028,Extra Trees,0.3413529292856218,Moderate,0
+Zambia,2028,Extra Trees,0.2899066093968049,Low,0
+Albania,2029,Extra Trees,0.1512847855116548,Low,0
+Algeria,2029,Extra Trees,0.6346855757131709,High,1
+Angola,2029,Extra Trees,0.1605470056929266,Low,0
+Argentina,2029,Extra Trees,0.316697970938316,Moderate,0
+"Armenia, Republic of",2029,Extra Trees,0.1826861114140633,Low,0
+Australia,2029,Extra Trees,0.2003352853535371,Low,0
+Austria,2029,Extra Trees,0.3246643576791542,Moderate,0
+"Azerbaijan, Republic of",2029,Extra Trees,0.3520399247918709,Moderate,0
+"Bahamas, The",2029,Extra Trees,0.2949073610369534,Low,0
+"Bahrain, Kingdom of",2029,Extra Trees,0.2860252138259286,Low,0
+Bangladesh,2029,Extra Trees,0.281449648805707,Low,0
+Barbados,2029,Extra Trees,0.2983794451149137,Low,0
+"Belarus, Republic of",2029,Extra Trees,0.1431723811725103,Low,0
+Belgium,2029,Extra Trees,0.2414369051137685,Low,0
+Belize,2029,Extra Trees,0.2586863674387802,Low,0
+Benin,2029,Extra Trees,0.2051177721504393,Low,0
+Bhutan,2029,Extra Trees,0.391139548757976,Moderate,0
+Bolivia,2029,Extra Trees,0.2732150602677385,Low,0
+Bosnia and Herzegovina,2029,Extra Trees,0.3453689706972466,Moderate,0
+Botswana,2029,Extra Trees,0.482744161384908,Moderate,0
+Brazil,2029,Extra Trees,0.2537122947024594,Low,0
+Brunei Darussalam,2029,Extra Trees,0.3289987323612831,Moderate,0
+Bulgaria,2029,Extra Trees,0.4871277898626092,Moderate,0
+Burkina Faso,2029,Extra Trees,0.2722630616392679,Low,0
+Burundi,2029,Extra Trees,0.3167826465855251,Moderate,0
+Cabo Verde,2029,Extra Trees,0.4845579088453807,Moderate,0
+Cambodia,2029,Extra Trees,0.2276156362422422,Low,0
+Cameroon,2029,Extra Trees,0.1294581352589803,Low,0
+Canada,2029,Extra Trees,0.249495184215055,Low,0
+Central African Republic,2029,Extra Trees,0.6225149782861371,High,1
+Chad,2029,Extra Trees,0.2837870882492175,Low,0
+Chile,2029,Extra Trees,0.1391860931295955,Low,0
+"China, People's Republic of",2029,Extra Trees,0.3305718521925113,Moderate,0
+Colombia,2029,Extra Trees,0.1444631880106286,Low,0
+"Comoros, Union of the",2029,Extra Trees,0.3828955519353396,Moderate,0
+"Congo, Democratic Republic of the",2029,Extra Trees,0.285495247915607,Low,0
+"Congo, Republic of",2029,Extra Trees,0.2548007561003597,Low,0
+Costa Rica,2029,Extra Trees,0.2667582526103026,Low,0
+"Croatia, Republic of",2029,Extra Trees,0.1794349644298435,Low,0
+Cyprus,2029,Extra Trees,0.4595986978125083,Moderate,0
+Czech Republic,2029,Extra Trees,0.3922561815355627,Moderate,0
+Côte d'Ivoire,2029,Extra Trees,0.2664010487979338,Low,0
+Denmark,2029,Extra Trees,0.3405968703155821,Moderate,0
+Djibouti,2029,Extra Trees,0.2379746398963986,Low,0
+Dominica,2029,Extra Trees,0.3174301678123128,Moderate,0
+Dominican Republic,2029,Extra Trees,0.1436225897476869,Low,0
+Ecuador,2029,Extra Trees,0.1964644550508524,Low,0
+"Egypt, Arab Republic of",2029,Extra Trees,0.2090179381909472,Low,0
+El Salvador,2029,Extra Trees,0.3520652770443239,Moderate,0
+"Equatorial Guinea, Republic of",2029,Extra Trees,0.3417895332473676,Moderate,0
+"Estonia, Republic of",2029,Extra Trees,0.3745329716223696,Moderate,0
+"Eswatini, Kingdom of",2029,Extra Trees,0.4633050834901035,Moderate,0
+"Ethiopia, The Federal Democratic Republic of",2029,Extra Trees,0.4636179894006292,Moderate,0
+Finland,2029,Extra Trees,0.3102568122815682,Moderate,0
+France,2029,Extra Trees,0.4089362140728063,Moderate,0
+Gabon,2029,Extra Trees,0.3843512965906667,Moderate,0
+"Gambia, The",2029,Extra Trees,0.2977630975994472,Low,0
+Georgia,2029,Extra Trees,0.1451193846274091,Low,0
+Germany,2029,Extra Trees,0.4698149088351034,Moderate,0
+Ghana,2029,Extra Trees,0.2166190250149332,Low,0
+Greece,2029,Extra Trees,0.5558170353940186,Moderate,0
+Guatemala,2029,Extra Trees,0.3447035522068981,Moderate,0
+Guinea,2029,Extra Trees,0.3245707886355698,Moderate,0
+Guinea-Bissau,2029,Extra Trees,0.2611667408461057,Low,0
+Guyana,2029,Extra Trees,0.5140363792585669,Moderate,0
+Haiti,2029,Extra Trees,0.3200141564716572,Moderate,0
+Honduras,2029,Extra Trees,0.1651512278461485,Low,0
+"Hong Kong Special Administrative Region, People's Republic of China",2029,Extra Trees,0.531244963774273,Moderate,0
+Hungary,2029,Extra Trees,0.4055974410184402,Moderate,0
+Iceland,2029,Extra Trees,0.1322061733266883,Low,0
+India,2029,Extra Trees,0.1751435005528283,Low,0
+Indonesia,2029,Extra Trees,0.2302940153223941,Low,0
+"Iran, Islamic Republic of",2029,Extra Trees,0.2758491250859303,Low,0
+Ireland,2029,Extra Trees,0.3562959027497908,Moderate,0
+Israel,2029,Extra Trees,0.3924492348223666,Moderate,0
+Italy,2029,Extra Trees,0.5662659328500615,Moderate,0
+Jamaica,2029,Extra Trees,0.4877443297307465,Moderate,0
+Japan,2029,Extra Trees,0.3072148197468221,Moderate,0
+Jordan,2029,Extra Trees,0.2133796417639502,Low,0
+"Kazakhstan, Republic of",2029,Extra Trees,0.1703379888120939,Low,0
+Kenya,2029,Extra Trees,0.2906569576614282,Low,0
+Kiribati,2029,Extra Trees,0.2997796794066177,Low,0
+"Korea, Republic of",2029,Extra Trees,0.4085205039082358,Moderate,0
+"Kosovo, Republic of",2029,Extra Trees,0.188415849314455,Low,0
+Kuwait,2029,Extra Trees,0.6193614667300236,High,1
+Kyrgyz Republic,2029,Extra Trees,0.3302408276089733,Moderate,0
+Lao People's Democratic Republic,2029,Extra Trees,0.5055158322923115,Moderate,0
+"Latvia, Republic of",2029,Extra Trees,0.2155852638851087,Low,0
+"Lesotho, Kingdom of",2029,Extra Trees,0.3120487126703587,Moderate,0
+Liberia,2029,Extra Trees,0.19221403052867,Low,0
+Libya,2029,Extra Trees,0.2603060036358469,Low,0
+"Lithuania, Republic of",2029,Extra Trees,0.4240526369415009,Moderate,0
+Luxembourg,2029,Extra Trees,0.2255505129528478,Low,0
+"Madagascar, Republic of",2029,Extra Trees,0.1813656326522166,Low,0
+Malawi,2029,Extra Trees,0.2183785212904056,Low,0
+Malaysia,2029,Extra Trees,0.2304401751490373,Low,0
+Maldives,2029,Extra Trees,0.2887776502412896,Low,0
+Mali,2029,Extra Trees,0.1841870943084672,Low,0
+Malta,2029,Extra Trees,0.260951980852692,Low,0
+"Mauritania, Islamic Republic of",2029,Extra Trees,0.2868259906429738,Low,0
+Mauritius,2029,Extra Trees,0.3338915725781032,Moderate,0
+Mexico,2029,Extra Trees,0.2616550007476481,Low,0
+"Moldova, Republic of",2029,Extra Trees,0.2822539153754784,Low,0
+Mongolia,2029,Extra Trees,0.483480908142415,Moderate,0
+Montenegro,2029,Extra Trees,0.2844514034535674,Low,0
+Morocco,2029,Extra Trees,0.2625117351934829,Low,0
+"Mozambique, Republic of",2029,Extra Trees,0.2689897283996903,Low,0
+Myanmar,2029,Extra Trees,0.298135380387289,Low,0
+Namibia,2029,Extra Trees,0.1667559547012298,Low,0
+Nepal,2029,Extra Trees,0.2513003705174517,Low,0
+"Netherlands, The",2029,Extra Trees,0.1524291028825596,Low,0
+New Zealand,2029,Extra Trees,0.2506299285312515,Low,0
+Nicaragua,2029,Extra Trees,0.3640764865645498,Moderate,0
+Niger,2029,Extra Trees,0.2779374727560077,Low,0
+Nigeria,2029,Extra Trees,0.2003217514667713,Low,0
+"North Macedonia, Republic of",2029,Extra Trees,0.2023462724350836,Low,0
+Norway,2029,Extra Trees,0.344957362451339,Moderate,0
+Oman,2029,Extra Trees,0.3593111539549206,Moderate,0
+Pakistan,2029,Extra Trees,0.5020100943089013,Moderate,0
+"Palau, Republic of",2029,Extra Trees,0.4442327845689938,Moderate,0
+Panama,2029,Extra Trees,0.1958549812169395,Low,0
+Papua New Guinea,2029,Extra Trees,0.2786379648347979,Low,0
+Paraguay,2029,Extra Trees,0.2272941679618601,Low,0
+Peru,2029,Extra Trees,0.1994148654600441,Low,0
+Philippines,2029,Extra Trees,0.2718565843267017,Low,0
+"Poland, Republic of",2029,Extra Trees,0.2728586221497898,Low,0
+Portugal,2029,Extra Trees,0.3314459330294663,Moderate,0
+Qatar,2029,Extra Trees,0.169199802049773,Low,0
+Romania,2029,Extra Trees,0.4280654221713932,Moderate,0
+Russian Federation,2029,Extra Trees,0.2935970741115855,Low,0
+Rwanda,2029,Extra Trees,0.2992815018514212,Low,0
+Saudi Arabia,2029,Extra Trees,0.2958566699970222,Low,0
+Senegal,2029,Extra Trees,0.2992664432285372,Low,0
+"Serbia, Republic of",2029,Extra Trees,0.1968538196975196,Low,0
+Seychelles,2029,Extra Trees,0.1393268298352164,Low,0
+Sierra Leone,2029,Extra Trees,0.1520751474954413,Low,0
+Singapore,2029,Extra Trees,0.624073265517277,High,1
+Slovak Republic,2029,Extra Trees,0.434628603278231,Moderate,0
+"Slovenia, Republic of",2029,Extra Trees,0.2014449960801156,Low,0
+Solomon Islands,2029,Extra Trees,0.3966942025227337,Moderate,0
+South Africa,2029,Extra Trees,0.4303192814448436,Moderate,0
+"South Sudan, Republic of",2029,Extra Trees,0.6133691908083952,High,1
+Spain,2029,Extra Trees,0.1635820535563575,Low,0
+St. Lucia,2029,Extra Trees,0.2221496688390013,Low,0
+St. Vincent and the Grenadines,2029,Extra Trees,0.4332775693361846,Moderate,0
+Sudan,2029,Extra Trees,0.3224373279873097,Moderate,0
+Suriname,2029,Extra Trees,0.6630420516010358,High,1
+Sweden,2029,Extra Trees,0.3330350214146961,Moderate,0
+Switzerland,2029,Extra Trees,0.210375184323465,Low,0
+"São Tomé and Príncipe, Democratic Republic of",2029,Extra Trees,0.1561905518607014,Low,0
+Taiwan Province of China,2029,Extra Trees,0.2439978566322541,Low,0
+"Tajikistan, Republic of",2029,Extra Trees,0.2540989612994655,Low,0
+"Tanzania, United Republic of",2029,Extra Trees,0.2604356538843693,Low,0
+Thailand,2029,Extra Trees,0.2827738004831154,Low,0
+Togo,2029,Extra Trees,0.1678164672010441,Low,0
+Trinidad and Tobago,2029,Extra Trees,0.4119083034688712,Moderate,0
+Tunisia,2029,Extra Trees,0.1349364910707886,Low,0
+Turkmenistan,2029,Extra Trees,0.1680725797628825,Low,0
+"Türkiye, Republic of",2029,Extra Trees,0.2751614056191153,Low,0
+Uganda,2029,Extra Trees,0.5148243226672559,Moderate,0
+Ukraine,2029,Extra Trees,0.5007975905360024,Moderate,0
+United Arab Emirates,2029,Extra Trees,0.3492832645116047,Moderate,0
+United Kingdom,2029,Extra Trees,0.3675459630485821,Moderate,0
+United States,2029,Extra Trees,0.4388198810393179,Moderate,0
+Uruguay,2029,Extra Trees,0.2059415058880468,Low,0
+"Uzbekistan, Republic of",2029,Extra Trees,0.3053026170536897,Moderate,0
+"Venezuela, República Bolivariana de",2029,Extra Trees,0.3910698504935038,Moderate,0
+Vietnam,2029,Extra Trees,0.344914488305115,Moderate,0
+Zambia,2029,Extra Trees,0.2899066093968049,Low,0
+Albania,2030,Extra Trees,0.1508042642595729,Low,0
+Algeria,2030,Extra Trees,0.6346855757131709,High,1
+Angola,2030,Extra Trees,0.1605470056929266,Low,0
+Argentina,2030,Extra Trees,0.3182105714745089,Moderate,0
+"Armenia, Republic of",2030,Extra Trees,0.1780828709657849,Low,0
+Australia,2030,Extra Trees,0.2003352853535371,Low,0
+Austria,2030,Extra Trees,0.3341043146180345,Moderate,0
+"Azerbaijan, Republic of",2030,Extra Trees,0.3527756139299594,Moderate,0
+"Bahamas, The",2030,Extra Trees,0.3032725344184746,Moderate,0
+"Bahrain, Kingdom of",2030,Extra Trees,0.2860252138259286,Low,0
+Bangladesh,2030,Extra Trees,0.281449648805707,Low,0
+Barbados,2030,Extra Trees,0.2983794451149137,Low,0
+"Belarus, Republic of",2030,Extra Trees,0.1415367995964983,Low,0
+Belgium,2030,Extra Trees,0.242074408404792,Low,0
+Belize,2030,Extra Trees,0.2586863674387802,Low,0
+Benin,2030,Extra Trees,0.2040716174352399,Low,0
+Bhutan,2030,Extra Trees,0.3966771346824914,Moderate,0
+Bolivia,2030,Extra Trees,0.2761578397818724,Low,0
+Bosnia and Herzegovina,2030,Extra Trees,0.3453689706972466,Moderate,0
+Botswana,2030,Extra Trees,0.4797508575797038,Moderate,0
+Brazil,2030,Extra Trees,0.2455237329973713,Low,0
+Brunei Darussalam,2030,Extra Trees,0.3289987323612831,Moderate,0
+Bulgaria,2030,Extra Trees,0.4871474723486508,Moderate,0
+Burkina Faso,2030,Extra Trees,0.2724163058062427,Low,0
+Burundi,2030,Extra Trees,0.3167826465855251,Moderate,0
+Cabo Verde,2030,Extra Trees,0.4845579088453807,Moderate,0
+Cambodia,2030,Extra Trees,0.2257492783196487,Low,0
+Cameroon,2030,Extra Trees,0.1294581352589803,Low,0
+Canada,2030,Extra Trees,0.249495184215055,Low,0
+Central African Republic,2030,Extra Trees,0.6219832887146269,High,1
+Chad,2030,Extra Trees,0.2826519234863968,Low,0
+Chile,2030,Extra Trees,0.1391860931295955,Low,0
+"China, People's Republic of",2030,Extra Trees,0.3305718521925113,Moderate,0
+Colombia,2030,Extra Trees,0.1467092061516814,Low,0
+"Comoros, Union of the",2030,Extra Trees,0.3828955519353396,Moderate,0
+"Congo, Democratic Republic of the",2030,Extra Trees,0.2836199116146063,Low,0
+"Congo, Republic of",2030,Extra Trees,0.2515179122050516,Low,0
+Costa Rica,2030,Extra Trees,0.2657129337957718,Low,0
+"Croatia, Republic of",2030,Extra Trees,0.1794349644298435,Low,0
+Cyprus,2030,Extra Trees,0.4583414276175223,Moderate,0
+Czech Republic,2030,Extra Trees,0.3962402598429874,Moderate,0
+Côte d'Ivoire,2030,Extra Trees,0.2601669635109624,Low,0
+Denmark,2030,Extra Trees,0.3393439799838088,Moderate,0
+Djibouti,2030,Extra Trees,0.2388433010975365,Low,0
+Dominica,2030,Extra Trees,0.3205645013133394,Moderate,0
+Dominican Republic,2030,Extra Trees,0.14359241346972,Low,0
+Ecuador,2030,Extra Trees,0.1968132814734153,Low,0
+"Egypt, Arab Republic of",2030,Extra Trees,0.2090179381909472,Low,0
+El Salvador,2030,Extra Trees,0.3517852691723791,Moderate,0
+"Equatorial Guinea, Republic of",2030,Extra Trees,0.3405682987067316,Moderate,0
+"Estonia, Republic of",2030,Extra Trees,0.3751288804531139,Moderate,0
+"Eswatini, Kingdom of",2030,Extra Trees,0.4596338061477178,Moderate,0
+"Ethiopia, The Federal Democratic Republic of",2030,Extra Trees,0.4647167711847478,Moderate,0
+Finland,2030,Extra Trees,0.3091796992082217,Moderate,0
+France,2030,Extra Trees,0.4179292222313943,Moderate,0
+Gabon,2030,Extra Trees,0.3821659590018638,Moderate,0
+"Gambia, The",2030,Extra Trees,0.2968430315825933,Low,0
+Georgia,2030,Extra Trees,0.1443652040214863,Low,0
+Germany,2030,Extra Trees,0.4730180001479779,Moderate,0
+Ghana,2030,Extra Trees,0.2166190250149332,Low,0
+Greece,2030,Extra Trees,0.5567344709953645,Moderate,0
+Guatemala,2030,Extra Trees,0.3455100514683456,Moderate,0
+Guinea,2030,Extra Trees,0.3227107522787312,Moderate,0
+Guinea-Bissau,2030,Extra Trees,0.2596840769562435,Low,0
+Guyana,2030,Extra Trees,0.51427703736982,Moderate,0
+Haiti,2030,Extra Trees,0.319813455859063,Moderate,0
+Honduras,2030,Extra Trees,0.1663902070125196,Low,0
+"Hong Kong Special Administrative Region, People's Republic of China",2030,Extra Trees,0.5504988785134196,Moderate,0
+Hungary,2030,Extra Trees,0.4055974410184402,Moderate,0
+Iceland,2030,Extra Trees,0.1309599467318366,Low,0
+India,2030,Extra Trees,0.1752660851589649,Low,0
+Indonesia,2030,Extra Trees,0.2302940153223941,Low,0
+"Iran, Islamic Republic of",2030,Extra Trees,0.2780794213952044,Low,0
+Ireland,2030,Extra Trees,0.3569294116311936,Moderate,0
+Israel,2030,Extra Trees,0.3932979395457711,Moderate,0
+Italy,2030,Extra Trees,0.5743177985938569,Moderate,0
+Jamaica,2030,Extra Trees,0.4881521586346419,Moderate,0
+Japan,2030,Extra Trees,0.3079240122204867,Moderate,0
+Jordan,2030,Extra Trees,0.2133796417639502,Low,0
+"Kazakhstan, Republic of",2030,Extra Trees,0.1703379888120939,Low,0
+Kenya,2030,Extra Trees,0.2906569576614282,Low,0
+Kiribati,2030,Extra Trees,0.2994664550499868,Low,0
+"Korea, Republic of",2030,Extra Trees,0.4085205039082358,Moderate,0
+"Kosovo, Republic of",2030,Extra Trees,0.1877064006136242,Low,0
+Kuwait,2030,Extra Trees,0.6194632168029951,High,1
+Kyrgyz Republic,2030,Extra Trees,0.3302408276089733,Moderate,0
+Lao People's Democratic Republic,2030,Extra Trees,0.506387285555771,Moderate,0
+"Latvia, Republic of",2030,Extra Trees,0.2155674845667228,Low,0
+"Lesotho, Kingdom of",2030,Extra Trees,0.3221009741758444,Moderate,0
+Liberia,2030,Extra Trees,0.1807471738939625,Low,0
+Libya,2030,Extra Trees,0.2592624004639748,Low,0
+"Lithuania, Republic of",2030,Extra Trees,0.4240526369415009,Moderate,0
+Luxembourg,2030,Extra Trees,0.2255303320831839,Low,0
+"Madagascar, Republic of",2030,Extra Trees,0.17691660396274,Low,0
+Malawi,2030,Extra Trees,0.2213207656551978,Low,0
+Malaysia,2030,Extra Trees,0.2304401751490373,Low,0
+Maldives,2030,Extra Trees,0.2887776502412896,Low,0
+Mali,2030,Extra Trees,0.1830836673410472,Low,0
+Malta,2030,Extra Trees,0.2584048756602846,Low,0
+"Mauritania, Islamic Republic of",2030,Extra Trees,0.2819535189873843,Low,0
+Mauritius,2030,Extra Trees,0.3338915725781032,Moderate,0
+Mexico,2030,Extra Trees,0.2616550007476481,Low,0
+"Moldova, Republic of",2030,Extra Trees,0.2876791672158043,Low,0
+Mongolia,2030,Extra Trees,0.4832503667501579,Moderate,0
+Montenegro,2030,Extra Trees,0.2838953761845892,Low,0
+Morocco,2030,Extra Trees,0.2629288240927583,Low,0
+"Mozambique, Republic of",2030,Extra Trees,0.2699932442701032,Low,0
+Myanmar,2030,Extra Trees,0.2970142206806634,Low,0
+Namibia,2030,Extra Trees,0.1654547554392372,Low,0
+Nepal,2030,Extra Trees,0.2519821832062735,Low,0
+"Netherlands, The",2030,Extra Trees,0.1519890092788154,Low,0
+New Zealand,2030,Extra Trees,0.2485319197652615,Low,0
+Nicaragua,2030,Extra Trees,0.3644386329965537,Moderate,0
+Niger,2030,Extra Trees,0.2788061339571456,Low,0
+Nigeria,2030,Extra Trees,0.2003217514667713,Low,0
+"North Macedonia, Republic of",2030,Extra Trees,0.2009141375586256,Low,0
+Norway,2030,Extra Trees,0.350683230715972,Moderate,0
+Oman,2030,Extra Trees,0.3593111539549206,Moderate,0
+Pakistan,2030,Extra Trees,0.500836499041701,Moderate,0
+"Palau, Republic of",2030,Extra Trees,0.4454489949591641,Moderate,0
+Panama,2030,Extra Trees,0.1958549812169395,Low,0
+Papua New Guinea,2030,Extra Trees,0.2732845589333121,Low,0
+Paraguay,2030,Extra Trees,0.224257812072269,Low,0
+Peru,2030,Extra Trees,0.1998322651465474,Low,0
+Philippines,2030,Extra Trees,0.2718565843267017,Low,0
+"Poland, Republic of",2030,Extra Trees,0.2728586221497898,Low,0
+Portugal,2030,Extra Trees,0.3317809165724567,Moderate,0
+Qatar,2030,Extra Trees,0.1736387963825519,Low,0
+Romania,2030,Extra Trees,0.4289518074228368,Moderate,0
+Russian Federation,2030,Extra Trees,0.2867127709009284,Low,0
+Rwanda,2030,Extra Trees,0.2981398615159294,Low,0
+Saudi Arabia,2030,Extra Trees,0.296914180048454,Low,0
+Senegal,2030,Extra Trees,0.2992664432285372,Low,0
+"Serbia, Republic of",2030,Extra Trees,0.1968538196975196,Low,0
+Seychelles,2030,Extra Trees,0.1393268298352164,Low,0
+Sierra Leone,2030,Extra Trees,0.1520751474954413,Low,0
+Singapore,2030,Extra Trees,0.624073265517277,High,1
+Slovak Republic,2030,Extra Trees,0.4347882832990942,Moderate,0
+"Slovenia, Republic of",2030,Extra Trees,0.2025206872145293,Low,0
+Solomon Islands,2030,Extra Trees,0.3878835870993165,Moderate,0
+South Africa,2030,Extra Trees,0.4302541131317554,Moderate,0
+"South Sudan, Republic of",2030,Extra Trees,0.6124631565720309,High,1
+Spain,2030,Extra Trees,0.1637726699805967,Low,0
+St. Lucia,2030,Extra Trees,0.2299374133243395,Low,0
+St. Vincent and the Grenadines,2030,Extra Trees,0.4335092940323828,Moderate,0
+Sudan,2030,Extra Trees,0.3222782627534743,Moderate,0
+Suriname,2030,Extra Trees,0.6630420516010358,High,1
+Sweden,2030,Extra Trees,0.3330350214146961,Moderate,0
+Switzerland,2030,Extra Trees,0.209989300817056,Low,0
+"São Tomé and Príncipe, Democratic Republic of",2030,Extra Trees,0.1569000005615322,Low,0
+Taiwan Province of China,2030,Extra Trees,0.2320221114034119,Low,0
+"Tajikistan, Republic of",2030,Extra Trees,0.2563087361670934,Low,0
+"Tanzania, United Republic of",2030,Extra Trees,0.2612642977791924,Low,0
+Thailand,2030,Extra Trees,0.2827738004831154,Low,0
+Togo,2030,Extra Trees,0.1668986777616387,Low,0
+Trinidad and Tobago,2030,Extra Trees,0.4119083034688712,Moderate,0
+Tunisia,2030,Extra Trees,0.1351791677810537,Low,0
+Turkmenistan,2030,Extra Trees,0.1680725797628825,Low,0
+"Türkiye, Republic of",2030,Extra Trees,0.2739290117758176,Low,0
+Uganda,2030,Extra Trees,0.5297729340606615,Moderate,0
+Ukraine,2030,Extra Trees,0.5007975905360024,Moderate,0
+United Arab Emirates,2030,Extra Trees,0.3476977229905555,Moderate,0
+United Kingdom,2030,Extra Trees,0.3678599133017678,Moderate,0
+United States,2030,Extra Trees,0.4392308359522759,Moderate,0
+Uruguay,2030,Extra Trees,0.208130157847325,Low,0
+"Uzbekistan, Republic of",2030,Extra Trees,0.3053026170536897,Moderate,0
+"Venezuela, República Bolivariana de",2030,Extra Trees,0.3895607812813055,Moderate,0
+Vietnam,2030,Extra Trees,0.3474199476420218,Moderate,0
+Zambia,2030,Extra Trees,0.2890198958251813,Low,0

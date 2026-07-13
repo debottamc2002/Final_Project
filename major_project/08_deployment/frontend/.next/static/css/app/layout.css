@@ -167,6 +167,10 @@ h1 {
   margin-bottom: 24px;
 }
 
+.input-panel.two-inputs {
+  grid-template-columns: 1.5fr 0.7fr;
+}
+
 .input-panel label {
   display: block;
   margin-bottom: 8px;
@@ -192,16 +196,38 @@ h1 {
   margin-bottom: 24px;
 }
 
+.metrics-grid.app-metrics {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.metrics-grid.scenario-metrics {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .metric-card {
   padding: 22px;
   background: rgba(15, 23, 42, 0.76);
   border: 1px solid rgba(148, 163, 184, 0.24);
 }
 
+.app-metrics .metric-card {
+  min-height: 185px;
+  padding: 30px;
+  background:
+    linear-gradient(145deg, rgba(15, 23, 42, 0.94), rgba(30, 41, 59, 0.62)),
+    radial-gradient(circle at 15% 10%, rgba(56, 189, 248, 0.25), transparent 34%);
+}
+
 .metric-card h2 {
   margin: 10px 0;
   color: #ffffff;
   font-size: 32px;
+}
+
+.app-metrics .metric-card h2 {
+  font-size: 42px;
+  letter-spacing: -0.04em;
 }
 
 .metric-card span {
@@ -214,6 +240,37 @@ h1 {
   grid-template-columns: 1fr 1fr;
   grid-gap: 18px;
   gap: 18px;
+}
+
+.app-focus-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 24px;
+}
+
+.hero-chart-card {
+  padding: 34px;
+  border-radius: 28px;
+  background:
+    linear-gradient(145deg, rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.58)),
+    radial-gradient(circle at 80% 15%, rgba(56, 189, 248, 0.22), transparent 28%),
+    radial-gradient(circle at 20% 80%, rgba(168, 85, 247, 0.2), transparent 30%);
+}
+
+.mega-chart {
+  height: 470px;
+  border-radius: 24px;
+  padding: 16px;
+  background: rgba(2, 6, 23, 0.36);
+  box-shadow:
+    inset 0 0 0 1px rgba(148, 163, 184, 0.16),
+    inset 0 30px 80px rgba(56, 189, 248, 0.06),
+    0 28px 90px rgba(56, 189, 248, 0.1);
+  transform: perspective(1200px) rotateX(1deg);
+}
+
+.hero-chart-card .mega-chart {
+  height: 520px;
 }
 
 .panel {
@@ -365,6 +422,7 @@ tr:hover td {
   .hero,
   .input-panel,
   .metrics-grid,
+  .metrics-grid.scenario-metrics,
   .chart-grid,
   .team-grid,
   .skills-grid {
@@ -395,4 +453,57 @@ tr:hover td {
 
 .disclaimer strong {
   color: #fbbf24;
+}
+
+.year-legend {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 999px;
+}
+
+.year-legend span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #e2e8f0;
+  font-weight: 800;
+}
+
+.year-legend i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+}
+
+.legend-2024 {
+  background: #38bdf8;
+}
+
+.legend-2025 {
+  background: #a855f7;
+}
+
+.legend-2026 {
+  background: #f97316;
+}
+.legend-2027 {
+  background: #a855f7;
+}
+
+.legend-2028 {
+  background: #22c55e;
+}
+
+.legend-2029 {
+  background: #f43f5e;
+}
+
+.legend-2030 {
+  background: #eab308;
 }
