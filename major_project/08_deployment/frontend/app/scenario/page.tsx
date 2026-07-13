@@ -16,7 +16,12 @@ import {
 } from "recharts";
 
 const API_BASE =
+<<<<<<< HEAD
   process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:7860";
+=======
+  process.env.NEXT_PUBLIC_API_URL ||
+  "https://macro-surveillance-api.onrender.com";
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
 
 type Row = Record<string, any>;
 
@@ -71,8 +76,11 @@ function formatYear(value: any) {
 
 function yearColor(year: any) {
   const key = String(Math.trunc(Number(year)));
+<<<<<<< HEAD
   if (key === "2024") return "#38bdf8";
   if (key === "2025") return "#14b8a6";
+=======
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
   if (key === "2026") return "#f97316";
   if (key === "2027") return "#a855f7";
   if (key === "2028") return "#22c55e";
@@ -202,9 +210,17 @@ export default function ScenarioPage() {
   useEffect(() => {
     async function load() {
       try {
+<<<<<<< HEAD
         const [comparisonRows, modelRows] = await Promise.all([
           fetchRows("/comparison/scenario-2026-2030"),
           fetchRowsSafe("/models/summary", FALLBACK_MODELS),
+=======
+        const [comparisonRows, topRows, lowRows, modelRows] = await Promise.all([
+          fetchRows("/comparison/scenario-2026-2030"),
+          fetchRows("/ews/top-risk-2026-2030"),
+          fetchRows("/ews/low-risk-2026-2030"),
+          fetchRowsSafe("/models/summary", FALLBACK_MODELS)
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
         ]);
 
         setComparison(comparisonRows);
@@ -297,6 +313,7 @@ export default function ScenarioPage() {
       .filter((row) => row.COUNTRY === selectedBenchmarkCountry)
       .map((row) => ({
         year: formatYear(row.YEAR),
+<<<<<<< HEAD
         IMF:
           row.IMF_GDP_Growth === null || row.IMF_GDP_Growth === undefined
             ? null
@@ -342,11 +359,25 @@ export default function ScenarioPage() {
 
   const benchmarkErrorChart = useMemo(() => {
     return benchmarkRows
+=======
+        IMF: row.IMF_GDP_Growth === null || row.IMF_GDP_Growth === undefined ? null : Number(row.IMF_GDP_Growth),
+        Predicted: Number(row.Predicted_GDP_Growth)
+      }))
+      .filter((row) => Number.isFinite(row.Predicted));
+  }, [comparison, selectedCountry]);
+
+  const errorChart = useMemo(() => {
+    return comparison
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
       .filter((row) => Number.isFinite(Number(row.Prediction_Error)))
       .map((row) => ({
         label: `${shortCountry(row.COUNTRY)} (${formatYear(row.YEAR)})`,
         year: formatYear(row.YEAR),
+<<<<<<< HEAD
         error: Math.abs(Number(row.Prediction_Error)),
+=======
+        error: Math.abs(Number(row.Prediction_Error))
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
       }))
       .sort((a, b) => b.error - a.error)
       .slice(0, 15);
@@ -371,7 +402,11 @@ export default function ScenarioPage() {
     <main>
       <section className="hero glass single-hero">
         <div>
+<<<<<<< HEAD
           <p className="eyebrow">MacroVision AI</p>
+=======
+          <p className="eyebrow">2026-2030 GDP Forecast Scenario</p>
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
           <h1>Macroeconomic Forecast & Early Warning Dashboard</h1>
           <p className="hero-text">
             The dashboard separates the 2024-2026 IMF benchmark view from
@@ -392,9 +427,11 @@ export default function ScenarioPage() {
       </section>
 
       <section className="year-legend glass">
-        <span><i className="legend-2024" /> 2024</span>
-        <span><i className="legend-2025" /> 2025</span>
         <span><i className="legend-2026" /> 2026</span>
+        <span><i className="legend-2027" /> 2027</span>
+        <span><i className="legend-2028" /> 2028</span>
+        <span><i className="legend-2029" /> 2029</span>
+        <span><i className="legend-2030" /> 2030</span>
       </section>
 
       <section className="input-panel glass two-inputs">
@@ -734,11 +771,15 @@ export default function ScenarioPage() {
 
       <section className="disclaimer glass">
         <p>
+<<<<<<< HEAD
           <strong>* Disclaimer:</strong> The 2024-2026 dashboard compares model predictions
           against available IMF projection values. The 2027-2030 dashboard presents
           recursive t+1 scenario forecasts only. These forecasts do not account for
           sudden natural calamities, wars, pandemics, policy shocks, financial crises,
           or unexpected geopolitical events.
+=======
+          <strong>* Disclaimer:</strong> The 2026 value is compared with the available IMF projection horizon, while 2027-2030 are recursive t+1 model extrapolation scenarios. Forecasts do not account for sudden natural calamities, wars, pandemics, policy shocks, financial crises, or unexpected geopolitical events.
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
         </p>
       </section>
     </main>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 COUNTRY,YEAR,Predicted_GDP_Growth,Forecast_Model,Scenario_Type,Crisis_Probability,Risk_Level,Early_Warning_Flag,IMF_GDP_Growth,Prediction_Error
 Iceland,2026,1.788461140205665,Random Forest,2026 IMF projection comparison year,0.1234938188138124,Low,0,1.902,0.1135388597943349
 Cameroon,2029,2.9397750058069154,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1294581352589803,Low,0,,
@@ -19,3 +20,26 @@ Chile,2026,2.6668931807707623,Random Forest,2026 IMF projection comparison year,
 Chile,2027,2.661332340706291,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1376515431572814,Low,0,,
 Chile,2028,2.761000769161023,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1388372667070325,Low,0,,
 Seychelles,2027,3.090653441594775,Random Forest,2027-2030 recursive t+1 model extrapolation,0.1391062112272088,Low,0,,
+=======
+COUNTRY,YEAR,Crisis_Probability,Risk_Level,Early_Warning_Flag
+Benin,2029,0.01,Low,0
+"Comoros, Union of the",2029,0.01,Low,0
+"Armenia, Republic of",2029,0.01,Low,0
+Seychelles,2027,0.01,Low,0
+"Tanzania, United Republic of",2027,0.01,Low,0
+Uganda,2027,0.01,Low,0
+"Uzbekistan, Republic of",2027,0.01,Low,0
+Vietnam,2027,0.01,Low,0
+Benin,2027,0.01,Low,0
+Georgia,2027,0.01,Low,0
+India,2027,0.01,Low,0
+"Armenia, Republic of",2027,0.01,Low,0
+Paraguay,2029,0.01,Low,0
+Panama,2029,0.01,Low,0
+India,2029,0.01,Low,0
+"Hong Kong Special Administrative Region, People's Republic of China",2029,0.01,Low,0
+"Uzbekistan, Republic of",2029,0.01,Low,0
+Uganda,2029,0.01,Low,0
+"Tanzania, United Republic of",2029,0.01,Low,0
+Seychelles,2029,0.01,Low,0
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6

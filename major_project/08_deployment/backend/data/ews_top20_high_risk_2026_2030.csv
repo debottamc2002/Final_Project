@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 COUNTRY,YEAR,Predicted_GDP_Growth,Forecast_Model,Scenario_Type,Crisis_Probability,Risk_Level,Early_Warning_Flag,IMF_GDP_Growth,Prediction_Error
 Suriname,2028,4.109482117340099,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6634775795650036,High,1,,
 Suriname,2030,4.184014136310388,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6630420516010358,High,1,,
@@ -19,3 +20,26 @@ Singapore,2030,3.321927569193531,Random Forest,2027-2030 recursive t+1 model ext
 Singapore,2029,3.3239728193538336,Random Forest,2027-2030 recursive t+1 model extrapolation,0.624073265517277,High,1,,
 Singapore,2028,3.338837942808245,Random Forest,2027-2030 recursive t+1 model extrapolation,0.624073265517277,High,1,,
 Central African Republic,2028,2.759432707455856,Random Forest,2027-2030 recursive t+1 model extrapolation,0.6240216065133269,High,1,,
+=======
+COUNTRY,YEAR,Crisis_Probability,Risk_Level,Early_Warning_Flag
+Suriname,2029,0.99,High,1
+Suriname,2030,0.99,High,1
+Lebanon,2026,0.962371356253364,High,1
+Suriname,2028,0.956238736399267,High,1
+"Palau, Republic of",2030,0.9402189239355451,High,1
+"Palau, Republic of",2029,0.923931403140218,High,1
+Lebanon,2030,0.9223713562533641,High,1
+"South Sudan, Republic of",2026,0.9216240152808288,High,1
+"Palau, Republic of",2026,0.9142025235104334,High,1
+Lebanon,2029,0.9123713562533641,High,1
+Ukraine,2030,0.9097477668126875,High,1
+"Palau, Republic of",2028,0.9049492305754652,High,1
+Lebanon,2028,0.9023713562533641,High,1
+Suriname,2027,0.8999450076406786,High,1
+Ukraine,2029,0.894195974220269,High,1
+Lebanon,2027,0.8923713562533641,High,1
+Suriname,2026,0.8899450076406786,High,1
+Ukraine,2028,0.884195974220269,High,1
+"Palau, Republic of",2027,0.882117555482961,High,1
+"South Sudan, Republic of",2030,0.8816240152808289,High,1
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6

@@ -5,7 +5,15 @@ import pandas as pd
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+<<<<<<< HEAD
 app = FastAPI(title="MacroVision AI API")
+=======
+app = FastAPI(
+    title="MacroVision AI API",
+    description="GDP forecasting and early warning system backend",
+    version="2.0.0",
+)
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
 
 app.add_middleware(
     CORSMiddleware,
@@ -19,6 +27,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 
 
+<<<<<<< HEAD
 def clean_value(value):
     if value is None:
         return None
@@ -37,6 +46,9 @@ def clean_value(value):
 
 
 def read_csv(filename: str):
+=======
+def read_csv(filename: str) -> list[dict]:
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
     path = DATA_DIR / filename
 
     if not path.exists():
@@ -60,9 +72,25 @@ def read_csv(filename: str):
     return clean_records
 
 
+def sort_by_probability(rows: list[dict], reverse: bool) -> list[dict]:
+    return sorted(
+        rows,
+        key=lambda row: row.get("Crisis_Probability") or 0,
+        reverse=reverse,
+    )
+
+
 @app.get("/")
 def root():
+<<<<<<< HEAD
     return {"status": "running", "message": "MacroVision AI API"}
+=======
+    return {
+        "message": "MacroVision AI API is running",
+        "docs": "/docs",
+        "horizon": "2026-2030",
+    }
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
 
 
 @app.get("/health")
@@ -70,6 +98,7 @@ def health():
     return {"status": "ok"}
 
 
+<<<<<<< HEAD
 @app.get("/debug/files")
 def debug_files():
     files = []
@@ -137,14 +166,89 @@ def ews_scenario_2026_2030():
 @app.get("/forecasts/ml-2026-2030")
 def ml_forecasts_2026_2030():
     return {"data": read_csv("layer2b_forecasts_2026_2030.csv")}
+=======
+@app.get("/comparison/scenario-2026-2030")
+def scenario_2026_2030():
+    return {"data": read_csv("scenario_forecasts_2026_2030.csv")}
+
+
+@app.get("/ews/scenario-2026-2030")
+def ews_scenario_2026_2030():
+    return {"data": read_csv("final_ews_2026_2030.csv")}
+
+
+@app.get("/forecasts/ml-2026-2030")
+def ml_forecasts_2026_2030():
+    return {"data": read_csv("layer2b_forecasts_2026_2030.csv")}
+
+
+@app.get("/ews/top-risk-2026-2030")
+def ews_top_risk_2026_2030():
+    rows = read_csv("ews_top20_high_risk_2026_2030.csv")
+    if not rows:
+        rows = sort_by_probability(
+            read_csv("scenario_forecasts_2026_2030.csv"),
+            reverse=True,
+        )[:20]
+    return {"data": rows}
+
+
+@app.get("/ews/low-risk-2026-2030")
+def ews_low_risk_2026_2030():
+    rows = read_csv("ews_top20_low_risk_2026_2030.csv")
+    if not rows:
+        rows = sort_by_probability(
+            read_csv("scenario_forecasts_2026_2030.csv"),
+            reverse=False,
+        )[:20]
+    return {"data": rows}
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
 
 
 @app.get("/models/summary")
 def model_summary():
     rows = read_csv("layer2a_vs_2b_summary.csv")
+<<<<<<< HEAD
 
     if rows:
         return {"data": rows}
+=======
+    if rows:
+        output = []
+        for row in rows:
+            output.append(
+                {
+                    "Layer": row.get("Layer"),
+                    "Best_Model": row.get("Best_Model"),
+                    "RMSE": row.get("RMSE"),
+                    "MAE": row.get("MAE"),
+                    "R2": row.get("R2"),
+                    "ML_Improvement_Percent": row.get("ML_Improvement_%"),
+                }
+            )
+
+        output.extend(
+            [
+                {
+                    "Layer": "Layer 3 LSTM",
+                    "Best_Model": "LSTM",
+                    "RMSE": 5.117,
+                    "MAE": 2.771,
+                    "R2": 0.104,
+                    "ML_Improvement_Percent": None,
+                },
+                {
+                    "Layer": "EWS Classifier",
+                    "Best_Model": "Extra Trees",
+                    "RMSE": None,
+                    "MAE": None,
+                    "R2": "ROC-AUC 0.930",
+                    "ML_Improvement_Percent": None,
+                },
+            ]
+        )
+        return {"data": output}
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
 
     return {
         "data": [
@@ -184,13 +288,20 @@ def model_summary():
     }
 
 
+<<<<<<< HEAD
 # Old endpoint aliases, so older frontend code also works
 @app.get("/comparison/imf-vs-forecast")
 def old_comparison():
+=======
+# Backward-compatible endpoints. These keep older frontend builds alive.
+@app.get("/comparison/imf-vs-forecast")
+def imf_vs_forecast():
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
     return scenario_2026_2030()
 
 
 @app.get("/ews/top-risk")
+<<<<<<< HEAD
 def old_top_risk():
     return top_risk_2026_2030()
 
@@ -222,3 +333,17 @@ def ews_top_risk_2027_2030():
 @app.get("/ews/low-risk-2027-2030")
 def ews_low_risk_2027_2030():
     return {"data": read_csv("ews_top20_low_risk_2027_2030.csv")}
+=======
+def ews_top_risk():
+    return ews_top_risk_2026_2030()
+
+
+@app.get("/ews/low-risk")
+def ews_low_risk():
+    return ews_low_risk_2026_2030()
+
+
+@app.get("/ews")
+def ews_all():
+    return ews_scenario_2026_2030()
+>>>>>>> e3e040a48179c681f685fe08427973bdf583e1e6
