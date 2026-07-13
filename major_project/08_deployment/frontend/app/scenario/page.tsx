@@ -393,11 +393,9 @@ export default function ScenarioPage() {
       </section>
 
       <section className="year-legend glass">
+        <span><i className="legend-2024" /> 2024</span>
+        <span><i className="legend-2025" /> 2025</span>
         <span><i className="legend-2026" /> 2026</span>
-        <span><i className="legend-2027" /> 2027</span>
-        <span><i className="legend-2028" /> 2028</span>
-        <span><i className="legend-2029" /> 2029</span>
-        <span><i className="legend-2030" /> 2030</span>
       </section>
 
       <section className="input-panel glass two-inputs">
