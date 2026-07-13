@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+// @ts-ignore: CSS module types may not be declared in this project setup
 import "./globals.css";
 
 export const metadata: Metadata = {
