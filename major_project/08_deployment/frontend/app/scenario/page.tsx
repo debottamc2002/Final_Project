@@ -15,9 +15,23 @@ import {
   YAxis,
 } from "recharts";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL ||
-  "https://macro-surveillance-api.onrender.com";
+const API_BASE = (() => {
+  const envUrl = process.env.NEXT_PUBLIC_API_URL?.trim();
+
+  if (typeof window !== "undefined") {
+    const isLocalFrontend =
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1";
+
+    if (isLocalFrontend) {
+      return envUrl || "http://127.0.0.1:7860";
+    }
+
+    return "https://macro-surveillance-api.onrender.com";
+  }
+
+  return envUrl || "https://macro-surveillance-api.onrender.com";
+})();
 
 type Row = Record<string, any>;
 
@@ -32,6 +46,7 @@ function normalizeResponse(data: any): Row[] {
   if (Array.isArray(data)) return data;
   if (Array.isArray(data?.data)) return data.data;
   if (Array.isArray(data?.results)) return data.results;
+  if (Array.isArray(data?.rows)) return data.rows;
   return [];
 }
 
@@ -46,8 +61,18 @@ async function fetchRows(endpoint: string): Promise<Row[]> {
     cache: "no-store",
   });
 
-  if (!response.ok) throw new Error(`Failed to fetch ${url}`);
-  return normalizeResponse(await response.json());
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}`);
+  }
+
+  const json = await response.json();
+  const rows = normalizeResponse(json);
+
+  if (!Array.isArray(rows)) {
+    throw new Error(`Invalid API response from ${url}`);
+  }
+
+  return rows;
 }
 
 async function fetchRowsSafe(endpoint: string, fallback: Row[] = []) {
@@ -210,6 +235,12 @@ export default function ScenarioPage() {
 
         setComparison(comparisonRows);
 
+        if (comparisonRows.length === 0) {
+          throw new Error(
+            `Backend returned zero rows from ${API_BASE}/comparison/scenario-2026-2030`
+          );
+        }
+
         const mergedModels = modelRows.length
           ? modelRows.map((row) => ({
               ...row,
@@ -240,8 +271,8 @@ export default function ScenarioPage() {
           comparisonRows.find((row) => ["2028", "2029", "2030"].includes(formatYear(row.YEAR)))?.COUNTRY ||
           "";
 
-        setSelectedBenchmarkCountry(firstBenchmark);
-        setSelectedScenarioCountry(firstScenario);
+        setSelectedBenchmarkCountry((previous) => previous || firstBenchmark);
+        setSelectedScenarioCountry((previous) => previous || firstScenario);
       } catch (err: any) {
         setError(err.message ?? "Something went wrong");
       }
@@ -276,6 +307,38 @@ export default function ScenarioPage() {
 
   const benchmarkYears = ["2024", "2025", "2026"];
   const scenarioYears = ["2027", "2028", "2029", "2030"];
+
+  useEffect(() => {
+    if (!selectedBenchmarkCountry && benchmarkCountries.length > 0) {
+      setSelectedBenchmarkCountry(benchmarkCountries[0]);
+    }
+  }, [benchmarkCountries, selectedBenchmarkCountry]);
+
+  useEffect(() => {
+    if (
+      selectedBenchmarkCountry &&
+      benchmarkCountries.length > 0 &&
+      !benchmarkCountries.includes(selectedBenchmarkCountry)
+    ) {
+      setSelectedBenchmarkCountry(benchmarkCountries[0]);
+    }
+  }, [benchmarkCountries, selectedBenchmarkCountry]);
+
+  useEffect(() => {
+    if (!selectedScenarioCountry && scenarioCountries.length > 0) {
+      setSelectedScenarioCountry(scenarioCountries[0]);
+    }
+  }, [scenarioCountries, selectedScenarioCountry]);
+
+  useEffect(() => {
+    if (
+      selectedScenarioCountry &&
+      scenarioCountries.length > 0 &&
+      !scenarioCountries.includes(selectedScenarioCountry)
+    ) {
+      setSelectedScenarioCountry(scenarioCountries[0]);
+    }
+  }, [scenarioCountries, selectedScenarioCountry]);
 
   const selectedBenchmarkRow = useMemo(() => {
     return benchmarkRows.find(
@@ -393,11 +456,9 @@ export default function ScenarioPage() {
       </section>
 
       <section className="year-legend glass">
+        <span><i className="legend-2024" /> 2024</span>
+        <span><i className="legend-2025" /> 2025</span>
         <span><i className="legend-2026" /> 2026</span>
-        <span><i className="legend-2027" /> 2027</span>
-        <span><i className="legend-2028" /> 2028</span>
-        <span><i className="legend-2029" /> 2029</span>
-        <span><i className="legend-2030" /> 2030</span>
       </section>
 
       <section className="input-panel glass two-inputs">
@@ -407,9 +468,15 @@ export default function ScenarioPage() {
             value={selectedBenchmarkCountry}
             onChange={(event) => setSelectedBenchmarkCountry(event.target.value)}
           >
-            {benchmarkCountries.map((country) => (
-              <option key={country}>{country}</option>
-            ))}
+            {benchmarkCountries.length === 0 ? (
+              <option value="">No countries available</option>
+            ) : (
+              benchmarkCountries.map((country) => (
+                <option key={country} value={country}>
+                  {country}
+                </option>
+              ))
+            )}
           </select>
         </div>
 
@@ -420,7 +487,9 @@ export default function ScenarioPage() {
             onChange={(event) => setSelectedBenchmarkYear(event.target.value)}
           >
             {benchmarkYears.map((year) => (
-              <option key={year}>{year}</option>
+              <option key={year} value={year}>
+                {year}
+              </option>
             ))}
           </select>
         </div>
@@ -601,9 +670,15 @@ export default function ScenarioPage() {
             value={selectedScenarioCountry}
             onChange={(event) => setSelectedScenarioCountry(event.target.value)}
           >
-            {scenarioCountries.map((country) => (
-              <option key={country}>{country}</option>
-            ))}
+            {scenarioCountries.length === 0 ? (
+              <option value="">No countries available</option>
+            ) : (
+              scenarioCountries.map((country) => (
+                <option key={country} value={country}>
+                  {country}
+                </option>
+              ))
+            )}
           </select>
         </div>
 
@@ -614,7 +689,9 @@ export default function ScenarioPage() {
             onChange={(event) => setSelectedScenarioYear(event.target.value)}
           >
             {scenarioYears.map((year) => (
-              <option key={year}>{year}</option>
+              <option key={year} value={year}>
+                {year}
+              </option>
             ))}
           </select>
         </div>

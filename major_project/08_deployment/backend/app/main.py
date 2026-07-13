@@ -102,7 +102,7 @@ def debug_files():
 
 @app.get("/comparison/scenario-2026-2030")
 def scenario_2026_2030():
-    return {"data": read_csv("scenario_forecasts_2026_2030.csv")}
+    return {"data": read_csv("scenario_forecasts_2024_2030.csv")}
 
 @app.get("/ews/scenario-2026-2030")
 def ews_scenario_2026_2030():
